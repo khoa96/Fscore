@@ -20,7 +20,8 @@
 .main-header {
   position: relative;
   width: 100%;
-  background: white;
+  background: #3AC5C9;
+  color: #fff;
   transition: all 0.4s ease;
   padding: 8px 40px;
   z-index: 9999999;
@@ -33,21 +34,24 @@
     line-height: 1;
     box-shadow: none;
     margin-left: 5px;
-    &:hover {
-      path {
-        stroke: $primary;
-      }
-    }
+    // hover three dash
+
+    // &:hover {
+    //   path {
+    //     stroke: $primary;
+    //   }
+    // }
     path {
       transition: all 0.4s ease;
     }
   }
   .logo {
     img {
-      max-height: 50px;
+      max-height: 41px;
+      max-width: 155px;;
       transition: all 0.4s ease;
       @include mq(max_xs) {
-        max-width: 150px;
+        max-width: 155px;
       }
     }
   }
@@ -93,33 +97,31 @@
       display: inline-block;
       vertical-align: middle;
       position: relative;
-      font-family: "Poppins";
       font-style: normal;
-      font-weight: 400;
+      font-weight: 500;
       font-size: 16px;
-      line-height: 24px;
-      color: #1a202c;
+      line-height: 19px;
+      color: #313955;
       text-decoration: none;
       &:hover,
       &.active {
-        color: $primary;
         &:before {
           opacity: 1;
           width: 100%;
         }
       }
-      &:before {
-        opacity: 0;
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: -4px;
-        transform: translate(-50%, 0);
-        height: 3px;
-        width: 0;
-        background: $primary;
-        transition: all 0.4s ease;
-      }
+      // &:before {
+      //   opacity: 0;
+      //   content: "";
+      //   position: absolute;
+      //   left: 50%;
+      //   bottom: -4px;
+      //   transform: translate(-50%, 0);
+      //   height: 3px;
+      //   width: 0;
+      //   background: $primary;
+      //   transition: all 0.4s ease;
+      // }
     }
   }
 
@@ -128,11 +130,11 @@
     border: none;
     padding: 6px 10px;
     cursor: pointer;
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 21px;
-    color: #e34b31;
+    line-height: 17px;
     border-radius: 8px;
     min-width: 72px;
 
@@ -142,16 +144,18 @@
   }
 
   .btn-signin {
-    background: #e34b31;
+    background: #313955;
+    border-radius: 8px;
     color: #fff;
     text-decoration: none;
   }
 
   .btn-signup {
-    border: 1px solid #e34b31;
-    color: #e34b31;
-    background-color: #fff;
+    border: 1px solid #313955;
+    border-radius: 8px;
     text-decoration: none;
+    background-color: transparent;
+    color: #313955;
   }
   .authen-header {
     display: inline-flex;
@@ -170,9 +174,9 @@
   }
   .logo {
     img {
-      max-width: 170px;
+      max-width: 155px;
       @include mq(max_xs) {
-        max-width: 140px;
+        max-width: 155px;
       }
     }
   }
@@ -181,6 +185,73 @@
     li {
       display: block;
       margin-bottom: 40px;
+    }
+  }
+}
+
+
+.main-menu-wrapper {
+  padding: 20px 0px 0px 0px;
+  background-color: #3AC5C9;
+
+  .main-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    @include mq(max_md) {
+      max-width: 100%;
+      overflow: auto;
+    }
+
+    li {
+      margin-right: 32px;
+      @include mq(max_md) {
+        margin-right: 24px;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        border-bottom: 15px;
+        padding-bottom: 15px;
+
+        &:hover {
+          padding-bottom: 11px;
+          border-bottom: 4px solid #313955;
+        }
+
+        img {
+          min-width: 20px;
+          max-width:20px;
+          height: 20px;
+          border: none;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-right: 8px;;
+        }
+
+        span {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+
+
+          color: #313955;
+        }
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .active {
+      a {
+        padding-bottom: 11px;
+        border-bottom: 4px solid #313955;
+      }
     }
   }
 }

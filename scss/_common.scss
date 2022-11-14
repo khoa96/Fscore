@@ -1,12 +1,14 @@
 @charset "utf-8";
 @import "variables";
 @import "mixins";
+@import "fonts";
 
 /* -----------------------------------------------------------
 	common
 ----------------------------------------------------------- */
 body, html {
-	font-family: $font_main;
+	font-family: 'Rubik' !important;
+	background-color: #f5f5f5;
 }
 img {
 	max-width: 100%;
@@ -24,4 +26,18 @@ button,
 }
 .list-style-none {
 	list-style: none !important;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+	margin: 0;
+	padding: 0
 }

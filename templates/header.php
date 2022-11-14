@@ -9,12 +9,13 @@
 			</div>
 			<div class="col-auto col-nav">
 				<ul class="main-nav d-none d-lg-block">
-					<li><a href="live.html" class="">Live Scores</a></li>
+					<li><a href="#">Live Scores</a></li>
 					<li><a href="#">Statistics</a></li>
 					<li><a href="#">Previews</a></li>
+					<li><a href="#">Pricing</a></li>
 					<div class="authen-header">
-						<a href="signin.html" target=""><button class="btn-header btn-signin">Sign in</button></a>
-						<a href="signup.html" target=""><button class="btn-header btn-signup">Sign up</button></a>
+						<a href="#" target=""><button class="btn-header btn-signin">Sign in</button></a>
+						<a href="#" target=""><button class="btn-header btn-signup">Sign up</button></a>
 					</div>
 				</ul>
 				<button class="btn border-0 d-block d-lg-none btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
@@ -36,9 +37,10 @@
 	</div>
 	<div class="offcanvas-body">
 		<ul class="main-nav">
-			<li><a href="live.html" class="">Live Scores</a></li>
+			<li><a href="#">Live Scores</a></li>
 			<li><a href="#">Statistics</a></li>
 			<li><a href="#">Previews</a></li>
+			<li><a href="#">Pricing</a></li>
 			<div class="authen-header">
 				<a href="signin.html" target=""><button class="btn-header btn-signin">Sign in</button></a>
 				<a href="signup.html" target=""><button class="btn-header btn-signup">Sign up</button></a>

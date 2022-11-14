@@ -1,35 +1,4 @@
 /* -----------------------------------------------------------
-	font-face
------------------------------------------------------------ */
-@font-face {
-  font-family: "SVN-Poppins";
-  src: url("../fonts/SVN-Poppins-Regular.otf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SVN-Poppins";
-  src: url("../fonts/SVN-Poppins-Regular.otf");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SVN-Poppins";
-  src: url("../fonts/SVN-Poppins-SemiBold.otf");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/SVN-Poppins-SemiBold.otf");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-/* -----------------------------------------------------------
 	.main-header
 ----------------------------------------------------------- */
 .fixed-header .main-header {
@@ -46,7 +15,8 @@
 .main-header {
   position: relative;
   width: 100%;
-  background: white;
+  background: #3AC5C9;
+  color: #fff;
   transition: all 0.4s ease;
   padding: 8px 40px;
   z-index: 9999999;
@@ -63,19 +33,17 @@
   box-shadow: none;
   margin-left: 5px;
 }
-.main-header .btn-menu:hover path {
-  stroke: #E34B31;
-}
 .main-header .btn-menu path {
   transition: all 0.4s ease;
 }
 .main-header .logo img {
-  max-height: 50px;
+  max-height: 41px;
+  max-width: 155px;
   transition: all 0.4s ease;
 }
 @media only screen and (max-width: 575px) {
   .main-header .logo img {
-    max-width: 150px;
+    max-width: 155px;
   }
 }
 .main-header .col-nav {
@@ -124,43 +92,27 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: #1a202c;
+  line-height: 19px;
+  color: #313955;
   text-decoration: none;
-}
-.main-nav li a:hover, .main-nav li a.active {
-  color: #E34B31;
 }
 .main-nav li a:hover:before, .main-nav li a.active:before {
   opacity: 1;
   width: 100%;
-}
-.main-nav li a:before {
-  opacity: 0;
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -4px;
-  transform: translate(-50%, 0);
-  height: 3px;
-  width: 0;
-  background: #E34B31;
-  transition: all 0.4s ease;
 }
 .main-nav .btn-header {
   outline: none;
   border: none;
   padding: 6px 10px;
   cursor: pointer;
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 21px;
-  color: #e34b31;
+  line-height: 17px;
   border-radius: 8px;
   min-width: 72px;
 }
@@ -168,15 +120,17 @@
   outline: none;
 }
 .main-nav .btn-signin {
-  background: #e34b31;
+  background: #313955;
+  border-radius: 8px;
   color: #fff;
   text-decoration: none;
 }
 .main-nav .btn-signup {
-  border: 1px solid #e34b31;
-  color: #e34b31;
-  background-color: #fff;
+  border: 1px solid #313955;
+  border-radius: 8px;
   text-decoration: none;
+  background-color: transparent;
+  color: #313955;
 }
 .main-nav .authen-header {
   display: inline-flex;
@@ -192,11 +146,11 @@
   border: 0;
 }
 .offcanvas .logo img {
-  max-width: 170px;
+  max-width: 155px;
 }
 @media only screen and (max-width: 575px) {
   .offcanvas .logo img {
-    max-width: 140px;
+    max-width: 155px;
   }
 }
 .offcanvas .main-nav {
@@ -205,6 +159,64 @@
 .offcanvas .main-nav li {
   display: block;
   margin-bottom: 40px;
+}
+
+.main-menu-wrapper {
+  padding: 20px 0px 0px 0px;
+  background-color: #3AC5C9;
+}
+.main-menu-wrapper .main-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .main-menu-wrapper .main-menu {
+    max-width: 100%;
+    overflow: auto;
+  }
+}
+.main-menu-wrapper .main-menu li {
+  margin-right: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .main-menu-wrapper .main-menu li {
+    margin-right: 24px;
+  }
+}
+.main-menu-wrapper .main-menu li a {
+  display: flex;
+  align-items: center;
+  border-bottom: 15px;
+  padding-bottom: 15px;
+}
+.main-menu-wrapper .main-menu li a:hover {
+  padding-bottom: 11px;
+  border-bottom: 4px solid #313955;
+}
+.main-menu-wrapper .main-menu li a img {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.main-menu-wrapper .main-menu li a span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #313955;
+}
+.main-menu-wrapper .main-menu li:last-child {
+  margin-right: 0;
+}
+.main-menu-wrapper .main-menu .active a {
+  padding-bottom: 11px;
+  border-bottom: 4px solid #313955;
 }
 
 /*# sourceMappingURL=header.css.map */

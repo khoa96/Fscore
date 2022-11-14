@@ -6,7 +6,8 @@
   margin-top: 180px;
   width: 100%;
   height: auto;
-  background-image: url("../images/background-footer.png");
+  background-color: #313955;
+  color: #fff;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -16,7 +17,7 @@
   }
 
   .footer-content {
-    padding: 40px 0px;
+    padding: 36px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,39 +34,63 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    width: 204px;
-    height: 52px;
+    width: 155px;
+    height: 41px;
     img {
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+
+    @include mq(max_md) {
+      width: 144px;
+      height: 36px;
+    }
+  }
+
+  .txt-detail {
+    margin: 16px 0px 32px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+    @include mq(max_md) {
+      display: none;
+    }
   }
 
   .list-club {
     display: flex;
     justify-content: center;
-    gap: 16px;
     margin: 0;
     padding: 0;
-    margin: 24px 0px;
     list-style: none;
     flex-wrap: wrap;
-    @include mq(max_md) {
-      gap: 12px;
-    }
 
+    @include mq(max_md) {
+      margin-top: 24px;
+    }
     li {
+      margin-right: 12px;
+      @include mq(max_md) {
+        margin-bottom: 12px;
+      }
       a {
         display: block;
         text-decoration: none;
         width: 80px;
         height: 80px;
+        border: none;
+        border-radius: 50%;
 
         @include mq(max_md) {
           width: 56px;
           height: 56px;
+          border-radius: 16px;;
         }
 
         img {
@@ -73,6 +98,53 @@
           width: 100%;
           height: 100%;
           object-fit: cover;
+          border: none;
+          border-radius: 50%;
+          @include mq(max_md) {
+            border-radius: 16px;;
+          }
+        }
+      }
+    }
+  }
+
+  .sub-footer-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    justify-content: center;
+    text-align: center;
+
+    @include mq(max_md) {
+      margin: 0px 18px;
+    }
+    li  {
+      @include mq(max_md) {
+        margin-bottom: 16px;
+      }
+
+      a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #3AC5C9;
+        margin-right: 16px;
+        display: inline-block;
+
+        @include mq(max_md) {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 20px;
+          /* identical to box height */
+
+
+          /* #3AC5C9 */
+
+          color: #3AC5C9;
         }
       }
     }
@@ -85,7 +157,9 @@
     line-height: 21px;
     margin-bottom: 24px;
     text-align: center;
-    max-width: 685px;
+    max-width: 635px;
+    margin: 32px 0px;
+
 
     @include mq(max_md) {
       font-style: normal;
@@ -95,6 +169,7 @@
       text-align: center;
       max-width: 335px;
       text-align: center;
+      margin: 24px 0px 16px 0px;
     }
   }
 
