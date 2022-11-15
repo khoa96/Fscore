@@ -39,7 +39,8 @@
 /* -----------------------------------------------------------
 	common
 ----------------------------------------------------------- */
-body, html {
+body,
+html {
   font-family: "Rubik" !important;
   background-color: #f5f5f5;
 }
@@ -73,9 +74,703 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
   margin: 0;
   padding: 0;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.count {
+  margin: 0px 3px;
+}
+
+.count-live {
+  color: #718096;
+}
+
+.txt-live {
+  color: #E53E3E !important;
+}
+
+.txt-primary {
+  color: #1A202C !important;
+}
+
+.txt-secondary {
+  color: #A0AEC0 !important;
+}
+
+.txt-danger {
+  color: #E53E3E !important;
+}
+
+.bd-top {
+  border-top: 1px solid #EDF2F7;
+}
+
+.main-layout {
+  display: flex;
+}
+
+.left-layout {
+  min-width: 282px;
+  max-width: 282px;
+  margin-right: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .left-layout {
+    display: none;
+  }
+}
+
+.right-layout {
+  min-width: 282px;
+  max-width: 282px;
+  margin-left: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .right-layout {
+    display: none;
+  }
+}
+
+.middle-layout {
+  flex-grow: 1;
+}
+
+.calendar {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  padding: 12px 4px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 991px) {
+  .calendar {
+    max-width: 100%;
+  }
+}
+.ui-datepicker-header {
+  height: auto;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A202C;
+  margin-bottom: 16px;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  width: 24px;
+  height: 24px;
+  text-indent: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.ui-datepicker-prev {
+  float: left;
+  margin-left: 0px;
+  position: relative;
+}
+
+.ui-datepicker-prev:after {
+  transform: rotate(45deg);
+  margin: -43px 0px 0px 8px;
+}
+
+.ui-datepicker-next {
+  float: right;
+  margin-right: 8px;
+  position: relative;
+}
+
+.ui-datepicker-next:after {
+  transform: rotate(-135deg);
+  margin: -43px 0px 0px 6px;
+}
+
+.ui-datepicker-prev:after,
+.ui-datepicker-next:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #3AC5C9;
+  border-bottom: 2px solid #3AC5C9;
+  top: 48px;
+}
+
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover,
+.ui-datepicker-prev:hover:after,
+.ui-datepicker-next:hover:after {
+  border-color: #3AC5C9;
+}
+
+.ui-datepicker-title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .ui-datepicker-title {
+    margin-top: 10px;
+  }
+}
+.ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+}
+
+.ui-datepicker-calendar thead tr th span {
+  display: block;
+  width: 35px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #718096;
+}
+
+.ui-state-default {
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1A202C;
+}
+
+.ui-state-default:hover {
+  text-decoration: none;
+}
+
+.ui-datepicker-today .ui-state-highlight {
+  color: #FFFFFF;
+  border-radius: 50%;
+  background-color: #3AC5C9;
+}
+
+.ui-datepicker-today .ui-state-active {
+  color: #fff !important;
+}
+
+.ui-state-active {
+  color: #3AC5C9;
+}
+
+.ui-datepicker-other-month .ui-state-default {
+  color: #A0AEC0;
+}
+
+.datetime-picker-wrapper {
+  width: 100%;
+  background: #FFFFFF;
+  /* Gray:300 */
+  border-radius: 8px;
+}
+
+.siderbar-block-common__wrapper {
+  background: #FFFFFF;
+  /* Gray:300 */
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .siderbar-block-common__wrapper {
+    padding: 8px;
+    border-radius: 0;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 16px 8px;
+  }
+}
+.siderbar-block-common__wrapper .block-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1A202C;
+  margin-bottom: 16px;
+}
+
+.league-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.league-item:hover {
+  text-decoration: none;
+}
+
+.league-image-common {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.league-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 250px;
+}
+
+.search-wrapper-common {
+  width: 100%;
+  height: auto;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #EDF2F7;
+  border-radius: 6px;
+}
+.search-wrapper-common .icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+.search-wrapper-common input {
+  flex-grow: 1;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+  /* identical to box height */
+  /* #FFFFFF */
+  color: #1A202C;
+  background-color: transparent;
+}
+.search-wrapper-common input:focus {
+  outline: none;
+}
+.search-wrapper-common input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #718096;
+}
+
+.menu-search {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 6px;
+}
+
+.sidebar-search {
+  background: #EDF2F7;
+  padding: 8px 6px;
+  margin-bottom: 16px;
+}
+
+.button-common {
+  width: 100%;
+  display: block;
+  padding: 10px 0px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgba(49, 57, 85, 0.6);
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  /* #313955 */
+  color: #313955;
+}
+.button-common:focus {
+  outline: none;
+}
+
+.list-result-wrapper .date-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1A202C;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.list-result-wrapper .list-result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.list-result-wrapper .list-result .result-item {
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+}
+.list-result-wrapper .list-result .result-item:hover {
+  cursor: pointer;
+  background: #EDF2F7;
+  border-radius: 8px;
+}
+.list-result-wrapper .list-result .club-wrapper {
+  min-width: 60px;
+  max-width: 60px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-result-wrapper .list-result .club-image {
+  min-width: 44px;
+  max-width: 44px;
+  height: 44px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+.list-result-wrapper .list-result .club-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  /* Gray:900 */
+  color: #1A202C;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 65px;
+}
+.list-result-wrapper .list-result .result-detail {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-result-wrapper .list-result .result-detail .league-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+  text-align: center;
+  /* Gray:600 */
+  color: #718096;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 90px;
+}
+.list-result-wrapper .list-result .result-detail .list-score {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  /* Gray:900 */
+  color: #1A202C;
+  margin: 2px 0px;
+}
+.list-result-wrapper .list-result .result-detail .sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  /* Gray:600 */
+  color: #718096;
+}
+.list-result-wrapper .list-result .result-detail .dash {
+  margin: 0px 8px;
+}
+
+.block-club-common {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: none;
+  margin-bottom: 8px;
+  padding: 8px;
+  padding-left: 0;
+  padding-right: 12px;
+}
+.block-club-common:hover {
+  background-color: #EDF2F7;
+  cursor: pointer;
+}
+.block-club-common .time-wrapper {
+  min-width: 66px;
+  max-width: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #718096;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .block-club-common .time-wrapper {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    min-width: 50px;
+    max-width: 50px;
+  }
+}
+.block-club-common .time-wrapper .type {
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+.block-club-common .list-club-wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 0px 16px;
+  border-left: 1px solid #E2E8F0;
+  border-right: 1px solid #E2E8F0;
+}
+.block-club-common .club-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.block-club-common .club-item:last-of-type {
+  margin-bottom: 0;
+}
+.block-club-common .club-item .club-info-wrapper {
+  display: flex;
+  align-items: center;
+}
+.block-club-common .club-item .club-info-wrapper img {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  border: none;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.block-club-common .club-item .club-info-wrapper .club-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1A202C;
+}
+@media only screen and (max-width: 991px) {
+  .block-club-common .club-item .club-info-wrapper .club-name {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.block-club-common .club-item .score {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  min-width: 8px;
+  max-width: 8px;
+  display: flex;
+  justify-content: center;
+}
+.block-club-common .icon-star {
+  margin-left: 16px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-club-common .text-overflow-club {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media only screen and (max-width: 991px) {
+  .block-club-common .text-overflow-club {
+    max-width: 160px;
+  }
+}
+
+.league-nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.league-nav .tab-only-for-pc {
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .league-nav .tab-only-for-pc {
+    display: none;
+  }
+}
+.league-nav .dot {
+  width: 6px;
+  height: 6px;
+  border: none;
+  display: block;
+  border-radius: 50%;
+  background-color: #E53E3E;
+  margin-right: 6px;
+}
+.league-nav li {
+  min-width: max-content;
+  margin-right: 12px;
+}
+.league-nav li a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #EDF2F7;
+  border-radius: 8px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1A202C;
+  display: flex;
+  align-items: center;
+}
+.league-nav .ui-tabs-active a {
+  background-color: #313955;
+  color: #fff !important;
+}
+.league-nav .ui-tabs-active a .count-live {
+  color: #fff !important;
+}
+
+.league-tab-content {
+  padding: 16px 0px;
+}
+
+.league-info-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.league-info-wrapper .league-image {
+  min-width: 28px;
+  max-width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+  margin-right: 16px;
+}
+.league-info-wrapper .league-info {
+  display: flex;
+  flex-direction: column;
+}
+.league-info-wrapper .league-info .group-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #718096;
+}
+@media only screen and (max-width: 991px) {
+  .league-info-wrapper .league-info .group-name {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+.league-info-wrapper .league-info .league-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+}
+@media only screen and (max-width: 991px) {
+  .league-info-wrapper .league-info .league-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
