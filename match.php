@@ -949,7 +949,305 @@
 
             <!-- ===========START Lineups TABS ============= -->
             <div id="tabs-2" class="match-tab-content">
-              tab2
+              <div class="visual-match-wrapper">
+                <div class="visual-club-wrapper">
+                  <div class="visual-club visual-club-1">
+                    <div class="visual-row visual-row-1">
+                      <div class="player-wrapper">
+                        <span class="number info">13</span>
+                        <span class="player-name">Ederson</span>
+                      </div>
+                    </div>
+                    <div class="visual-row visual-row-2">
+                      <div class="player-wrapper">
+                        <span class="number info">14</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">15</span>
+                        <span class="player-name">Aymeric Laporte</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">16</span>
+                        <span class="player-name">Manuel Akanji</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">17</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+                    </div>
+                    <div class="visual-row visual-row-3">
+                      <div class="player-wrapper">
+                        <span class="number info">18</span>
+                        <span class="player-name">Manuel Akanji</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">19</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+                    </div>
+                    <div class="visual-row visual-row-4">
+                      <div class="player-wrapper">
+                        <span class="number info">20</span>
+                        <span class="player-name">Manuel Akanji</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">21</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">22</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="club-info club-info-1">
+                    <div class="info-wrapper">
+                      <span class="club-name">Man United</span>
+                      <span class="detail">First XI average age <strong>27.7 yrs</strong></span>
+                    </div>
+                    <span class="score info">4-3-3</span>
+                  </div>
+                </div>
+                <div class="visual-club-wrapper">
+                  <div class="visual-club visual-club-2">
+                    <div class="visual-row visual-row-1">
+                      <div class="player-wrapper">
+                        <span class="number primary">23</span>
+                        <span class="player-name">Ilkay Gundogan</span>
+                      </div>
+                    </div>
+                    <div class="visual-row visual-row-2">
+                      <div class="player-wrapper">
+                        <span class="number primary">25</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number primary">26</span>
+                        <span class="player-name">Aymeric Laporte</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number primary">27</span>
+                        <span class="player-name">Manuel Akanji</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number primary">28</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+                    </div>
+                    <div class="visual-row visual-row-3">
+                      <div class="player-wrapper">
+                        <span class="number primary">29</span>
+                        <span class="player-name">Aymeric Laporte</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number primary">30</span>
+                        <span class="player-name">Manuel Akanji</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number primary">31</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+                    </div>
+                    <div class="visual-row visual-row-4">
+                      <div class="player-wrapper">
+                        <span class="number primary">32</span>
+                        <span class="player-name">Aymeric Laporte</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number primary">33</span>
+                        <span class="player-name">Ederson</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number primary">34</span>
+                        <span class="player-name">Kevin DeBruyne</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="club-info club-info-2">
+                    <div class="info-wrapper">
+                      <span class="club-name">Barcelona</span>
+                      <span class="detail">First XI average age <strong>27.7 yrs</strong></span>
+                    </div>
+                    <span class="score primary">4-3-3</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list-match-player">
+                <div class="list-player-wrapper">
+                  <div class="top-list-player">
+                    <div class="club-wrapper">
+                      <img src="./images/mc-club.png" alt="" class="club-image">
+                      <span class="club-name">Man United</span>
+                    </div>
+                  </div>
+
+                  <div class="list-player">
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">Pep Guardiola</span>
+                        <div class="major">Manager</div>
+                      </div>
+                    </div>
+
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">18 Stefan Ortega</span>
+                      </div>
+                    </div>
+
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">21 Sergio Gomez</span>
+                        <div class="major">
+                          <span class="icon">
+
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5.96672 5.47998L3.48669 3L1.00671 5.47998" stroke="#0DC66D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M3.48669 13V3" stroke="#0DC66D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M10.0333 10.52L12.5133 13L14.9933 10.52" stroke="#E53E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M12.5134 3V13" stroke="#E53E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                          </span>
+                          <span>86’ Out: J.Cancelo</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="miss-player-label">Missing players</div>
+                  <div class="list-player">
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">21 Sergio Gomez</span>
+                        <div class="major">
+                          <span class="icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5833 5.91667H10.0833V3.41667C10.0833 3.16667 9.91667 3 9.66667 3H6.33333C6.08333 3 5.91667 3.16667 5.91667 3.41667V5.91667H3.41667C3.16667 5.91667 3 6.08333 3 6.33333V9.66667C3 9.91667 3.16667 10.0833 3.41667 10.0833H5.91667V12.5833C5.91667 12.8333 6.08333 13 6.33333 13H9.66667C9.91667 13 10.0833 12.8333 10.0833 12.5833V10.0833H12.5833C12.8333 10.0833 13 9.91667 13 9.66667V6.33333C13 6.08333 12.8333 5.91667 12.5833 5.91667Z" fill="#E53E3E"/>
+                            </svg>
+                          </span>
+                          <span class="txt-danger">Out</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">21 Sergio Gomez</span>
+                        <div class="major">
+                          <span class="icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5833 5.91667H10.0833V3.41667C10.0833 3.16667 9.91667 3 9.66667 3H6.33333C6.08333 3 5.91667 3.16667 5.91667 3.41667V5.91667H3.41667C3.16667 5.91667 3 6.08333 3 6.33333V9.66667C3 9.91667 3.16667 10.0833 3.41667 10.0833H5.91667V12.5833C5.91667 12.8333 6.08333 13 6.33333 13H9.66667C9.91667 13 10.0833 12.8333 10.0833 12.5833V10.0833H12.5833C12.8333 10.0833 13 9.91667 13 9.66667V6.33333C13 6.08333 12.8333 5.91667 12.5833 5.91667Z" fill="#E53E3E"/>
+                            </svg>
+                          </span>
+                          <span class="txt-danger">Out</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="dash"></div>
+                </div>
+                <div class="list-player-wrapper">
+                  <div class="top-list-player">
+                    <div class="club-wrapper">
+                      <img src="./images/chel-club.png" alt="" class="club-image">
+                      <span class="club-name">Barcelona</span>
+                    </div>
+                  </div>
+
+                  <div class="list-player">
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">Pep Guardiola</span>
+                        <div class="major">Manager</div>
+                      </div>
+                    </div>
+
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">18 Stefan Ortega</span>
+                      </div>
+                    </div>
+
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">21 Sergio Gomez</span>
+                        <div class="major">
+                          <span class="icon">
+
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5.96672 5.47998L3.48669 3L1.00671 5.47998" stroke="#0DC66D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M3.48669 13V3" stroke="#0DC66D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M10.0333 10.52L12.5133 13L14.9933 10.52" stroke="#E53E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M12.5134 3V13" stroke="#E53E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                          </span>
+                          <span>86’ Out: J.Cancelo</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="miss-player-label miss-player-label-2">Missing players</div>
+                  <div class="list-player">
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">21 Sergio Gomez</span>
+                        <div class="major">
+                          <span class="icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5833 5.91667H10.0833V3.41667C10.0833 3.16667 9.91667 3 9.66667 3H6.33333C6.08333 3 5.91667 3.16667 5.91667 3.41667V5.91667H3.41667C3.16667 5.91667 3 6.08333 3 6.33333V9.66667C3 9.91667 3.16667 10.0833 3.41667 10.0833H5.91667V12.5833C5.91667 12.8333 6.08333 13 6.33333 13H9.66667C9.91667 13 10.0833 12.8333 10.0833 12.5833V10.0833H12.5833C12.8333 10.0833 13 9.91667 13 9.66667V6.33333C13 6.08333 12.8333 5.91667 12.5833 5.91667Z" fill="#E53E3E"/>
+                            </svg>
+                          </span>
+                          <span class="txt-danger">Out</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-item">
+                      <img src="./images/avatar-user.png" alt="" class="avatar-user">
+                      <div class="user-info-wrapper">
+                        <span class="username">21 Sergio Gomez</span>
+                        <div class="major">
+                          <span class="icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5833 5.91667H10.0833V3.41667C10.0833 3.16667 9.91667 3 9.66667 3H6.33333C6.08333 3 5.91667 3.16667 5.91667 3.41667V5.91667H3.41667C3.16667 5.91667 3 6.08333 3 6.33333V9.66667C3 9.91667 3.16667 10.0833 3.41667 10.0833H5.91667V12.5833C5.91667 12.8333 6.08333 13 6.33333 13H9.66667C9.91667 13 10.0833 12.8333 10.0833 12.5833V10.0833H12.5833C12.8333 10.0833 13 9.91667 13 9.66667V6.33333C13 6.08333 12.8333 5.91667 12.5833 5.91667Z" fill="#E53E3E"/>
+                            </svg>
+                          </span>
+                          <span class="txt-danger">Out</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <!-- ===========END Lineups TABS ============= -->
 
@@ -1554,7 +1852,7 @@
 
             <!-- ===========START Statistics TABS ============= -->
             <div id="tabs-5" class="match-tab-content">
-            <div id="match-statistics-tabs">
+              <div id="match-statistics-tabs">
                 <ul class="match-nav">
                   <li><a href="#tabs-1">All</a></li>
                   <li><a href="#tabs-2">1st</a></li>
@@ -1786,7 +2084,7 @@
 
 <script>
   $("#match-tabs").tabs({
-    active: 0
+    active: 1
   })
 
   $("#match-standing-tabs").tabs({
