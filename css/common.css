@@ -88,6 +88,38 @@ li {
   padding: 0;
 }
 
+.column-50 {
+  width: 50%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
 .mt-16 {
   margin-top: 16px;
 }
@@ -118,6 +150,14 @@ li {
 
 .txt-danger {
   color: #E53E3E !important;
+}
+
+.txt-info {
+  color: #3AC5C9 !important;
+}
+
+.txt-success {
+  color: #0DC66D !important;
 }
 
 .bd-top {
@@ -771,6 +811,380 @@ li {
     font-size: 13px;
     line-height: 15px;
   }
+}
+
+.common-list-category {
+  display: flex;
+  align-items: center;
+}
+.common-list-category a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4A5568;
+  margin-right: 6px;
+}
+.common-list-category a:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 991px) {
+  .common-list-category a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+.common-list-category .category-item {
+  display: flex;
+  align-items: center;
+}
+.common-list-category .arrow {
+  margin-right: 6px;
+}
+@media only screen and (max-width: 991px) {
+  .common-list-category .arrow svg {
+    fill: #1A202C !important;
+  }
+}
+
+.sub-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-bottom: 1px solid #EDF2F7;
+  padding: 20px 24px 0px 24px;
+}
+@media only screen and (max-width: 991px) {
+  .sub-nav {
+    padding: 12px 12px 0px 12px;
+  }
+}
+.sub-nav li {
+  min-width: max-content;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .sub-nav li {
+    margin-right: 12px;
+    min-width: fit-content;
+  }
+}
+.sub-nav li:last-of-type {
+  margin-right: 0;
+}
+.sub-nav li a {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  /* Gray:900 */
+  color: #1A202C;
+  text-align: center;
+  padding-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: max-content;
+  position: relative;
+  top: 4px;
+  left: 0;
+}
+.sub-nav li a:hover {
+  text-decoration: none;
+}
+.sub-nav .ui-state-active a {
+  color: #3AC5C9;
+  padding-bottom: 8px;
+  border-bottom: 4px solid #3AC5C9;
+}
+
+.match-tab-content {
+  padding: 32px 24px;
+}
+@media only screen and (max-width: 991px) {
+  .match-tab-content {
+    padding: 16px 12px;
+  }
+}
+
+.past-match-content-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper {
+    flex-direction: column;
+  }
+}
+.past-match-content-wrapper .match-left .header-block {
+  display: flex;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .match-left .header-block {
+    margin-top: 0 !important;
+  }
+}
+.past-match-content-wrapper .match-left .club-wrapper .club-image {
+  margin-right: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .match-left {
+    width: 100% !important;
+    border-bottom: 1px solid #EDF2F7;
+  }
+}
+.past-match-content-wrapper .match-right .header-block {
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .match-right .header-block {
+    justify-content: flex-start;
+  }
+}
+.past-match-content-wrapper .match-right .club-wrapper {
+  flex-direction: row-reverse;
+}
+.past-match-content-wrapper .match-right .club-wrapper .club-image {
+  margin-left: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .match-right .club-wrapper {
+    flex-direction: row;
+  }
+  .past-match-content-wrapper .match-right .club-wrapper .club-image {
+    margin: 0;
+  }
+  .past-match-content-wrapper .match-right .club-wrapper .club-name {
+    margin-left: 12px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .match-right {
+    width: 100% !important;
+  }
+}
+.past-match-content-wrapper .club-wrapper {
+  display: flex;
+  align-items: center;
+}
+.past-match-content-wrapper .club-wrapper .club-image {
+  min-width: 32px;
+  max-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.past-match-content-wrapper .club-wrapper .club-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1A202C;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .club-wrapper .club-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    display: inline-block;
+  }
+}
+.past-match-content-wrapper .middle {
+  min-width: 66px;
+  max-width: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .middle {
+    display: none;
+  }
+}
+.past-match-content-wrapper .middle .dash {
+  width: 1px;
+  height: 100%;
+  border: none;
+  background-color: #E2E8F0;
+}
+.past-match-content-wrapper .header-block {
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .past-match-content-wrapper .header-block {
+    margin: 24px 0px 16px 0px;
+  }
+}
+.past-match-content-wrapper .list-past-match-league {
+  width: 100%;
+  height: auto;
+}
+.past-match-content-wrapper .list-past-match-league .list-timeline {
+  margin: 16px 0px;
+}
+.past-match-content-wrapper .list-past-match-league .list-timeline .block-club-common {
+  padding-right: 0 !important;
+}
+.past-match-content-wrapper .list-past-match-league .list-timeline .block-club-common:hover {
+  background-color: transparent;
+  cursor: auto;
+}
+
+.league-sign {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border-radius: 50%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.league-sign-danger {
+  background-color: #E53E3E;
+}
+
+.league-sign-success {
+  background: #0DC66D;
+}
+
+.league-sign-default {
+  background: #718096;
+}
+
+.progress {
+  padding-top: 24px;
+  height: fit-content;
+  overflow: auto !important;
+  background-color: transparent;
+}
+
+.progress-success {
+  background-color: #0DC66D !important;
+  text-align: left !important;
+  padding-left: 8px;
+  border-radius: 4px 0px 0px 0px;
+}
+.progress-success .value {
+  top: -20px;
+  left: 0;
+}
+
+.progress-primary {
+  background-color: #313955 !important;
+  text-align: center !important;
+}
+.progress-primary .value {
+  top: -20px;
+  left: 0;
+}
+
+.progress-info {
+  background-color: #3AC5C9 !important;
+  border-radius: 0px 4px 0px 0px;
+}
+.progress-info .value {
+  top: -20px;
+  right: 0;
+}
+
+.progress-bar {
+  position: relative;
+  height: 28px !important;
+  overflow: visible !important;
+}
+.progress-bar .value {
+  position: absolute;
+}
+
+.right-sidebar-list-odds .odds-item {
+  margin-bottom: 16px;
+}
+.right-sidebar-list-odds .odds-item .odd-club {
+  display: flex;
+  align-items: center;
+}
+.right-sidebar-list-odds .odds-item .odd-club .club-image {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.right-sidebar-list-odds .odds-item .odd-club .value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  white-space: pre;
+}
+.right-sidebar-list-odds .odds-item .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* Gray:600 */
+  color: #718096;
+  margin-top: 8px;
+}
+
+.prematch-stading-table-wrapper .column-10 {
+  width: 10%;
+}
+.prematch-stading-table-wrapper .column-70 {
+  width: 70%;
+}
+.prematch-stading-table-wrapper .table-row {
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  /* Gray:900 */
+  color: #1A202C;
+}
+.prematch-stading-table-wrapper .table-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* Gray:600 */
+  color: #718096;
+}
+.prematch-stading-table-wrapper .club-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.prematch-stading-table-wrapper .list-league-sign {
+  display: flex;
+  justify-content: flex-end;
+}
+.prematch-stading-table-wrapper .list-league-sign .league-sign {
+  border-radius: 8px !important;
+  margin: 0px 1px;
 }
 
 /*# sourceMappingURL=common.css.map */

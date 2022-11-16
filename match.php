@@ -3,9412 +3,1433 @@
 <body>
   <div class="header">
     <?php include "templates/header.php"; ?>
+    <?php include "templates/menu.php"; ?>
   </div>
-  <div class="match-wrapper">
-    <div class="match-banner">
-      <div class="list-category">
-        <a href="#" target="">
-          <div class="category-item">
-            <img src="./images/flag-match-2.png" alt="">
-            <span>England</span>
-          </div>
-        </a>
-        <div class="arrow">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-            <path d="M4.5 3.5L7.5 6.5L4.5 9.5" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
-        <a href="#" target="">
-          <div class="category-item">
-            <span>Premier League</span>
-          </div>
-        </a>
-        <div class="arrow">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-            <path d="M4.5 3.5L7.5 6.5L4.5 9.5" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
-        <a href="#" target="">
-          <div class="category-item">
-            <span>2021-2022</span>
-          </div>
-        </a>
-      </div>
-      <div class="container">
-        <div class="list-club">
-          <div class="column-40  club-item">
-            <div class="club-info">
-              <h2 class="club-name">Manchester United</h2>
-              <img src="./images/mu-club.png" class="club-image" alt="">
+  <div class="container">
+    <div class="main-match-page-wrapper">
+      <div class="banner">
+        <div class="common-list-category">
+          <a href="#" target="">
+            <div class="category-item">
+              <span>Champions League</span>
             </div>
+          </a>
+          <div class="arrow">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_103_3181)">
+                <path d="M4.5 3.5L7.5 6.5L4.5 9.5" stroke="#4A5568" stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+              <defs>
+                <clipPath id="clip0_103_3181">
+                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
+                </clipPath>
+              </defs>
+            </svg>
           </div>
-          <div class="column-25">
-            <div class="match-score__wrapper">
-              <div class="match-score">
-                <span>1</span>
-                <span>:</span>
-                <span>0</span>
-              </div>
-              <div class="match-detail">
-                <div class="row-detail">
-                  <div class="column-50 text-right">Elapsed:</div>
-                  <div class="column-50">
-                    <span class="match-label">FT</span>
-                  </div>
-                </div>
-                <div class="row-detail">
-                  <div class="column-50 text-right">Half time:</div>
-                  <div class="column-50">1 : 0</div>
-                </div>
-                <div class="row-detail">
-                  <div class="column-50 text-right">Full time:</div>
-                  <div class="column-50">1 : 0</div>
-                </div>
-                <div class="row-detail">
-                  <div class="column-50 text-right">Kick off:</div>
-                  <div class="column-50">16:00</div>
-                </div>
-                <div class="row-detail">
-                  <div class="column-50 text-right">Date:</div>
-                  <div class="column-50 max-content">June 22, 2022</div>
-                </div>
-              </div>
+          <a href="#" target="">
+            <div class="category-item">
+              <span>Barcelona - Man United</span>
             </div>
-          </div>
-          <div class="column-40 club-item">
-            <div class="club-info">
-              <h2 class="club-name">Liverpool</h2>
-              <img src="./images/inter-club.png" class="club-image" alt="">
-            </div>
-          </div>
+          </a>
         </div>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="match-content__wrapper">
-        <div id="match-tabs">
-          <ul class="match-main-nav">
-            <li><a href="#main-tabs-1">Head to Head</a></li>
-            <li><a href="#main-tabs-2">Betting</a></li>
-            <li><a href="#main-tabs-3">Match Centre</a></li>
-            <li><a href="#main-tabs-4">Match Report</a></li>
+        <div class="match-info-wrapper">
+          <div class="club-wrapper">
+            <span class="club-name">Barcelona</span>
+            <img src="./images/mc-club.png" alt="" class="club-image">
+          </div>
+          <div class="result-detail">
+            <span class="score">2</span>
+            <p class="time-wrapper">
+              <span class="time txt-danger">56'</span>
+              <span class="sign">HT 2-1</span>
+            </p>
+            <span class="score">2</span>
+          </div>
+          <div class="club-wrapper">
+            <img src="./images/chel-club.png" alt="" class="club-image">
+            <span class="club-name">Man United</span>
+          </div>
+        </div>
+      </div>
+      <!-- LIVE MATCH -->
+      <div class="play-match">
+        <div class="player-wrapper">
+          <div class="box-player">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VkGzajNpNwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="box-chat">
+            <div class="chat-header">
+              <h4 class="box-title">Chat</h4>
+              <div class="list-dot">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="chat-content">
+              <div class="list-message">
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail">
+                    <span class="username">Anna</span>:
+                    We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,
+                  </p>
+                </div>
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail"> <span class="username">Anna</span>: We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,</p>
+                </div>
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail"> <span class="username">Anna</span>: We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,</p>
+                </div>
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail"> <span class="username">Anna</span>: We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,</p>
+                </div>
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail"> <span class="username">Anna</span>: We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,</p>
+                </div>
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail"> <span class="username">Anna</span>: We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,</p>
+                </div>
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail"> <span class="username">Anna</span>: We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,</p>
+                </div>
+                <div class="message-item">
+                  <a href="#" class="avatar">
+                    <img src="./images/avatar-user.png" alt="">
+                  </a>
+                  <p class="message-detail"><span class="username">Anna</span>: We missed you so much, take care of yourself, do well in the gym, and come back as soon as possible,</p>
+                </div>
+              </div>
+            </div>
+            <div class="chat-form">
+              <div class="form-wrapper">
+                <form action="#" method="#">
+                  <input type="text" placeholder="Your comment" name="" value="">
+                </form>
+                <button class="btn-send">
+
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.2492 6.55724L7.25718 3.56124C3.23218 1.54524 1.58018 3.19724 3.59618 7.22224L4.20518 8.44024C4.38018 8.79724 4.38018 9.21024 4.20518 9.56724L3.59618 10.7782C1.58018 14.8032 3.22518 16.4552 7.25718 14.4392L13.2492 11.4432C15.9372 10.0992 15.9372 7.90124 13.2492 6.55724ZM10.9882 9.52524H7.20818C6.92118 9.52524 6.68318 9.28724 6.68318 9.00024C6.68318 8.71324 6.92118 8.47524 7.20818 8.47524H10.9882C11.2752 8.47524 11.5132 8.71324 11.5132 9.00024C11.5132 9.28724 11.2752 9.52524 10.9882 9.52524Z" fill="white" />
+                  </svg>
+
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="control">
+          <div class="list-server">
+            <button class="btn-server active">Server 1</button>
+            <button class="btn-server">Server 2</button>
+          </div>
+          <ul class="list-contact">
+            <li>
+              <a href="#">
+
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.3334 9.99984C18.3334 5.39984 14.6001 1.6665 10.0001 1.6665C5.40008 1.6665 1.66675 5.39984 1.66675 9.99984C1.66675 14.0332 4.53341 17.3915 8.33341 18.1665V12.4998H6.66675V9.99984H8.33341V7.9165C8.33341 6.30817 9.64175 4.99984 11.2501 4.99984H13.3334V7.49984H11.6667C11.2084 7.49984 10.8334 7.87484 10.8334 8.33317V9.99984H13.3334V12.4998H10.8334V18.2915C15.0417 17.8748 18.3334 14.3248 18.3334 9.99984Z" fill="#1A202C" />
+                </svg>
+
+              </a>
+            </li>
+            <li>
+              <a href="#">
+
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 3.83317C19.25 4.1665 18.5 4.4165 17.6667 4.49984C18.5 3.99984 19.1667 3.1665 19.5 2.24984C18.6667 2.74984 17.8333 3.08317 16.9167 3.24984C16.1667 2.4165 15.0833 1.9165 13.9167 1.9165C11.6667 1.9165 9.83333 3.74984 9.83333 5.99984C9.83333 6.33317 9.83333 6.6665 9.91667 6.9165C6.41667 6.74984 3.41667 5.08317 1.41667 2.58317C1 3.24984 0.833333 3.9165 0.833333 4.6665C0.833333 6.08317 1.58333 7.33317 2.66667 8.08317C2 8.08317 1.33333 7.9165 0.833333 7.58317C0.833333 7.58317 0.833333 7.58317 0.833333 7.6665C0.833333 9.6665 2.25 11.3332 4.08333 11.6665C3.75 11.7498 3.41667 11.8332 3 11.8332C2.75 11.8332 2.5 11.8332 2.25 11.7498C2.75 13.4165 4.25 14.5832 6.08333 14.5832C4.66667 15.6665 2.91667 16.3332 1 16.3332C0.666667 16.3332 0.333333 16.3332 0 16.2498C1.83333 17.4165 4 18.0832 6.25 18.0832C13.8333 18.0832 17.9167 11.8332 17.9167 6.4165C17.9167 6.24984 17.9167 6.08317 17.9167 5.9165C18.75 5.33317 19.4167 4.58317 20 3.83317Z" fill="#1A202C" />
+                </svg>
+
+              </a>
+            </li>
+            <li>
+              <a href="#">
+
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_146_4885)">
+                    <path d="M10.8333 12.5V17.8333L19.5 9.16667L10.8333 0.5V5.83333C7 6 0 7.58333 0 16.6667V19.75L1.58333 17.0833C3.58333 13.6667 5.58333 12.5833 10.8333 12.5Z" fill="#1A202C" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_146_4885">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
+            <li>
+              <a href="#">
+
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_146_4888)">
+                    <path d="M4.77242 4.40266C4.93036 4.5557 5.14166 4.64127 5.36159 4.64127C5.58151 4.64127 5.79281 4.5557 5.95075 4.40266C6.10698 4.24638 6.19474 4.03446 6.19474 3.81349C6.19474 3.59252 6.10698 3.3806 5.95075 3.22432L4.28409 1.55766C4.12692 1.40586 3.91642 1.32186 3.69792 1.32376C3.47942 1.32566 3.27041 1.4133 3.1159 1.56781C2.9614 1.72231 2.87376 1.93133 2.87186 2.14982C2.86996 2.36832 2.95395 2.57882 3.10575 2.73599L4.77242 4.40266Z" fill="#1A202C" />
+                    <path d="M7.91659 3.75C8.1376 3.75 8.34956 3.6622 8.50584 3.50592C8.66212 3.34964 8.74992 3.13768 8.74992 2.91667V0.833333C8.74992 0.61232 8.66212 0.400358 8.50584 0.244078C8.34956 0.0877974 8.1376 0 7.91659 0C7.69557 0 7.48361 0.0877974 7.32733 0.244078C7.17105 0.400358 7.08325 0.61232 7.08325 0.833333V2.91667C7.08325 3.13768 7.17105 3.34964 7.32733 3.50592C7.48361 3.6622 7.69557 3.75 7.91659 3.75Z" fill="#1A202C" />
+                    <path d="M2.42415 7.50016H4.50749C4.7285 7.50016 4.94046 7.41237 5.09674 7.25608C5.25302 7.0998 5.34082 6.88784 5.34082 6.66683C5.34082 6.44582 5.25302 6.23385 5.09674 6.07757C4.94046 5.92129 4.7285 5.8335 4.50749 5.8335H2.42415C2.20314 5.8335 1.99118 5.92129 1.8349 6.07757C1.67862 6.23385 1.59082 6.44582 1.59082 6.66683C1.59082 6.88784 1.67862 7.0998 1.8349 7.25608C1.99118 7.41237 2.20314 7.50016 2.42415 7.50016Z" fill="#1A202C" />
+                    <path d="M8.93928 14.8907L6.10595 17.724C5.70814 18.1009 5.18101 18.3109 4.63303 18.3109C4.08505 18.3109 3.55792 18.1009 3.16011 17.724L2.27595 16.8407C1.88736 16.4488 1.66933 15.9192 1.66933 15.3673C1.66933 14.8154 1.88736 14.2859 2.27595 13.894L5.10928 11.0607C5.18887 10.9838 5.25236 10.8918 5.29603 10.7902C5.3397 10.6885 5.36269 10.5792 5.36365 10.4685C5.36462 10.3579 5.34353 10.2481 5.30163 10.1457C5.25973 10.0433 5.19785 9.95025 5.11961 9.87201C5.04136 9.79376 4.94832 9.73189 4.84591 9.68999C4.74349 9.64809 4.63376 9.627 4.52311 9.62796C4.41246 9.62892 4.30311 9.65191 4.20144 9.69559C4.09977 9.73926 4.00782 9.80275 3.93095 9.88234L1.09761 12.7157C0.396376 13.42 0.00268555 14.3734 0.00268555 15.3673C0.00268555 16.3612 0.396376 17.3147 1.09761 18.019L1.98178 18.9023C2.68598 19.6035 3.63927 19.9972 4.63303 19.9972C5.62679 19.9972 6.58008 19.6035 7.28428 18.9023L10.1176 16.069C10.1972 15.9921 10.2607 15.9002 10.3044 15.7985C10.348 15.6968 10.371 15.5875 10.372 15.4768C10.3729 15.3662 10.3519 15.2565 10.31 15.154C10.2681 15.0516 10.2062 14.9586 10.1279 14.8803C10.0497 14.8021 9.95665 14.7402 9.85424 14.6983C9.75183 14.6564 9.64209 14.6353 9.53144 14.6363C9.4208 14.6373 9.31145 14.6602 9.20977 14.7039C9.1081 14.7476 9.01615 14.8111 8.93928 14.8907Z" fill="#1A202C" />
+                    <path d="M16.1475 5.8335H12.3975C12.1765 5.8335 11.9646 5.92129 11.8083 6.07757C11.652 6.23385 11.5642 6.44582 11.5642 6.66683C11.5642 6.88784 11.652 7.0998 11.8083 7.25608C11.9646 7.41237 12.1765 7.50016 12.3975 7.50016H16.1475C16.7156 7.51578 17.2568 7.7458 17.6623 8.14401C18.0677 8.54221 18.3075 9.07911 18.3334 9.64683V11.3135C18.3007 11.871 18.052 12.3938 17.6402 12.7709C17.2283 13.148 16.6857 13.3498 16.1275 13.3335H12.3975C12.1765 13.3335 11.9646 13.4213 11.8083 13.5776C11.652 13.7339 11.5642 13.9458 11.5642 14.1668C11.5642 14.3878 11.652 14.5998 11.8083 14.7561C11.9646 14.9124 12.1765 15.0002 12.3975 15.0002H16.1275C17.1295 15.0232 18.0997 14.6481 18.8256 13.9571C19.5515 13.266 19.9738 12.3154 20 11.3135V9.64683C19.9814 8.63454 19.5683 7.66951 18.8487 6.95726C18.1292 6.245 17.16 5.84179 16.1475 5.8335Z" fill="#1A202C" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_146_4888">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
           </ul>
-          <!-- ===========START MAIN TAB 1=========== -->
-          <div id="main-tabs-1">
-            <div class="head-to-head-wrapper">
-              <!-- HEAD TO HEAD TAB CONTENT -->
-              <div id="head-to-head-tabs">
-                <ul class="match-center-sub-nav">
-                  <li class="sub-nav-item"><a href="#sub-tab-1">Summary</a></li>
-                  <li class="sub-nav-item"><a href="#sub-tab-2">Team Statistics</a></li>
-                  <li class="sub-nav-item"><a href="#sub-tab-3">Player Statistics</a></li>
-                </ul>
-                <div id="sub-tab-1">
-                  <!-- PREVIOUS MEETING TABLE -->
-                  <div class="table-1-wrapper">
-                    <h3 class="table-title">
-                      Previous Meetings
-                      <span class="sub-title">(Last 6 matches)</span>
-                    </h3>
-                    <div class="table-content">
-                      <div id="previous-meeting-tabs">
-                        <ul class="previous-meeting-nav">
-                          <li><a href="#tabs-1">All</a></li>
-                          <li><a href="#tabs-2">Home vs Away</a></li>
-                          <li><a href="#tabs-3">Away vs Home</a></li>
-                        </ul>
-                        <div id="tabs-1">
-                          <!-- ==============ALL TAB IN TABLES ============= -->
-                          <div class="table-content">
-                            <!-- start table header for pc -->
-                            <div class="table-header-pc">
-                              <div class="club-info">
-                                <img src="./images/mu-club.png" class="club-image" alt="" />
-                                <div class="list-card">
-                                  <div class="card-item">
-                                    <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                      <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                    </svg>
-                                    <span class="number">10</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                    </svg>
-                                    <span class="number">0</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                    </svg>
-                                    <span class="number">12</span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="list-progress">
-                                <div class="progress-item">
-                                  <span class="label">Won (50%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((3 / 6) * 100%);" aria-valuenow="3" aria-valuemin="0" aria-valuemax="6">3/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="progress-item">
-                                  <span class="label">Drew (12%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((4 / 6) * 100%);" aria-valuenow="4" aria-valuemin="0" aria-valuemax="6">4/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="progress-item"> <span class="label">Won (33%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((2 / 6) * 100%);" aria-valuenow="2" aria-valuemin="0" aria-valuemax="6">2/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="club-info">
-                                <div class="list-card">
-                                  <div class="card-item">
-                                    <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                      <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                    </svg>
-                                    <span class="number">10</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                    </svg>
-                                    <span class="number">20</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                    </svg>
-                                    <span class="number">43</span>
-                                  </div>
-                                </div>
-                                <img src="./images/inter-club.png" class="club-image" alt="" />
-                              </div>
-                            </div>
-                            <!-- end table header for pc-->
-
-
-                            <!-- start table header for moblie -->
-                            <div class="table-header-mb">
-                              <div class="top-line">
-                                <div class="club-info">
-                                  <div class="list-card">
-                                    <div class="card-item">
-                                      <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                        <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                      </svg>
-                                      <span class="number">10</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                      </svg>
-                                      <span class="number">0</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                      </svg>
-                                      <span class="number">12</span>
-                                    </div>
-                                  </div>
-                                  <img src="./images/mu-club.png" class="club-image" alt="" />
-                                </div>
-                                <div class="club-info">
-                                  <img src="./images/inter-club.png" class="club-image" alt="" />
-                                  <div class="list-card">
-                                    <div class="card-item">
-                                      <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                        <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                      </svg>
-                                      <span class="number">10</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                      </svg>
-                                      <span class="number">20</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                      </svg>
-                                      <span class="number">43</span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="bottom-line">
-                                <div class="list-progress">
-                                  <div class="progress-item">
-                                    <span class="label">Won (50%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((3 / 6) * 100%);" aria-valuenow="3" aria-valuemin="0" aria-valuemax="6">3/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="progress-item">
-                                    <span class="label">Drew (12%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((4 / 6) * 100%);" aria-valuenow="4" aria-valuemin="0" aria-valuemax="6">4/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="progress-item"> <span class="label">Won (33%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((2 / 6) * 100%);" aria-valuenow="2" aria-valuemin="0" aria-valuemax="6">2/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- end table header for moblie -->
-
-                            <div class="list-timeline">
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-
-                            </div>
-                          </div>
-                          <!-- ==============ALL TAB IN TABLES ============= -->
-                        </div>
-                        <div id="tabs-2">
-                          <!-- ============== HOME AS AWAY TABLE ============= -->
-                          <div class="table-content">
-                            <!-- start table header for pc -->
-                            <div class="table-header-pc">
-                              <div class="club-info">
-                                <img src="./images/mu-club.png" class="club-image" alt="" />
-                                <div class="list-card">
-                                  <div class="card-item">
-                                    <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                      <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                    </svg>
-                                    <span class="number">10</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                    </svg>
-                                    <span class="number">0</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                    </svg>
-                                    <span class="number">12</span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="list-progress">
-                                <div class="progress-item">
-                                  <span class="label">Won (50%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((3 / 6) * 100%);" aria-valuenow="3" aria-valuemin="0" aria-valuemax="6">3/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="progress-item">
-                                  <span class="label">Drew (12%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((4 / 6) * 100%);" aria-valuenow="4" aria-valuemin="0" aria-valuemax="6">4/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="progress-item"> <span class="label">Won (33%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((2 / 6) * 100%);" aria-valuenow="2" aria-valuemin="0" aria-valuemax="6">2/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="club-info">
-                                <div class="list-card">
-                                  <div class="card-item">
-                                    <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                      <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                    </svg>
-                                    <span class="number">10</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                    </svg>
-                                    <span class="number">20</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                    </svg>
-                                    <span class="number">43</span>
-                                  </div>
-                                </div>
-                                <img src="./images/inter-club.png" class="club-image" alt="" />
-                              </div>
-                            </div>
-                            <!-- end table header for pc-->
-
-
-                            <!-- start table header for moblie -->
-                            <div class="table-header-mb">
-                              <div class="top-line">
-                                <div class="club-info">
-                                  <div class="list-card">
-                                    <div class="card-item">
-                                      <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                        <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                      </svg>
-                                      <span class="number">10</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                      </svg>
-                                      <span class="number">0</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                      </svg>
-                                      <span class="number">12</span>
-                                    </div>
-                                  </div>
-                                  <img src="./images/mu-club.png" class="club-image" alt="" />
-                                </div>
-                                <div class="club-info">
-                                  <img src="./images/inter-club.png" class="club-image" alt="" />
-                                  <div class="list-card">
-                                    <div class="card-item">
-                                      <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                        <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                      </svg>
-                                      <span class="number">10</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                      </svg>
-                                      <span class="number">20</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                      </svg>
-                                      <span class="number">43</span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="bottom-line">
-                                <div class="list-progress">
-                                  <div class="progress-item">
-                                    <span class="label">Won (50%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((3 / 6) * 100%);" aria-valuenow="3" aria-valuemin="0" aria-valuemax="6">3/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="progress-item">
-                                    <span class="label">Drew (12%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((4 / 6) * 100%);" aria-valuenow="4" aria-valuemin="0" aria-valuemax="6">4/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="progress-item"> <span class="label">Won (33%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((2 / 6) * 100%);" aria-valuenow="2" aria-valuemin="0" aria-valuemax="6">2/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- end table header for moblie -->
-
-                            <div class="list-timeline">
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-
-                            </div>
-                          </div>
-                          <!-- ==============HOME AS AWAY TABLE============= -->
-                        </div>
-                        <div id="tabs-3">
-                          <!-- ============== HOME AS AWAY TABLE ============= -->
-                          <div class="table-content">
-                            <!-- start table header for pc -->
-                            <div class="table-header-pc">
-                              <div class="club-info">
-                                <img src="./images/mu-club.png" class="club-image" alt="" />
-                                <div class="list-card">
-                                  <div class="card-item">
-                                    <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                      <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                    </svg>
-                                    <span class="number">10</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                    </svg>
-                                    <span class="number">0</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                    </svg>
-                                    <span class="number">12</span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="list-progress">
-                                <div class="progress-item">
-                                  <span class="label">Won (50%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((3 / 6) * 100%);" aria-valuenow="3" aria-valuemin="0" aria-valuemax="6">3/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="progress-item">
-                                  <span class="label">Drew (12%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((4 / 6) * 100%);" aria-valuenow="4" aria-valuemin="0" aria-valuemax="6">4/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="progress-item"> <span class="label">Won (33%)</span>
-                                  <div class="progress-wrapper">
-                                    <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: calc((2 / 6) * 100%);" aria-valuenow="2" aria-valuemin="0" aria-valuemax="6">2/6</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="club-info">
-                                <div class="list-card">
-                                  <div class="card-item">
-                                    <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                      <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                    </svg>
-                                    <span class="number">10</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                    </svg>
-                                    <span class="number">20</span>
-                                  </div>
-                                  <div class="card-item">
-                                    <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                      <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                    </svg>
-                                    <span class="number">43</span>
-                                  </div>
-                                </div>
-                                <img src="./images/inter-club.png" class="club-image" alt="" />
-                              </div>
-                            </div>
-                            <!-- end table header for pc-->
-
-
-                            <!-- start table header for moblie -->
-                            <div class="table-header-mb">
-                              <div class="top-line">
-                                <div class="club-info">
-                                  <div class="list-card">
-                                    <div class="card-item">
-                                      <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                        <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                      </svg>
-                                      <span class="number">10</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                      </svg>
-                                      <span class="number">0</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                      </svg>
-                                      <span class="number">12</span>
-                                    </div>
-                                  </div>
-                                  <img src="./images/mu-club.png" class="club-image" alt="" />
-                                </div>
-                                <div class="club-info">
-                                  <img src="./images/inter-club.png" class="club-image" alt="" />
-                                  <div class="list-card">
-                                    <div class="card-item">
-                                      <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                        <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                      </svg>
-                                      <span class="number">10</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                      </svg>
-                                      <span class="number">20</span>
-                                    </div>
-                                    <div class="card-item">
-                                      <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                        <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                      </svg>
-                                      <span class="number">43</span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="bottom-line">
-                                <div class="list-progress">
-                                  <div class="progress-item">
-                                    <span class="label">Won (50%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((3 / 6) * 100%);" aria-valuenow="3" aria-valuemin="0" aria-valuemax="6">3/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="progress-item">
-                                    <span class="label">Drew (12%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((4 / 6) * 100%);" aria-valuenow="4" aria-valuemin="0" aria-valuemax="6">4/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="progress-item"> <span class="label">Won (33%)</span>
-                                    <div class="progress-wrapper">
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: calc((2 / 6) * 100%);" aria-valuenow="2" aria-valuemin="0" aria-valuemax="6">2/6</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- end table header for moblie -->
-
-                            <div class="list-timeline">
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-
-                              <div class="timeline-item">
-                                <button type="button" class="collapsible">
-                                  <div class="collapse-icon">
-                                    <img src="./images/icon-arrow-up.png" alt="" class="icon-arrow icon-arrow-up">
-                                    <img src="./images/icon-arrow-down.png" alt="" class="icon-arrow icon-arrow-down">
-                                  </div>
-                                  <!-- collapse title for PC -->
-                                  <div class="collapse-title colapse-title-pc">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <span class="club-name">Manchester United</span>
-                                      <div class="list-score">
-                                        <span class="score">3</span>
-                                        <span>:</span>
-                                        <span class="score">2</span>
-                                      </div>
-                                      <span class="club-name">Liverpool</span>
-                                    </div>
-                                  </div>
-                                  <!-- end collapse title for PC -->
-
-                                  <!-- start collapse title for mobile -->
-                                  <div class="collapse-title colapse-title-mb">
-                                    <div class="date-time">
-                                      <div class="flag">
-                                        <img src="./images/flag-match-6.png" alt="" />
-                                        <span>FAC</span>
-                                      </div>
-                                      <span class="time">27-10-2021</span>
-                                    </div>
-                                    <div class="list-club">
-                                      <div class="club-item">
-                                        <span class="score">3</span>
-                                        <span class="club-name">Manchester United</span>
-                                      </div>
-                                      <div class="club-item">
-                                        <span class="score">2</span>
-                                        <span class="club-name">Liverpool</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- end colllápe title for moblie -->
-                                </button>
-                                <div class="timeline-content">
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="phan-luoi-nha" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">23'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="ghi-ban" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M7.5 9.4L8.7 11.9H11.3L12.5 9.4L10 7.5L7.5 9.4Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">76'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-do" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                      </div>
-                                      <div class="middle-column">90'</div>
-                                      <div class="right-column">
-                                        <svg id="the-vang" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="2" width="16" height="20" rx="3" fill="#FAC712" />
-                                        </svg>
-                                        <span class="player-name">Messi <span class="status">(Pen.)</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="miss-penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E34B31" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E34B31" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="var" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <rect x="1" y="1" width="18" height="18" rx="9" fill="#1A202C" />
-                                          <path d="M7.17295 7.28249C7.32295 7.28249 7.45194 7.33349 7.55995 7.43549C7.67394 7.53149 7.73095 7.65449 7.73095 7.80449C7.73095 7.88249 7.71294 7.96349 7.67695 8.04749L5.45395 13.2495C5.39995 13.3695 5.32195 13.4595 5.21995 13.5195C5.12395 13.5735 5.02495 13.6005 4.92295 13.6005C4.82695 13.5945 4.73395 13.5645 4.64395 13.5105C4.55395 13.4505 4.48495 13.3665 4.43695 13.2585L2.21395 8.03849C2.19595 8.00249 2.18395 7.96649 2.17795 7.93049C2.17195 7.88849 2.16895 7.84949 2.16895 7.81349C2.16895 7.63949 2.23195 7.50749 2.35795 7.41749C2.48395 7.32149 2.60395 7.27349 2.71795 7.27349C2.94595 7.27349 3.11095 7.39049 3.21295 7.62449L5.18395 12.2595L4.86895 12.2685L6.67795 7.62449C6.77995 7.39649 6.94495 7.28249 7.17295 7.28249Z" fill="white" />
-                                          <path d="M9.95894 8.71349L8.01494 13.2855C7.97294 13.3995 7.90694 13.4895 7.81694 13.5555C7.73294 13.6155 7.63994 13.6455 7.53794 13.6455C7.37594 13.6455 7.25594 13.6005 7.17794 13.5105C7.09994 13.4205 7.06094 13.3095 7.06094 13.1775C7.06094 13.1235 7.06994 13.0665 7.08794 13.0065L9.32894 7.62449C9.37694 7.50449 9.44894 7.41149 9.54494 7.34549C9.64694 7.27949 9.75494 7.25249 9.86894 7.26449C9.97694 7.26449 10.0759 7.29749 10.1659 7.36349C10.2619 7.42349 10.3309 7.51049 10.3729 7.62449L12.5869 12.8985C12.6169 12.9765 12.6319 13.0485 12.6319 13.1145C12.6319 13.2765 12.5779 13.4055 12.4699 13.5015C12.3679 13.5975 12.2539 13.6455 12.1279 13.6455C12.0199 13.6455 11.9209 13.6125 11.8309 13.5465C11.7469 13.4805 11.6809 13.3905 11.6329 13.2765L9.69794 8.76749L9.95894 8.71349ZM8.29394 12.1875L8.78894 11.1525H11.2189L11.3899 12.1875H8.29394Z" fill="white" />
-                                          <path d="M13.322 13.6005C13.154 13.6005 13.004 13.5495 12.872 13.4475C12.74 13.3395 12.674 13.2075 12.674 13.0515V7.84949C12.674 7.69349 12.725 7.56449 12.827 7.46249C12.935 7.35449 13.067 7.30049 13.223 7.30049H15.815C16.127 7.30049 16.418 7.38449 16.688 7.55249C16.964 7.71449 17.186 7.94249 17.354 8.23649C17.522 8.52449 17.606 8.85749 17.606 9.23549C17.606 9.46349 17.558 9.68549 17.462 9.90149C17.372 10.1175 17.246 10.3125 17.084 10.4865C16.928 10.6605 16.751 10.7955 16.553 10.8915L16.562 10.6845C16.73 10.7745 16.868 10.8825 16.976 11.0085C17.09 11.1285 17.177 11.2605 17.237 11.4045C17.303 11.5425 17.342 11.6925 17.354 11.8545C17.378 12.0045 17.393 12.1365 17.399 12.2505C17.411 12.3645 17.429 12.4605 17.453 12.5385C17.483 12.6165 17.537 12.6765 17.615 12.7185C17.747 12.7965 17.828 12.9105 17.858 13.0605C17.894 13.2045 17.861 13.3335 17.759 13.4475C17.693 13.5255 17.609 13.5765 17.507 13.6005C17.405 13.6185 17.303 13.6185 17.201 13.6005C17.099 13.5765 17.015 13.5465 16.949 13.5105C16.847 13.4505 16.745 13.3635 16.643 13.2495C16.541 13.1295 16.457 12.9705 16.391 12.7725C16.331 12.5745 16.301 12.3195 16.301 12.0075C16.301 11.9055 16.283 11.8125 16.247 11.7285C16.211 11.6385 16.16 11.5635 16.094 11.5035C16.028 11.4375 15.944 11.3895 15.842 11.3595C15.74 11.3235 15.62 11.3055 15.482 11.3055H13.664L13.799 11.0985V13.0515C13.799 13.2075 13.757 13.3395 13.673 13.4475C13.589 13.5495 13.472 13.6005 13.322 13.6005ZM13.673 10.3785H15.77C15.878 10.3785 15.983 10.3305 16.085 10.2345C16.187 10.1325 16.271 9.99749 16.337 9.82949C16.403 9.65549 16.436 9.46649 16.436 9.26249C16.436 8.99849 16.364 8.77949 16.22 8.60549C16.082 8.42549 15.932 8.33549 15.77 8.33549H13.691L13.799 8.04749V10.5945L13.673 10.3785Z" fill="white" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="thay-nguoi" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M4.71372 7.20714C3.67471 7.33931 2.7211 7.85048 2.03584 8.64259C1.35059 9.43469 0.981958 10.4519 1.00068 11.4991V13.9365C1.00068 14.036 1.04019 14.1313 1.11051 14.2017C1.18083 14.272 1.27621 14.3115 1.37566 14.3115H2.73308C2.78007 14.3115 2.82533 14.3292 2.85991 14.361C2.89449 14.3928 2.91587 14.4364 2.91982 14.4832L3.25055 18.4678C3.25847 18.5617 3.30144 18.6491 3.37092 18.7128C3.44041 18.7764 3.53131 18.8116 3.62553 18.8112H6.62536C6.71959 18.8116 6.81049 18.7764 6.87997 18.7128C6.94945 18.6491 6.99243 18.5617 7.00034 18.4678L7.33257 14.4832C7.33652 14.4364 7.3579 14.3928 7.39248 14.361C7.42706 14.3292 7.47233 14.3115 7.51931 14.3115H8.87524C8.97469 14.3115 9.07006 14.272 9.14039 14.2017C9.21071 14.1313 9.25021 14.036 9.25021 13.9365V11.3117C9.24957 10.7354 9.12833 10.1657 8.89431 9.63919C8.66028 9.11264 8.31864 8.6409 7.89136 8.2543C7.46408 7.86771 6.96061 7.57482 6.41335 7.39447C5.86608 7.21413 5.28713 7.15032 4.71372 7.20714Z" fill="#1A202C" />
-                                          <path d="M5.12583 6.4372C6.5755 6.4372 7.75068 5.26202 7.75068 3.81235C7.75068 2.36269 6.5755 1.1875 5.12583 1.1875C3.67616 1.1875 2.50098 2.36269 2.50098 3.81235C2.50098 5.26202 3.67616 6.4372 5.12583 6.4372Z" fill="#1A202C" />
-                                          <path d="M18.6703 3.57958L16.4204 1.3297C16.2095 1.11867 15.9233 1.00007 15.6249 1C15.3266 0.99993 15.0404 1.11839 14.8294 1.32933C14.6183 1.54026 14.4997 1.82639 14.4997 2.12477C14.4996 2.42314 14.618 2.70933 14.829 2.92036L15.159 3.24959H11.1249C10.8266 3.24959 10.5405 3.36811 10.3295 3.57908C10.1185 3.79005 10 4.07618 10 4.37453C10 4.67288 10.1185 4.95901 10.3295 5.16998C10.5405 5.38095 10.8266 5.49947 11.1249 5.49947H15.159L14.829 5.82945C14.6181 6.0404 14.4996 6.32649 14.4996 6.62478C14.4996 6.92307 14.6181 7.20915 14.829 7.42011C15.0418 7.6278 15.3273 7.74407 15.6247 7.74407C15.922 7.74407 16.2076 7.6278 16.4204 7.42011L18.6703 5.17024C18.8812 4.95928 18.9996 4.6732 18.9996 4.3749C18.9996 4.07661 18.8812 3.79053 18.6703 3.57958Z" fill="#1A202C" />
-                                          <path d="M10.3297 11.5791L12.5796 9.32921C12.7905 9.11818 13.0767 8.99958 13.3751 8.99951C13.6734 8.99944 13.9596 9.1179 14.1706 9.32884C14.3817 9.53977 14.5003 9.8259 14.5003 10.1243C14.5004 10.4227 14.382 10.7088 14.171 10.9199L13.841 11.2491H17.8751C18.1734 11.2491 18.4595 11.3676 18.6705 11.5786C18.8815 11.7896 19 12.0757 19 12.374C19 12.6724 18.8815 12.9585 18.6705 13.1695C18.4595 13.3805 18.1734 13.499 17.8751 13.499H13.841L14.171 13.829C14.3819 14.0399 14.5004 14.326 14.5004 14.6243C14.5004 14.9226 14.3819 15.2087 14.171 15.4196C13.9582 15.6273 13.6727 15.7436 13.3753 15.7436C13.078 15.7436 12.7924 15.6273 12.5796 15.4196L10.3297 13.1697C10.1188 12.9588 10.0004 12.6727 10.0004 12.3744C10.0004 12.0761 10.1188 11.79 10.3297 11.5791Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="the-vang-thu-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g clip-path="url(#clip0_569_6449)">
-                                            <rect x="2.55469" y="1" width="12.4411" height="15.5514" rx="3" fill="#E34B31" />
-                                            <g clip-path="url(#clip1_569_6449)">
-                                              <rect x="8.64355" y="2.47559" width="11.4871" height="14.3588" rx="3" transform="rotate(16 8.64355 2.47559)" fill="#FAC712" />
-                                            </g>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_569_6449">
-                                              <rect width="20" height="20" fill="white" />
-                                            </clipPath>
-                                            <clipPath id="clip1_569_6449">
-                                              <rect width="14.3588" height="14.3588" fill="white" transform="translate(7.26367 2.07959) rotate(16)" />
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                  <div class="timeline-detail">
-                                    <div class="empty"></div>
-                                    <div class="timeline-result">
-                                      <div class="left-column">
-                                        <span class="player-name">Messi</span>
-                                        <svg id="penalty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#1A202C" />
-                                          <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#1A202C" />
-                                        </svg>
-                                      </div>
-                                      <div class="middle-column">80'</div>
-                                      <div class="right-column"></div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- ==============HOME AS AWAY TABLE============= -->
-                        </div>
-                      </div>
-                    </div>
+        </div>
+      </div>
+
+      <div class="main-layout">
+        <div class="middle-layout main-content-match-page">
+          <div id="match-tabs">
+            <ul class="sub-nav">
+              <li><a href="#tabs-1">Overview</a></li>
+              <li><a href="#tabs-2">Lineups</a></li>
+              <li><a href="#tabs-3">H2H</a></li>
+              <li><a href="#tabs-4">Standings</a></li>
+              <li><a href="#tabs-5">Statistics</a></li>
+            </ul>
+            <!-- ===========START Overview TABS ============= -->
+            <div id="tabs-1" class="match-tab-content ">
+              <h3 class="match-page-title">Match Info</h3>
+              <div class="list-match-info">
+                <div class="match-info-item">
+                  <img src="./images/icon-match-info-1.png" alt="">
+                  <div class="info-detail">
+                    <span class="label">Start date</span>
+                    <span class="value">2022/11/07</span>
                   </div>
-                  <!-- PREVIOUS MEETING TABLE -->
-
-                  <!-- TABLES -->
-                  <div class="table-2-wrapper">
-                    <h3 class="table-title">Tables</h3>
-                    <div class="table-content">
-                      <div id="tables-main-tabs">
-                        <ul class="tables-main-nav">
-                          <li><a href="#tables-main-1">Standings</a></li>
-                          <li><a href="#tables-main-2">Form</a></li>
-                          <li><a href="#tables-main-3">Streaks</a></li>
-                        </ul>
-                        <div id="tables-main-1">
-                          <div id="tables-standings-tabs">
-                            <ul class="tables-sub-nav">
-                              <li><a href="#tabs-1">Overall</a></li>
-                              <li><a href="#tabs-2">Home</a></li>
-                              <li><a href="#tabs-3">Away</a></li>
-                              <li><a href="#tabs-4">Wide</a></li>
-                            </ul>
-                            <div id="tabs-1">
-                              <!-- standing-overrall -->
-                              <div class="table-result">
-                                <div class="row-item table-heading">
-                                  <div class="team-info">
-                                    <div class="team-id">Team</div>
-                                    <div class="team-name"></div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">P</div>
-                                      <div class="detail-item">W</div>
-                                      <div class="detail-item">D</div>
-                                      <div class="detail-item">L</div>
-                                      <div class="detail-item">GF</div>
-                                      <div class="detail-item">GA</div>
-                                      <div class="detail-item">GD</div>
-                                      <div class="detail-item">Pts</div>
-                                    </div>
-                                    <div class="list-player">Form</div>
-                                  </div>
-                                </div>
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number champion">1</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number europa">2</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number relegation">3</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number">4</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="list-suggest">
-                                <div class="suggest-item">
-                                  <span class="color-league champion"></span>
-                                  <span class="name-league">Champions League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league europa"></span>
-                                  <span class="name-league">Europa League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league relegation"></span>
-                                  <span class="name-league">Relegation</span>
-                                </div>
-                              </div>
-                              <!-- standing-overrall -->
-                            </div>
-                            <div id="tabs-2">
-                              <!-- standing-home-->
-                              <div class="table-result">
-                                <div class="row-item table-heading">
-                                  <div class="team-info">
-                                    <div class="team-id">Team</div>
-                                    <div class="team-name"></div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">P</div>
-                                      <div class="detail-item">W</div>
-                                      <div class="detail-item">D</div>
-                                      <div class="detail-item">L</div>
-                                      <div class="detail-item">GF</div>
-                                      <div class="detail-item">GA</div>
-                                      <div class="detail-item">GD</div>
-                                      <div class="detail-item">Pts</div>
-                                    </div>
-                                    <div class="list-player">Form</div>
-                                  </div>
-                                </div>
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number champion">1</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number europa">2</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number relegation">3</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number">4</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                              </div>
-                              <div class="list-suggest">
-                                <div class="suggest-item">
-                                  <span class="color-league champion"></span>
-                                  <span class="name-league">Champions League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league europa"></span>
-                                  <span class="name-league">Europa League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league relegation"></span>
-                                  <span class="name-league">Relegation</span>
-                                </div>
-                              </div>
-                              <!-- standing-home- -->
-                            </div>
-                            <div id="tabs-3">
-                              <!-- standing-away -->
-                              <div class="table-result">
-                                <div class="row-item table-heading">
-                                  <div class="team-info">
-                                    <div class="team-id">Team</div>
-                                    <div class="team-name"></div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">P</div>
-                                      <div class="detail-item">W</div>
-                                      <div class="detail-item">D</div>
-                                      <div class="detail-item">L</div>
-                                      <div class="detail-item">GF</div>
-                                      <div class="detail-item">GA</div>
-                                      <div class="detail-item">GD</div>
-                                      <div class="detail-item">Pts</div>
-                                    </div>
-                                    <div class="list-player">Form</div>
-                                  </div>
-                                </div>
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number champion">1</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number europa">2</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number relegation">3</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number">4</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number"></span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                              </div>
-                              <div class="list-suggest">
-                                <div class="suggest-item">
-                                  <span class="color-league champion"></span>
-                                  <span class="name-league">Champions League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league europa"></span>
-                                  <span class="name-league">Europa League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league relegation"></span>
-                                  <span class="name-league">Relegation</span>
-                                </div>
-                              </div>
-                              <!-- standing-away -->
-                            </div>
-                            <div id="tabs-4">
-                              <!-- standing-wide-->
-                              <div class="table-result">
-                                <div class="row-item table-heading">
-                                  <div class="team-info">
-                                    <div class="team-id">Team</div>
-                                    <div class="team-name"></div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">P</div>
-                                      <div class="detail-item">W</div>
-                                      <div class="detail-item">D</div>
-                                      <div class="detail-item">L</div>
-                                      <div class="detail-item">GF</div>
-                                      <div class="detail-item">GA</div>
-                                      <div class="detail-item">GD</div>
-                                      <div class="detail-item">Pts</div>
-                                    </div>
-                                    <div class="list-player">Form</div>
-                                  </div>
-                                </div>
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number champion">1</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number europa">2</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number relegation">3</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-
-                                <div class="row-item table-row">
-                                  <div class="team-info">
-                                    <div class="team-id">
-                                      <span class="number">4</span>
-                                    </div>
-                                    <div class="team-name">Manchester United</div>
-                                  </div>
-                                  <div class="team-result">
-                                    <div class="result-detail">
-                                      <div class="detail-item">1</div>
-                                      <div class="detail-item">2</div>
-                                      <div class="detail-item">33</div>
-                                      <div class="detail-item">45</div>
-                                      <div class="detail-item">8</div>
-                                      <div class="detail-item">9</div>
-                                      <div class="detail-item">+34</div>
-                                      <div class="detail-item">+12</div>
-                                    </div>
-                                    <div class="list-player">
-                                      <div class="player-item green">W</div>
-                                      <div class="player-item grey">D</div>
-                                      <div class="player-item orange">L</div>
-                                      <div class="player-item green">L</div>
-                                      <div class="player-item green">W</div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                              </div>
-                              <div class="list-suggest">
-                                <div class="suggest-item">
-                                  <span class="color-league champion"></span>
-                                  <span class="name-league">Champions League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league europa"></span>
-                                  <span class="name-league">Europa League</span>
-                                </div>
-                                <div class="suggest-item">
-                                  <span class="color-league relegation"></span>
-                                  <span class="name-league">Relegation</span>
-                                </div>
-                              </div>
-                              <!-- stading-wide-->
-                            </div>
-                          </div>
-                        </div>
-                        <div id="tables-main-2">
-                          <div id="tables-form-tabs">
-                            <ul class="tables-sub-nav">
-                              <li><a href="#tabs-1">Overall</a></li>
-                              <li><a href="#tabs-2">Home</a></li>
-                              <li><a href="#tabs-3">Away</a></li>
-                              <li><a href="#tabs-4">Wide</a></li>
-                            </ul>
-                            <div id="tabs-1">tab21</div>
-                            <div id="tabs-2">tab22</div>
-                            <div id="tabs-3">tab23</div>
-                            <div id="tabs-4">tab24</div>
-                          </div>
-                        </div>
-                        <div id="tables-main-3">
-                          <div id="tables-streaks-tabs">
-                            <ul class="tables-sub-nav">
-                              <li><a href="#tabs-1">Overall</a></li>
-                              <li><a href="#tabs-2">Home</a></li>
-                              <li><a href="#tabs-3">Away</a></li>
-                              <li><a href="#tabs-4">Wide</a></li>
-                            </ul>
-                            <div id="tabs-1">tab21</div>
-                            <div id="tabs-2">tab22</div>
-                            <div id="tabs-3">tab23</div>
-                            <div id="tabs-4">tab24</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- TABLES -->
-
-                  <!-------- FIXTURES-------->
-                  <div class="table-3-wrapper">
-                    <h3 class="table-title">Fixtures</h3>
-
-                    <!-- tab show mobile only -->
-                    <ul class="fixture-tabs-mobile">
-                      <li class="tabs-mobile-item tab-active" id="fixture-mobile-tab-1">
-                        <img src="./images/mu-club.png" alt="">
-                        <span class="team-name">Man United</span>
-                      </li>
-                      <li class="tabs-mobile-item" id="fixture-mobile-tab-2">
-                        <img src="./images/inter-club.png" alt="">
-                        <span class="team-name">Liverpool</span>
-                      </li>
-                    </ul>
-                    <!-- tab show mobile only -->
-
-                    <!-- start table content for pc -->
-                    <div class="table-content-pc">
-                      <!--  start left column -->
-                      <div class="compare-item">
-                        <div id="fixture-left-tabs">
-                          <ul class="fixture-tabs">
-                            <li><a href="#fixture-main-1">All</a></li>
-                            <li><a href="#fixture-main-2">Premier League</a></li>
-                          </ul>
-                          <div id="fixture-main-1">
-                            <div id="fixture-all-left-tabs">
-                              <ul class="fixture-tabs">
-                                <li><a href="#tabs-1">Overrall</a></li>
-                                <li><a href="#tabs-2">Home</a></li>
-                                <li><a href="#tabs-3">Away</a></li>
-                              </ul>
-                              <div id="tabs-1">
-                                <!-- all-overrall -->
-                                <div class="list-result">
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <div class="suggesst">
-                                  <span class="status"></span>
-                                  <span class="description">Upcoming Match</span>
-                                </div>
-                                <!--all-overrall-->
-                              </div>
-                              <div id="tabs-2">
-                                <!--  all-home -->
-                                <div class="list-result">
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <div class="suggesst">
-                                  <span class="status"></span>
-                                  <span class="description">Upcoming Match</span>
-                                </div>
-                                <!--all-home -->
-                              </div>
-                              <div id="tabs-3">
-                                <!--  all-away -->
-                                <div class="list-result">
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <div class="suggesst">
-                                  <span class="status"></span>
-                                  <span class="description">Upcoming Match</span>
-                                </div>
-                                <!--  all-away -->
-                              </div>
-                            </div>
-                          </div>
-                          <div id="fixture-main-2">
-                            <div id="fixture-premier-left-tabs">
-                              <ul class="fixture-tabs">
-                                <li><a href="#tabs-1">Overrall</a></li>
-                                <li><a href="#tabs-2">Home</a></li>
-                                <li><a href="#tabs-3">Away</a></li>
-                              </ul>
-                              <div id="tabs-1">
-                                <!-- all-overrall -->
-                                <div class="list-result">
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <div class="suggesst">
-                                  <span class="status"></span>
-                                  <span class="description">Upcoming Match</span>
-                                </div>
-                                <!--all-overrall-->
-                              </div>
-                              <div id="tabs-2">
-                                <!--  all-home -->
-                                <div class="list-result">
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <div class="suggesst">
-                                  <span class="status"></span>
-                                  <span class="description">Upcoming Match</span>
-                                </div>
-                                <!--all-home -->
-                              </div>
-                              <div id="tabs-3">
-                                <!--  all-away -->
-                                <div class="list-result">
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <div class="suggesst">
-                                  <span class="status"></span>
-                                  <span class="description">Upcoming Match</span>
-                                </div>
-                                <!--  all-away -->
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end left column -->
-
-                      <!-- start right column -->
-                      <div class="compare-item">
-                        <div id="fixture-right-tabs">
-                          <ul class="fixture-tabs">
-                            <li><a href="#fixture-main-1">All</a></li>
-                            <li><a href="#fixture-main-2">Premier League</a></li>
-                          </ul>
-                          <div id="fixture-main-1">
-                            <div id="fixture-all-right-tabs">
-                              <ul class="fixture-tabs">
-                                <li><a href="#tabs-1">Overrall</a></li>
-                                <li><a href="#tabs-2">Home</a></li>
-                                <li><a href="#tabs-3">Away</a></li>
-                              </ul>
-                              <div id="tabs-1">
-                                <!-- all-overral -->
-                                <div class="list-result">
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <!-- all-overral -->
-                              </div>
-                              <div id="tabs-2">
-                                <!-- all-home -->
-                                <div class="list-result">
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <!-- all-home -->
-                              </div>
-                              <div id="tabs-3">
-                                <!-- all-away -->
-                                <div class="list-result">
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <!-- all-waya -->
-                              </div>
-                            </div>
-                          </div>
-                          <div id="fixture-main-2">
-                            <div id="fixture-premier-right-tabs">
-                              <ul class="fixture-tabs">
-                                <li><a href="#tabs-1">Overrall</a></li>
-                                <li><a href="#tabs-2">Home</a></li>
-                                <li><a href="#tabs-3">Away</a></li>
-                              </ul>
-                              <div id="tabs-1">
-                                <!-- all-overral -->
-                                <div class="list-result">
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <!-- all-overral -->
-                              </div>
-                              <div id="tabs-2">
-                                <!-- all-home -->
-                                <div class="list-result">
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign orange">L</span>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <!-- all-home -->
-                              </div>
-                              <div id="tabs-3">
-                                <!-- all-away -->
-                                <div class="list-result">
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign green">W</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="result-item reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">2:1</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                        <span class="sign grey">D</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                  <div class="result-item incoming-match reverse">
-                                    <div class="team-info">
-                                      <span class="team-id">WCQ</span>
-                                      <span class="team-name">Manchester United</span>
-                                    </div>
-                                    <span class="score">vs</span>
-                                    <div class="right-box">
-                                      <div class="time-and-address">
-                                        <span class="time">12-11-21</span>
-                                        <span class="address">Manchester United</span>
-                                      </div>
-                                      <div class="sign-wrapper">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- incoming match -->
-                                </div>
-                                <!-- all-waya -->
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end right column  -->
-                    </div>
-                    <!-- end table content for pc -->
-                  </div>
-                  <!-- FIXTURE -->
                 </div>
-                <div id="sub-tab-2">
-                  <!-- Team Statistics content -->
-                  <h3 class="match-title">Team Characteristics</h3>
-                  <div class="list-club">
-                    <div class="column-50">
-                      <h3 class="club-name">Manchester United</h3>
-                    </div>
-                    <div class="column-50">
-                      <h3 class="club-name">Liverpool</h3>
-                    </div>
+                <div class="match-info-item">
+                  <img src="./images/icon-match-info-2.png" alt="">
+                  <div class="info-detail">
+                    <span class="label">Location</span>
+                    <span class="value">Leicester</span>
                   </div>
-                  <div class="table-wrapper">
-                    <div class="table-heading">Strengths</div>
-                    <div class="table-content">
-                      <div class="column-50">
-                        <ul>
-                          <li>
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_1402_1335)">
-                                <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_1402_1335">
-                                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Created a high number of chances relative to their possession</span>
-                          </li>
-                          <li>
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_1402_1335)">
-                                <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_1402_1335">
-                                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Were effective at creating goalscoring opportunities through individual skill</span>
-                          </li>
-                          <li>
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_1402_1335)">
-                                <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_1402_1335">
-                                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Were effective at creating goalscoring opportunities from the flanks</span>
-                          </li>
-                          <li>
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_1402_1335)">
-                                <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_1402_1335">
-                                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Were effective at creating goalscoring opportunities from set-pieces</span>
-                          </li>
-                          <li>
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_1402_1335)">
-                                <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_1402_1335">
-                                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Were strong at finishing</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="column-50">
-                        <ul>
-                          <li>
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_1402_1335)">
-                                <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_1402_1335">
-                                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Stole the ball often from the opposition</span>
-                          </li>
-                          <li>
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_1402_1335)">
-                                <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_1402_1335">
-                                  <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Were effective at creating goalscoring opportunities from long shot situations</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="table-wrapper">
-                    <div class="table-heading">Weaknesses</div>
-                    <div class="table-content">
-                      <div class="column-50">
-                        <ul>
-                          <li>
-                            <span class="text-grey text-italic">Team has no significant weaknesses</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="column-50">
-                        <ul>
-                          <li>
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_131_3536)">
-                                <path d="M9 3L3 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M3 3L9 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_131_3536">
-                                  <rect width="12" height="12" fill="white" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Lost possession often</span>
-                          </li>
-                          <li>
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_131_3536)">
-                                <path d="M9 3L3 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M3 3L9 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_131_3536">
-                                  <rect width="12" height="12" fill="white" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Gave away a lot of free-kicks around the box</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="table-wrapper">
-                    <div class="table-heading">Weaknesses</div>
-                    <div class="table-content">
-                      <div class="column-50">
-                        <ul>
-                          <li>
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_131_3529)">
-                                <rect x="4" y="4" width="4" height="4" rx="2" fill="#1A202C" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_131_3529">
-                                  <rect width="12" height="12" fill="white" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-
-                            <span>Attacked down the right sides</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="column-50">
-                        <ul>
-                          <li>
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_131_3529)">
-                                <rect x="4" y="4" width="4" height="4" rx="2" fill="#1A202C" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_131_3529">
-                                  <rect width="12" height="12" fill="white" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                            <span>Attacked down the right side</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Per match Statistics -->
-                  <div class="per-match-statistics-wrapper">
-                    <h3 class="match-title">Per match Statistics</h3>
-                    <div id="per-match-statistics-tabs">
-                      <ul class="tables-main-nav">
-                        <li><a href="#tabs-1">Summary</a></li>
-                        <li><a href="#tabs-2">Offensive</a></li>
-                        <li><a href="#tabs-3">Defensive</a></li>
-                      </ul>
-                      <div id="tabs-1">
-                        <div class="filter-box">
-                          <div class="filter-line">
-                            <div class="left-filter">
-                              <span class="filter-item active">Overrall</span>
-                              <span class="filter-item">Home</span>
-                              <span class="filter-item">Away</span>
-                            </div>
-                            <div class="right-filter">
-                              <span class="filter-item active">Overrall</span>
-                              <span class="filter-item">Home</span>
-                              <span class="filter-item">Away</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="per-match-statistics-content">
-                          <div class="per-match-statistics-table">
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">
-                                  <div class="club-info">
-                                    <img src="./images/mu-club.png" alt="" class="club-image">
-                                    <span class="count-player">Played: 38</span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="column-20 text-center"></div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">
-                                  <div class="club-info">
-                                    <img src="./images/mc-club.png" alt="" class="club-image">
-                                    <span class="count-player">Played: 38</span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">2</div>
-                              </div>
-                              <div class="column-20 text-center">Goals</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">1</div>
-                              </div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">16</div>
-                              </div>
-                              <div class="column-20 text-center">Shots</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">12</div>
-                              </div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">2</div>
-                              </div>
-                              <div class="column-20 text-center">Yellow Cards</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">2</div>
-                              </div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">16</div>
-                              </div>
-                              <div class="column-20 text-center">Red Cards</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">12</div>
-                              </div>
-                            </div>
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">5</div>
-                              </div>
-                              <div class="column-20 text-center">Corners</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">4</div>
-                              </div>
-                            </div>
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">10</div>
-                              </div>
-                              <div class="column-20 text-center">Fouls</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">10</div>
-                              </div>
-                            </div>
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">2</div>
-                              </div>
-                              <div class="column-20 text-center">Offisides</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">1</div>
-                              </div>
-                            </div>
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">2</div>
-                              </div>
-                              <div class="column-20 text-center">Throw ins</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">1</div>
-                              </div>
-                            </div>
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">45%</div>
-                              </div>
-                              <div class="column-20 text-center">Aerial Duel Success</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">45%</div>
-                              </div>
-                            </div>
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">45%</div>
-                              </div>
-                              <div class="column-20 text-center">Possession</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">45%</div>
-                              </div>
-                            </div>
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">45%</div>
-                              </div>
-                              <div class="column-20 text-center">Pass Success %</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">45%</div>
-                              </div>
-                            </div>
-
-
-                            <div class="table-row d-flex">
-                              <div class="column-40 flex-end">
-                                <div class="table-column-content">16</div>
-                              </div>
-                              <div class="column-20 text-center">Average Rating</div>
-                              <div class="column-40 flex-start">
-                                <div class="table-column-content">12</div>
-                              </div>
-                            </div>
-
-
-                          </div>
-                        </div>
-                      </div>
-                      <div id="tabs-2">tab2</div>
-                      <div id="tabs-3">tab3</div>
-                    </div>
-                  </div>
-                  <!-- Per match Statistics -->
-
-                  <!-- Situational Statistics -->
-                  <div class="situational-statistics-wrapper">
-                    <h3 class="match-title">Situational Statistics</h3>
-                    <div id="situational-statistics-tabs">
-                      <ul class="tables-main-nav">
-                        <li><a href="#tabs-1">Goal Types</a></li>
-                        <li><a href="#tabs-2">Pass Types</a></li>
-                        <li><a href="#tabs-3">Card Situations</a></li>
-                      </ul>
-                      <div id="tabs-1">
-                        <div class="filter-box">
-                          <div class="filter-line">
-                            <div class="left-filter">
-                              <span class="filter-item active">Overrall</span>
-                              <span class="filter-item">Home</span>
-                              <span class="filter-item">Away</span>
-                            </div>
-                            <div class="right-filter">
-                              <span class="filter-item active">Overrall</span>
-                              <span class="filter-item">Home</span>
-                              <span class="filter-item">Away</span>
-                            </div>
-                          </div>
-                          <div class="filter-line">
-                            <div class="left-filter">
-                              <span class="filter-item active">Scored</span>
-                              <span class="filter-item">Conceded</span>
-
-                            </div>
-                            <div class="right-filter">
-                              <span class="filter-item active">Scored</span>
-                              <span class="filter-item">Conceded</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="situational-report-content">
-                          <h4 class="content-title">Goals per Game</h4>
-                          <div class="attemp-types-table">
-                            <div class="table-heading d-flex">
-                              <div class="column-20 text-right text-score">6</div>
-                              <div class="column-60 text-center">Total</div>
-                              <div class="column-20 d-flex text-score">10</div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-20 text-right text-score">4</div>
-                              <div class="column-60 text-center">Open Play</div>
-                              <div class="column-20 text-left text-score">8</div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-20 text-right text-score">4</div>
-                              <div class="column-60 text-center">Set Piece</div>
-                              <div class="column-20 text-left text-score">6</div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-20 text-right text-score">0</div>
-                              <div class="column-60 text-center">Counter Attack</div>
-                              <div class="column-20 text-left text-score">3</div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-20 text-right text-score">0</div>
-                              <div class="column-60 text-center">Penalty</div>
-                              <div class="column-20 text-left text-score">0</div>
-                            </div>
-                            <div class="table-row d-flex">
-                              <div class="column-20 text-right text-score">0</div>
-                              <div class="column-60 text-center">Own Goal</div>
-                              <div class="column-20 text-left text-score">0</div>
-                            </div>
-                          </div>
-                          <div class="total-wrapper">
-                            <h4 class="content-title">Total</h4>
-                            <div class="compare-wrapper">
-                              <div class="compare-item d-flex">
-                                <div class="column-30 text-right">
-                                  <div class="red-process">
-                                    <div class="progress flex-end">
-                                      <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column-40 d-flex">
-                                  <div class="column-25 text-center text-score">6</div>
-                                  <div class="column-50 text-center">Shot</div>
-                                  <div class="column-25 text-center text-score">10</div>
-                                </div>
-                                <div class="column-30 text-left">
-                                  <div class="blue-process">
-                                    <div class="progress flex-start">
-                                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="compare-item d-flex">
-                                <div class="column-30 text-right">
-                                  <div class="red-process">
-                                    <div class="progress flex-end">
-                                      <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column-40 d-flex">
-                                  <div class="column-25 text-center text-score">1</div>
-                                  <div class="column-50 text-center">Goals</div>
-                                  <div class="column-25 text-center text-score">0</div>
-                                </div>
-                                <div class="column-30 text-left">
-                                  <div class="blue-process">
-                                    <div class="progress flex-start">
-                                      <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="compare-item d-flex">
-                                <div class="column-30 text-right">
-                                  <div class="red-process">
-                                    <div class="progress flex-end">
-                                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column-40 d-flex">
-                                  <div class="column-25 text-center text-score">16%</div>
-                                  <div class="column-50 text-center">Conversion Rate</div>
-                                  <div class="column-25 text-center text-score">22%</div>
-                                </div>
-                                <div class="column-30 text-left">
-                                  <div class="blue-process">
-                                    <div class="progress flex-start">
-                                      <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div id="tabs-2">tab2</div>
-                      <div id="tabs-3">tab3</div>
-                    </div>
-                  </div>
-                  <!-- Situational Statistics -->
-
-                  <!--  Positional Report-->
-                  <div class="positional-report-wrapper">
-                      <h3 class="match-title">Positional Report</h3>
-                    <div id="head-to-head-positional-report-tabs">
-                      <ul class="tables-main-nav">
-                        <li><a href="#tabs-1">Attack Sides</a></li>
-                        <li><a href="#tabs-2">Shot Directions</a></li>
-                        <li><a href="#tabs-3">Shot Zones</a></li>
-                        <li><a href="#tabs-4">Action Zones</a></li>
-                        <li><a href="#tabs-5">Player Positions</a></li>
-                      </ul>
-                      <div id="tabs-1">
-                        <div class="positional-report-content">
-                          <div class="visual-match">
-                            <div class="visual-match-item">
-                              <img src="./images/position-visual-match-1.png" alt="" class="position-visual-match-image">
-                            </div>
-                            <div class="visual-match-item">
-                              <img src="./images/position-visual-match-2.png" alt="" class="position-visual-match-image">
-                            </div>
-                        </div>
-                      </div>
-                      </div>
-                      <div id="tabs-2">tab2</div>
-                      <div id="tabs-3">tab3</div>
-                      <div id="tabs-4">tab4</div>
-                      <div id="tabs-5">tab5</div>
-                    </div>
-                  </div>
-                  <!--  Positional Report-->
-
-
-                  <!-- Team Statistics content -->
                 </div>
-                <div id="sub-tab-3">
-                  <!-- Player Statistics  -->
-                  <div class="player-statistics-wrapper">
-                    <h3 class="match-title">Player Statistics</h3>
-                    <div id="head-to-head-player-statistics-tabs">
-                      <ul class="tables-main-nav">
-                        <li><a href="#tabs-1">Summary</a></li>
-                        <li><a href="#tabs-2">Defensive</a></li>
-                        <li><a href="#tabs-3">Offensive</a></li>
-                        <li><a href="#tabs-4">Passing</a></li>
-                      </ul>
-                      <div id="tabs-1">
-                        <!-- summary tab -->
-                        <div id="head-to-head-player-statistics-summary-tabs">
-                          <ul class="tables-sub-nav">
-                            <li><a href="#sub-tabs-1">Overall</a></li>
-                            <li><a href="#sub-tabs-2">Home</a></li>
-                            <li><a href="#sub-tabs-3">Away</a></li>
-                          </ul>
-                          <div id="sub-tabs-1">
-                            <div class="head-to-head-player-statistics-table">
-                              <div class="table-row table-heading">
-                                <div class="column-20 text-left">Player</div>
-                                <div class="column-6 text-center">CM</div>
-                                <div class="column-6 text-center">KG</div>
-                                <div class="column-6 text-center">Apps</div>
-                                <div class="column-6 text-center">Mins</div>
-                                <div class="column-6 text-center">Goals</div>
-                                <div class="column-6 text-center">Assists</div>
-                                <div class="column-6 text-center">Yel</div>
-                                <div class="column-6 text-center">Red</div>
-                                <div class="column-6 text-center">SpG</div>
-                                <div class="column-6 text-center">PS%</div>
-                                <div class="column-6 text-center">AerialsWon </div>
-                                <div class="column-6 text-center">MotM</div>
-                                <div class="column-6 text-center text-rating">Rating</div>
-                              </div>
-                              <div class="table-row">
-                                <div class="column-20 text-left">
-                                  <div class="player-info">
-                                    <span class="number">1</span>
-                                    <div class="player-detail">
-                                      <img class="flag" src="./images/flag.png" />
-                                      <div>
-                                        <a href="#">
-                                          <p class="player-name">Kevin De Bruyne</p>
-                                        </a>
-                                        <p class="player-history">30, M(CLR),FW</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column-6 text-center">181</div>
-                                <div class="column-6 text-center">68</div>
-                                <div class="column-6 text-center">25(5)</div>
-                                <div class="column-6 text-center">2206</div>
-                                <div class="column-6 text-center">15</div>
-                                <div class="column-6 text-center">2</div>
-                                <div class="column-6 text-center">5</div>
-                                <div class="column-6 text-center">-</div>
-                                <div class="column-6 text-center">2.6</div>
-                                <div class="column-6 text-center"></div>
-                                <div class="column-6 text-center">89.6</div>
-                                <div class="column-6 text-center">12.1</div>
-                                <div class="column-6 text-center text-rating">7.67</div>
-                              </div>
-                              <div class="table-row">
-                                <div class="column-20 text-left">
-                                  <div class="player-info">
-                                    <span class="number">1</span>
-                                    <div class="player-detail">
-                                      <img class="flag" src="./images/flag.png" />
-                                      <div>
-                                        <a href="#">
-                                          <p class="player-name">Kevin De Bruyne</p>
-                                        </a>
-                                        <p class="player-history">30, M(CLR),FW</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column-6 text-center">181</div>
-                                <div class="column-6 text-center">68</div>
-                                <div class="column-6 text-center">25(5)</div>
-                                <div class="column-6 text-center">2206</div>
-                                <div class="column-6 text-center">15</div>
-                                <div class="column-6 text-center">2</div>
-                                <div class="column-6 text-center">5</div>
-                                <div class="column-6 text-center">-</div>
-                                <div class="column-6 text-center">2.6</div>
-                                <div class="column-6 text-center">66.6</div>
-                                <div class="column-6 text-center">89.6</div>
-                                <div class="column-6 text-center">12.1</div>
-                                <div class="column-6 text-center text-rating">7.67</div>
-                              </div>
-                              <div class="table-row">
-                                <div class="column-20 text-left">
-                                  <div class="player-info">
-                                    <span class="number">1</span>
-                                    <div class="player-detail">
-                                      <img class="flag" src="./images/flag.png" />
-                                      <div>
-                                        <a href="#">
-                                          <p class="player-name">Kevin De Bruyne</p>
-                                        </a>
-                                        <p class="player-history">30, M(CLR),FW</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column-6 text-center">181</div>
-                                <div class="column-6 text-center">68</div>
-                                <div class="column-6 text-center">25(5)</div>
-                                <div class="column-6 text-center">2206</div>
-                                <div class="column-6 text-center">15</div>
-                                <div class="column-6 text-center">2</div>
-                                <div class="column-6 text-center">5</div>
-                                <div class="column-6 text-center">-</div>
-                                <div class="column-6 text-center">2.6</div>
-                                <div class="column-6 text-center">66.6</div>
-                                <div class="column-6 text-center">89.6</div>
-                                <div class="column-6 text-center">12.1</div>
-                                <div class="column-6 text-center text-rating">7.67</div>
-                              </div>
-                              <div class="table-row">
-                                <div class="column-20 text-left">
-                                  <div class="player-info">
-                                    <span class="number">1</span>
-                                    <div class="player-detail">
-                                      <img class="flag" src="./images/flag.png" />
-                                      <div>
-                                        <a href="#">
-                                          <p class="player-name">Kevin De Bruyne</p>
-                                        </a>
-                                        <p class="player-history">30, M(CLR),FW</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column-6 text-center">181</div>
-                                <div class="column-6 text-center">68</div>
-                                <div class="column-6 text-center">25(5)</div>
-                                <div class="column-6 text-center">2206</div>
-                                <div class="column-6 text-center">15</div>
-                                <div class="column-6 text-center">2</div>
-                                <div class="column-6 text-center">5</div>
-                                <div class="column-6 text-center">-</div>
-                                <div class="column-6 text-center">2.6</div>
-                                <div class="column-6 text-center">66.6</div>
-                                <div class="column-6 text-center">89.6</div>
-                                <div class="column-6 text-center">12.1</div>
-                                <div class="column-6 text-center text-rating">7.67</div>
-                              </div>
-                            </div>
-                            <div class="table-suggesstion">
-                              <div class="suggestion-wrapper">
-                                <div class="column-30">
-                                  <ul class="list-suggestion">
-                                    <li class="suggestion-item">Mins: Minutes played</li>
-                                    <li class="suggestion-item">Yel: Yellow card</li>
-                                    <li class="suggestion-item">PS%: Pass success percentage</li>
-                                    <li class="suggestion-item">CM: Height (in cm)</li>
-                                    <li class="suggestion-item">team (Loaned, sold, etc.).</li>
-                                  </ul>
-                                </div>
-                                <div class="column-30">
-                                  <ul class="list-suggestion">
-                                    <li class="suggestion-item">Goals: Total goals</li>
-                                    <li class="suggestion-item">Red: Red card</li>
-                                    <li class="suggestion-item">AerialsWon: Aerial duels won per game</li>
-                                    <li class="suggestion-item">KG: Weight (in kg)</li>
-                                  </ul>
-                                </div>
-                                <div class="column-30">
-                                  <ul class="list-suggestion">
-                                    <li class="suggestion-item">Assists: Total assists</li>
-                                    <li class="suggestion-item">SpG: Shots per game</li>
-                                    <li class="suggestion-item">MotM: Man of the match</li>
-                                    <li class="suggestion-item">* Players shaded are players who are not currently active in</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
+
+
+                <div class="match-info-item">
+                  <img src="./images/icon-match-info-3.png" alt="">
+                  <div class="info-detail">
+                    <span class="label">Venue</span>
+                    <span class="value">King Power Stadium</span>
+                  </div>
+                </div>
+
+                <div class="match-info-item">
+                  <img src="./images/icon-match-info-4.png" alt="">
+                  <div class="info-detail">
+                    <span class="label">Referee</span>
+                    <span class="value">Craig Pawson, England</span>
+                  </div>
+                </div>
+
+
+              </div>
+              <h3 class="match-page-title">Match Details</h3>
+              <div class="match-result-detail-wrapper">
+                <div class="row-club">
+                  <div class="column-50 d-flex flex-start">
+                    <div class="club-wrapper club-1">
+                      <img src="./images/chel-club.png" alt="" class="club-image">
+                      <span class="club-name">Man United</span>
+                    </div>
+                  </div>
+                  <div class="column-50 d-flex flex-end">
+                    <div class="club-wrapper club-2">
+                      <img src="./images/mu-club.png" alt="" class="club-image">
+                      <span class="club-name">Barcelona</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row-heading">FT 3 - 1</div>
+                <div class="timeline-detail-wrapper">
+                  <span class="title">Additional time 4'</span>
+                  <div class="list-timeline">
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="arrow-green" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_80_638)">
+                                  <path d="M7 0C5.61553 0 4.26216 0.410543 3.11101 1.17971C1.95987 1.94888 1.06266 3.04213 0.532846 4.32122C0.003033 5.6003 -0.13559 7.00776 0.134506 8.36563C0.404603 9.7235 1.07129 10.9708 2.05026 11.9497C3.02922 12.9287 4.2765 13.5954 5.63437 13.8655C6.99224 14.1356 8.3997 13.997 9.67879 13.4672C10.9579 12.9373 12.0511 12.0401 12.8203 10.889C13.5895 9.73785 14 8.38447 14 7C13.9978 5.14415 13.2597 3.36493 11.9474 2.05264C10.6351 0.740353 8.85586 0.00216138 7 0V0ZM11.1609 7.36808L10.409 8.12C10.3543 8.17468 10.2801 8.2054 10.2028 8.2054C10.1255 8.2054 10.0513 8.17468 9.99659 8.12L8.12175 6.24575C8.10133 6.2255 8.07537 6.21175 8.04715 6.20621C8.01892 6.20068 7.98969 6.20361 7.96313 6.21465C7.93657 6.22568 7.91387 6.24433 7.89788 6.26823C7.88188 6.29214 7.87332 6.32024 7.87325 6.349V10.6616C7.87325 10.7389 7.84253 10.8131 7.78783 10.8678C7.73313 10.9225 7.65894 10.9532 7.58159 10.9532H6.41667C6.33932 10.9532 6.26513 10.9225 6.21043 10.8678C6.15573 10.8131 6.125 10.7389 6.125 10.6616V6.34958C6.1251 6.32075 6.11662 6.29253 6.10063 6.26854C6.08464 6.24454 6.06187 6.22584 6.03522 6.21483C6.00857 6.20382 5.97924 6.20099 5.95097 6.20671C5.92271 6.21242 5.89679 6.22642 5.8765 6.24692L4.004 8.12C3.94931 8.17468 3.87513 8.2054 3.7978 8.2054C3.72046 8.2054 3.64628 8.17468 3.59159 8.12L2.83909 7.3675C2.78441 7.3128 2.75369 7.23863 2.75369 7.16129C2.75369 7.08395 2.78441 7.00978 2.83909 6.95508L6.79409 3.00125C6.84878 2.94657 6.92296 2.91585 7.0003 2.91585C7.07763 2.91585 7.15181 2.94657 7.2065 3.00125L11.1609 6.95508C11.1881 6.98218 11.2096 7.01436 11.2243 7.0498C11.239 7.08523 11.2466 7.12322 11.2466 7.16158C11.2466 7.19995 11.239 7.23793 11.2243 7.27337C11.2096 7.3088 11.1881 7.34099 11.1609 7.36808Z" fill="#0DC66D" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_80_638">
+                                    <rect width="14" height="14" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </span>
+                            <span class="player-name">C. Riad</span>
                           </div>
-                          <div id="sub-tabs-2">
-                            tab2
-                          </div>
-                          <div id="sub-tabs-3">
-                            tab3
+
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="arrow-red" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_80_645)">
+                                  <path d="M7 14C8.38447 14 9.73784 13.5895 10.889 12.8203C12.0401 12.0511 12.9373 10.9579 13.4672 9.67878C13.997 8.3997 14.1356 6.99224 13.8655 5.63437C13.5954 4.2765 12.9287 3.02922 11.9497 2.05025C10.9708 1.07128 9.7235 0.4046 8.36563 0.134504C7.00776 -0.135593 5.6003 0.00303004 4.32121 0.532844C3.04213 1.06266 1.94888 1.95986 1.17971 3.11101C0.41054 4.26215 -4.03538e-06 5.61553 -4.15641e-06 7C0.00215766 8.85585 0.740349 10.6351 2.05264 11.9474C3.36492 13.2596 5.14414 13.9978 7 14V14ZM2.83908 6.63192L3.591 5.88C3.64569 5.82532 3.71987 5.7946 3.79721 5.7946C3.87454 5.7946 3.94872 5.82532 4.00341 5.88L5.87825 7.75425C5.89867 7.7745 5.92463 7.78825 5.95285 7.79379C5.98108 7.79932 6.01031 7.79639 6.03687 7.78535C6.06343 7.77432 6.08613 7.75567 6.10213 7.73177C6.11812 7.70786 6.12668 7.67976 6.12675 7.651L6.12675 3.33842C6.12675 3.26106 6.15748 3.18687 6.21217 3.13218C6.26687 3.07748 6.34106 3.04675 6.41841 3.04675L7.58333 3.04675C7.66069 3.04675 7.73487 3.07748 7.78957 3.13218C7.84427 3.18687 7.875 3.26106 7.875 3.33842L7.875 7.65042C7.8749 7.67925 7.88338 7.70747 7.89937 7.73146C7.91536 7.75546 7.93813 7.77416 7.96478 7.78517C7.99144 7.79618 8.02076 7.79901 8.04903 7.79329C8.07729 7.78758 8.10321 7.77358 8.1235 7.75308L9.996 5.88C10.0507 5.82532 10.1249 5.7946 10.2022 5.7946C10.2795 5.7946 10.3537 5.82532 10.4084 5.88L11.1609 6.6325C11.2156 6.6872 11.2463 6.76137 11.2463 6.83871C11.2463 6.91605 11.2156 6.99022 11.1609 7.04492L7.20591 10.9987C7.15122 11.0534 7.07704 11.0841 6.99971 11.0841C6.92237 11.0841 6.84819 11.0534 6.7935 10.9987L2.83908 7.04492C2.81192 7.01782 2.79037 6.98564 2.77566 6.9502C2.76096 6.91477 2.75339 6.87678 2.75339 6.83842C2.75339 6.80005 2.76096 6.76206 2.77566 6.72663C2.79037 6.69119 2.81192 6.65901 2.83908 6.63192Z" fill="#E53E3E" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_80_645">
+                                    <rect width="14" height="14" fill="white" transform="translate(14 14) rotate(-180)" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                            </span>
+                            <span class="player-name">Pedri</span>
                           </div>
                         </div>
-                        <!-- summnary tab -->
                       </div>
-                      <div id="tabs-2">
-                        Defensive
+                      <div class="time-wrapper">
+                        <span class="time">56'</span>
                       </div>
-                      <div id="tabs-3">
-                        Offensive
+                      <div class="timeline-box right-timeline"></div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline"></div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
                       </div>
-                      <div id="tabs-4">
-                        Passing
+                      <div class="timeline-box right-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-soccer" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.6665 7.4165L6.83317 9.74984H9.1665L10.3332 7.4165L7.99984 5.6665L5.6665 7.4165Z" fill="#3AC5C9" />
+                                <path d="M8 1C6.61553 1 5.26216 1.41054 4.11101 2.17971C2.95987 2.94888 2.06266 4.04213 1.53285 5.32122C1.00303 6.6003 0.86441 8.00776 1.13451 9.36563C1.4046 10.7235 2.07129 11.9708 3.05026 12.9497C4.02922 13.9287 5.2765 14.5954 6.63437 14.8655C7.99224 15.1356 9.3997 14.997 10.6788 14.4672C11.9579 13.9373 13.0511 13.0401 13.8203 11.889C14.5895 10.7378 15 9.38447 15 8C14.998 6.1441 14.2599 4.36479 12.9475 3.05247C11.6352 1.74015 9.8559 1.00201 8 1V1ZM12.7063 11.4317L10.4687 11.3979L9.80834 13.5417C8.63381 13.9285 7.3662 13.9285 6.19167 13.5417L5.53134 11.3979L3.29367 11.4317C2.5619 10.4372 2.16704 9.23479 2.16667 8V7.99592L4.00534 6.70208L3.28142 4.584C4.00612 3.58303 5.02888 2.83694 6.20334 2.4525L8 3.8L9.79667 2.4525C10.9711 2.83694 11.9939 3.58303 12.7186 4.584L11.9947 6.70208L13.8333 7.99592V8C13.833 9.23479 13.4381 10.4372 12.7063 11.4317Z" fill="#3AC5C9" />
+                              </svg>
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="icon-run-shoe" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="16" y="16" width="16" height="16" transform="rotate(-180 16 16)" fill="white" />
+                                <path d="M9.83701 3.92479L11.3513 8.58329L13.5593 10.2166C13.7631 10.3449 13.9397 10.512 14.0789 10.7085C14.2181 10.905 14.3173 11.127 14.3707 11.3618C14.4241 11.5967 14.4307 11.8397 14.3902 12.0771C14.3497 12.3145 14.2627 12.5416 14.1344 12.7454L13.8089 13.2628C13.6358 13.5367 13.3612 13.7309 13.0453 13.8029C12.7293 13.8748 12.3977 13.8186 12.1231 13.6466L2.15393 7.12787C1.87982 6.95478 1.68551 6.68008 1.61356 6.36398C1.54161 6.04787 1.5979 5.71614 1.7701 5.44146L4.10343 1.73262C4.35135 1.33829 5.0251 1.31554 5.15343 1.76296C5.29189 2.2103 5.52267 2.62361 5.83084 2.9762C6.13901 3.32878 6.51773 3.61279 6.94251 3.80987C7.8663 4.17575 8.88712 4.21628 9.83701 3.92479Z" fill="#2C7A7B" />
+                                <path d="M8 12.6665H1V13.8332H8V12.6665Z" fill="#2C7A7B" />
+                                <path d="M3.91667 9.75H1V10.9167H3.91667V9.75Z" fill="#2C7A7B" />
+                              </svg>
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline"></div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
+                      </div>
+                      <div class="timeline-box right-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+
+
+                              <svg id="icon-yellow-card" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2.3999" y="1" width="11.2" height="14" rx="3" fill="#FAC712" />
+                              </svg>
+
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-red-card" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2.3999" y="1" width="11.2" height="14" rx="3" fill="#E53E3E" />
+                              </svg>
+
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="icon-green-pen" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="14" height="14" rx="7" fill="white" />
+                                <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#0DC66D" />
+                                <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#0DC66D" />
+                              </svg>
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="icon-red-pen" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="14" height="14" rx="7" fill="white" />
+                                <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E53E3E" />
+                                <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E53E3E" />
+                              </svg>
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
+                      </div>
+                      <div class="timeline-box right-timeline">
+
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-red-soccer" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.6665 7.4165L6.83317 9.74984H9.1665L10.3332 7.4165L7.99984 5.6665L5.6665 7.4165Z" fill="#E53E3E" />
+                                <path d="M8 1C6.61553 1 5.26216 1.41054 4.11101 2.17971C2.95987 2.94888 2.06266 4.04213 1.53285 5.32122C1.00303 6.6003 0.86441 8.00776 1.13451 9.36563C1.4046 10.7235 2.07129 11.9708 3.05026 12.9497C4.02922 13.9287 5.2765 14.5954 6.63437 14.8655C7.99224 15.1356 9.3997 14.997 10.6788 14.4672C11.9579 13.9373 13.0511 13.0401 13.8203 11.889C14.5895 10.7378 15 9.38447 15 8C14.998 6.1441 14.2599 4.36479 12.9475 3.05247C11.6352 1.74015 9.8559 1.00201 8 1V1ZM12.7063 11.4317L10.4687 11.3979L9.80834 13.5417C8.63381 13.9285 7.3662 13.9285 6.19167 13.5417L5.53134 11.3979L3.29367 11.4317C2.5619 10.4372 2.16704 9.23479 2.16667 8V7.99592L4.00534 6.70208L3.28142 4.584C4.00612 3.58303 5.02888 2.83694 6.20334 2.4525L8 3.8L9.79667 2.4525C10.9711 2.83694 11.9939 3.58303 12.7186 4.584L11.9947 6.70208L13.8333 7.99592V8C13.833 9.23479 13.4381 10.4372 12.7063 11.4317Z" fill="#E53E3E" />
+                              </svg>
+
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-second-yellow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_164_3822)">
+                                  <rect x="5.9917" width="10.017" height="12.5213" rx="1" transform="rotate(9.47935 5.9917 0)" fill="#E53E3E" />
+                                  <rect x="0.518555" y="3.39746" width="10.2638" height="12.8297" rx="1" transform="rotate(-8.38283 0.518555 3.39746)" fill="#FAC712" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_164_3822">
+                                    <rect width="16" height="16" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
+                      </div>
+                      <div class="timeline-box right-timeline">
+
                       </div>
                     </div>
                   </div>
-                  <!-- Player Statistics  -->
+                </div>
+
+                <div class="row-heading">HT 0 - 1</div>
+                <div class="timeline-detail-wrapper">
+                  <span class="title">Additional time 2'</span>
+                  <div class="list-timeline">
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="arrow-green" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_80_638)">
+                                  <path d="M7 0C5.61553 0 4.26216 0.410543 3.11101 1.17971C1.95987 1.94888 1.06266 3.04213 0.532846 4.32122C0.003033 5.6003 -0.13559 7.00776 0.134506 8.36563C0.404603 9.7235 1.07129 10.9708 2.05026 11.9497C3.02922 12.9287 4.2765 13.5954 5.63437 13.8655C6.99224 14.1356 8.3997 13.997 9.67879 13.4672C10.9579 12.9373 12.0511 12.0401 12.8203 10.889C13.5895 9.73785 14 8.38447 14 7C13.9978 5.14415 13.2597 3.36493 11.9474 2.05264C10.6351 0.740353 8.85586 0.00216138 7 0V0ZM11.1609 7.36808L10.409 8.12C10.3543 8.17468 10.2801 8.2054 10.2028 8.2054C10.1255 8.2054 10.0513 8.17468 9.99659 8.12L8.12175 6.24575C8.10133 6.2255 8.07537 6.21175 8.04715 6.20621C8.01892 6.20068 7.98969 6.20361 7.96313 6.21465C7.93657 6.22568 7.91387 6.24433 7.89788 6.26823C7.88188 6.29214 7.87332 6.32024 7.87325 6.349V10.6616C7.87325 10.7389 7.84253 10.8131 7.78783 10.8678C7.73313 10.9225 7.65894 10.9532 7.58159 10.9532H6.41667C6.33932 10.9532 6.26513 10.9225 6.21043 10.8678C6.15573 10.8131 6.125 10.7389 6.125 10.6616V6.34958C6.1251 6.32075 6.11662 6.29253 6.10063 6.26854C6.08464 6.24454 6.06187 6.22584 6.03522 6.21483C6.00857 6.20382 5.97924 6.20099 5.95097 6.20671C5.92271 6.21242 5.89679 6.22642 5.8765 6.24692L4.004 8.12C3.94931 8.17468 3.87513 8.2054 3.7978 8.2054C3.72046 8.2054 3.64628 8.17468 3.59159 8.12L2.83909 7.3675C2.78441 7.3128 2.75369 7.23863 2.75369 7.16129C2.75369 7.08395 2.78441 7.00978 2.83909 6.95508L6.79409 3.00125C6.84878 2.94657 6.92296 2.91585 7.0003 2.91585C7.07763 2.91585 7.15181 2.94657 7.2065 3.00125L11.1609 6.95508C11.1881 6.98218 11.2096 7.01436 11.2243 7.0498C11.239 7.08523 11.2466 7.12322 11.2466 7.16158C11.2466 7.19995 11.239 7.23793 11.2243 7.27337C11.2096 7.3088 11.1881 7.34099 11.1609 7.36808Z" fill="#0DC66D" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_80_638">
+                                    <rect width="14" height="14" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </span>
+                            <span class="player-name">C. Riad</span>
+                          </div>
+
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="arrow-red" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_80_645)">
+                                  <path d="M7 14C8.38447 14 9.73784 13.5895 10.889 12.8203C12.0401 12.0511 12.9373 10.9579 13.4672 9.67878C13.997 8.3997 14.1356 6.99224 13.8655 5.63437C13.5954 4.2765 12.9287 3.02922 11.9497 2.05025C10.9708 1.07128 9.7235 0.4046 8.36563 0.134504C7.00776 -0.135593 5.6003 0.00303004 4.32121 0.532844C3.04213 1.06266 1.94888 1.95986 1.17971 3.11101C0.41054 4.26215 -4.03538e-06 5.61553 -4.15641e-06 7C0.00215766 8.85585 0.740349 10.6351 2.05264 11.9474C3.36492 13.2596 5.14414 13.9978 7 14V14ZM2.83908 6.63192L3.591 5.88C3.64569 5.82532 3.71987 5.7946 3.79721 5.7946C3.87454 5.7946 3.94872 5.82532 4.00341 5.88L5.87825 7.75425C5.89867 7.7745 5.92463 7.78825 5.95285 7.79379C5.98108 7.79932 6.01031 7.79639 6.03687 7.78535C6.06343 7.77432 6.08613 7.75567 6.10213 7.73177C6.11812 7.70786 6.12668 7.67976 6.12675 7.651L6.12675 3.33842C6.12675 3.26106 6.15748 3.18687 6.21217 3.13218C6.26687 3.07748 6.34106 3.04675 6.41841 3.04675L7.58333 3.04675C7.66069 3.04675 7.73487 3.07748 7.78957 3.13218C7.84427 3.18687 7.875 3.26106 7.875 3.33842L7.875 7.65042C7.8749 7.67925 7.88338 7.70747 7.89937 7.73146C7.91536 7.75546 7.93813 7.77416 7.96478 7.78517C7.99144 7.79618 8.02076 7.79901 8.04903 7.79329C8.07729 7.78758 8.10321 7.77358 8.1235 7.75308L9.996 5.88C10.0507 5.82532 10.1249 5.7946 10.2022 5.7946C10.2795 5.7946 10.3537 5.82532 10.4084 5.88L11.1609 6.6325C11.2156 6.6872 11.2463 6.76137 11.2463 6.83871C11.2463 6.91605 11.2156 6.99022 11.1609 7.04492L7.20591 10.9987C7.15122 11.0534 7.07704 11.0841 6.99971 11.0841C6.92237 11.0841 6.84819 11.0534 6.7935 10.9987L2.83908 7.04492C2.81192 7.01782 2.79037 6.98564 2.77566 6.9502C2.76096 6.91477 2.75339 6.87678 2.75339 6.83842C2.75339 6.80005 2.76096 6.76206 2.77566 6.72663C2.79037 6.69119 2.81192 6.65901 2.83908 6.63192Z" fill="#E53E3E" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_80_645">
+                                    <rect width="14" height="14" fill="white" transform="translate(14 14) rotate(-180)" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                            </span>
+                            <span class="player-name">Pedri</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="time-wrapper">
+                        <span class="time">56'</span>
+                      </div>
+                      <div class="timeline-box right-timeline"></div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline"></div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
+                      </div>
+                      <div class="timeline-box right-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-soccer" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.6665 7.4165L6.83317 9.74984H9.1665L10.3332 7.4165L7.99984 5.6665L5.6665 7.4165Z" fill="#3AC5C9" />
+                                <path d="M8 1C6.61553 1 5.26216 1.41054 4.11101 2.17971C2.95987 2.94888 2.06266 4.04213 1.53285 5.32122C1.00303 6.6003 0.86441 8.00776 1.13451 9.36563C1.4046 10.7235 2.07129 11.9708 3.05026 12.9497C4.02922 13.9287 5.2765 14.5954 6.63437 14.8655C7.99224 15.1356 9.3997 14.997 10.6788 14.4672C11.9579 13.9373 13.0511 13.0401 13.8203 11.889C14.5895 10.7378 15 9.38447 15 8C14.998 6.1441 14.2599 4.36479 12.9475 3.05247C11.6352 1.74015 9.8559 1.00201 8 1V1ZM12.7063 11.4317L10.4687 11.3979L9.80834 13.5417C8.63381 13.9285 7.3662 13.9285 6.19167 13.5417L5.53134 11.3979L3.29367 11.4317C2.5619 10.4372 2.16704 9.23479 2.16667 8V7.99592L4.00534 6.70208L3.28142 4.584C4.00612 3.58303 5.02888 2.83694 6.20334 2.4525L8 3.8L9.79667 2.4525C10.9711 2.83694 11.9939 3.58303 12.7186 4.584L11.9947 6.70208L13.8333 7.99592V8C13.833 9.23479 13.4381 10.4372 12.7063 11.4317Z" fill="#3AC5C9" />
+                              </svg>
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="icon-run-shoe" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="16" y="16" width="16" height="16" transform="rotate(-180 16 16)" fill="white" />
+                                <path d="M9.83701 3.92479L11.3513 8.58329L13.5593 10.2166C13.7631 10.3449 13.9397 10.512 14.0789 10.7085C14.2181 10.905 14.3173 11.127 14.3707 11.3618C14.4241 11.5967 14.4307 11.8397 14.3902 12.0771C14.3497 12.3145 14.2627 12.5416 14.1344 12.7454L13.8089 13.2628C13.6358 13.5367 13.3612 13.7309 13.0453 13.8029C12.7293 13.8748 12.3977 13.8186 12.1231 13.6466L2.15393 7.12787C1.87982 6.95478 1.68551 6.68008 1.61356 6.36398C1.54161 6.04787 1.5979 5.71614 1.7701 5.44146L4.10343 1.73262C4.35135 1.33829 5.0251 1.31554 5.15343 1.76296C5.29189 2.2103 5.52267 2.62361 5.83084 2.9762C6.13901 3.32878 6.51773 3.61279 6.94251 3.80987C7.8663 4.17575 8.88712 4.21628 9.83701 3.92479Z" fill="#2C7A7B" />
+                                <path d="M8 12.6665H1V13.8332H8V12.6665Z" fill="#2C7A7B" />
+                                <path d="M3.91667 9.75H1V10.9167H3.91667V9.75Z" fill="#2C7A7B" />
+                              </svg>
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline"></div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
+                      </div>
+                      <div class="timeline-box right-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+
+
+                              <svg id="icon-yellow-card" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2.3999" y="1" width="11.2" height="14" rx="3" fill="#FAC712" />
+                              </svg>
+
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-red-card" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2.3999" y="1" width="11.2" height="14" rx="3" fill="#E53E3E" />
+                              </svg>
+
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="icon-green-pen" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="14" height="14" rx="7" fill="white" />
+                                <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#0DC66D" />
+                                <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#0DC66D" />
+                              </svg>
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+                          <div class="player-item">
+                            <span class="icon">
+                              <svg id="icon-red-pen" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="14" height="14" rx="7" fill="white" />
+                                <path d="M10 2C5.6 2 2 5.6 2 10C2 14.4 5.6 18 10 18C14.4 18 18 14.4 18 10C18 5.6 14.4 2 10 2ZM14.7 13.8H12.7L12.1 15.7C10.7 16.2 9.2 16.2 7.8 15.7L7.2 13.8H5.2C4.4 12.7 3.9 11.3 4 9.7L5.6 8.6L5 6.7C5.8 5.5 7 4.6 8.5 4.2L10 5.4L11.6 4.2C13 4.6 14.2 5.5 15 6.7L14.4 8.6L16 9.7C16.1 11.3 15.6 12.7 14.7 13.8Z" fill="#E53E3E" />
+                                <path d="M13.635 8.76383C13.635 9.21117 13.5323 9.62183 13.327 9.99583C13.1217 10.3625 12.8063 10.6595 12.381 10.8868C11.9557 11.1142 11.4277 11.2278 10.797 11.2278H9.631V13.9998H7.75V6.27783H10.797C11.413 6.27783 11.9337 6.38417 12.359 6.59683C12.7843 6.8095 13.1033 7.10283 13.316 7.47683C13.5287 7.85083 13.635 8.27983 13.635 8.76383ZM10.654 9.73183C11.0133 9.73183 11.281 9.6475 11.457 9.47883C11.633 9.31017 11.721 9.07183 11.721 8.76383C11.721 8.45583 11.633 8.2175 11.457 8.04883C11.281 7.88017 11.0133 7.79583 10.654 7.79583H9.631V9.73183H10.654Z" fill="#E53E3E" />
+                              </svg>
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
+                      </div>
+                      <div class="timeline-box right-timeline">
+
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="timeline-box left-timeline">
+                        <div class="list-player">
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-red-soccer" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.6665 7.4165L6.83317 9.74984H9.1665L10.3332 7.4165L7.99984 5.6665L5.6665 7.4165Z" fill="#E53E3E" />
+                                <path d="M8 1C6.61553 1 5.26216 1.41054 4.11101 2.17971C2.95987 2.94888 2.06266 4.04213 1.53285 5.32122C1.00303 6.6003 0.86441 8.00776 1.13451 9.36563C1.4046 10.7235 2.07129 11.9708 3.05026 12.9497C4.02922 13.9287 5.2765 14.5954 6.63437 14.8655C7.99224 15.1356 9.3997 14.997 10.6788 14.4672C11.9579 13.9373 13.0511 13.0401 13.8203 11.889C14.5895 10.7378 15 9.38447 15 8C14.998 6.1441 14.2599 4.36479 12.9475 3.05247C11.6352 1.74015 9.8559 1.00201 8 1V1ZM12.7063 11.4317L10.4687 11.3979L9.80834 13.5417C8.63381 13.9285 7.3662 13.9285 6.19167 13.5417L5.53134 11.3979L3.29367 11.4317C2.5619 10.4372 2.16704 9.23479 2.16667 8V7.99592L4.00534 6.70208L3.28142 4.584C4.00612 3.58303 5.02888 2.83694 6.20334 2.4525L8 3.8L9.79667 2.4525C10.9711 2.83694 11.9939 3.58303 12.7186 4.584L11.9947 6.70208L13.8333 7.99592V8C13.833 9.23479 13.4381 10.4372 12.7063 11.4317Z" fill="#E53E3E" />
+                              </svg>
+
+
+                            </span>
+                            <span class="player-name">F. de Jong</span>
+                          </div>
+                          <div class="player-item">
+                            <span class="icon">
+
+                              <svg id="icon-second-yellow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_164_3822)">
+                                  <rect x="5.9917" width="10.017" height="12.5213" rx="1" transform="rotate(9.47935 5.9917 0)" fill="#E53E3E" />
+                                  <rect x="0.518555" y="3.39746" width="10.2638" height="12.8297" rx="1" transform="rotate(-8.38283 0.518555 3.39746)" fill="#FAC712" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_164_3822">
+                                    <rect width="16" height="16" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                            </span>
+                            <span class="player-name">Raphinha</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="time-wrapper">
+                        <span class="time">23'</span>
+                      </div>
+                      <div class="timeline-box right-timeline">
+
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <!-- END HEAH TO HEAD CONTENT -->
+
+              <h3 class="match-page-title">Past Matches</h3>
+              <div class="past-match-content-wrapper">
+                <div class="column-50 match-left">
+                  <div class="header-block">
+                    <div class="club-wrapper">
+                      <div class="club-wrapper">
+                        <img src="./images/chel-club.png" alt="" class="club-image">
+                        <span class="club-name">Man United</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="list-past-match-league">
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-6.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">Europe</span>
+                          <span class="league-name">UEFA Champions League, Group E</span>
+                        </div>
+                      </div>
+
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-danger">L</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-1.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">England</span>
+                          <span class="league-name">Premier League</span>
+                        </div>
+                      </div>
+
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-default">D</span>
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-success">W</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="dash"></div>
+                </div>
+                <div class="column-50 match-right">
+                  <div class="header-block">
+                    <div class="club-wrapper">
+                      <div class="club-wrapper">
+                        <img src="./images/mu-club.png" alt="" class="club-image">
+                        <span class="club-name">Man United</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="list-past-match-league">
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-6.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">Europe</span>
+                          <span class="league-name">UEFA Champions League, Group E</span>
+                        </div>
+                      </div>
+
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-danger">L</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-1.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">England</span>
+                          <span class="league-name">Premier League</span>
+                        </div>
+                      </div>
+
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-default">D</span>
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-success">W</span>
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-success">W</span>
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                              <span class="score txt-primary">1</span>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name text-overflow-club txt-secondary">Chelsea</span>
+                              </div>
+                              <span class="score txt-secondary">2</span>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+                            <span class="league-sign league-sign-success">W</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
             </div>
-          </div>
-          <!-- ===========END  MAIN TAB 1=========== -->
+            <!-- ===========END Overview TABS ============= -->
 
-          <!-- ===========START MAIN TAB 2 (Betting)=========== -->
-          <div id="main-tabs-2">
-            <div class="betting-wrapper">
-              <!-- Match Outcome Statistics -->
-              <div class="match-outcome-statistics-wrapper">
-                <h3 class="match-title">Match Outcome Statistics</h3>
-                <div id="match-outcome-statistics-tabs">
-                  <ul class="tables-main-nav">
-                    <li><a href="#tabs-1">3-way</a></li>
-                    <li><a href="#tabs-2">Halftime/Fulltime</a></li>
-                    <li><a href="#tabs-3">Double Chance</a></li>
-                  </ul>
-                  <div id="tabs-1">
-                    <!-- 3-way tab content -->
-                    <div id="match-outcome-statistics-3-way-tabs">
-                      <ul class="pill-nav">
-                        <li><a href="#sub-tab-1">Seasonal</a></li>
-                        <li><a href="#sub-tab-2">Premier League</a></li>
-                      </ul>
-                      <div id="sub-tab-1">
-                        <!--  Seasonal tab content -->
-                        <div class="d-flex">
-                          <div class="column-45 flex-start">
-                            <div id="match-outcome-statistics-3-way-seasonal-left-tabs" class="w-100">
-                              <ul class="pill-nav" style="padding-top: 0">
-                                <li><a href="#children-1">Overrall</a></li>
-                                <li><a href="#children-2">Home</a></li>
-                                <li><a href="#children-3">Away</a></li>
-                              </ul>
-                              <div id="children-1">
-                                <!--  Overrall -->
-                                <div class="children-left-content">
-                                  <div class="row-item">
-                                    <span class="label green-label">w</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((22 / 22) * 100%)" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100">22</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="row-item">
-                                    <span class="label grey-label">d</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((3 / 22) * 100%)" aria-valuenow="3" aria-valuemin="0" aria-valuemax="22">3</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="row-item">
-                                    <span class="label orange-label">l</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((22 / 22) * 100%)" aria-valuenow="22" aria-valuemin="0" aria-valuemax="22">22</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!--  Overrall -->
-                              </div>
-                              <div id="children-2">
-                                <!-- Home left -->
-                                <div class="children-left-content">
-                                  <div class="row-item">
-                                    <span class="label green-label">w</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((10 / 22) * 100%)" aria-valuenow="10" aria-valuemin="0" aria-valuemax="22">10</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="row-item">
-                                    <span class="label grey-label">d</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((8 / 22) * 100%)" aria-valuenow="8" aria-valuemin="0" aria-valuemax="22">8</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="row-item">
-                                    <span class="label orange-label">l</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((15 / 22) * 100%)" aria-valuenow="15" aria-valuemin="0" aria-valuemax="22">15</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!-- Home left -->
-                              </div>
-                              <div id="children-3">
-                                <!-- Away left -->
-                                <div class="children-left-content">
-                                  <div class="row-item">
-                                    <span class="label green-label">w</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((20 / 22) * 100%)" aria-valuenow="20" aria-valuemin="0" aria-valuemax="22">10</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="row-item">
-                                    <span class="label grey-label">d</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((5 / 22) * 100%)" aria-valuenow="5" aria-valuemin="0" aria-valuemax="22">5</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="row-item">
-                                    <span class="label orange-label">l</span>
-                                    <div class="progress-wrapper">
-                                      <div class="violet-process w-100">
-                                        <div class="progress flex-end">
-                                          <div class="progress-bar text-right" role="progressbar" style="width: calc((15 / 22) * 100%)" aria-valuenow="15" aria-valuemin="0" aria-valuemax="22">15</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!--  Away left -->
-                              </div>
-                            </div>
-                          </div>
-                          <div class="column-10 text-center middle-column">
-                            <div class="middle-head"></div>
-                            <div class="middle-content">
-                              <div class="row-item">1</div>
-                              <div class="row-item">x</div>
-                              <div class="row-item">2</div>
-                            </div>
-                          </div>
-                          <div class="column-45 flex-end">
-                            <div id="match-outcome-statistics-3-way-seasonal-right-tabs" class="w-100">
-                              <ul class="pill-nav flex-end" style="padding-top: 0">
-                                <li><a href="#children-1">Overrall</a></li>
-                                <li><a href="#children-2">Home</a></li>
-                                <li><a href="#children-3">Away</a></li>
-                              </ul>
-                              <div id="children-1">
-                                <!-- overral right -->
-                                <div class="children-right-content">
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((22 / 22) * 100%)" aria-valuenow="22" aria-valuemin="0" aria-valuemax="22">22</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label green-label">w</span>
-                                  </div>
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((3 / 22) * 100%)" aria-valuenow="3" aria-valuemin="0" aria-valuemax="22">3</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label grey-label">d</span>
-                                  </div>
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((22 / 22) * 100%)" aria-valuenow="22" aria-valuemin="0" aria-valuemax="22">22</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label orange-label">l</span>
-                                  </div>
-                                </div>
-                                <!-- overral right -->
-                              </div>
-                              <div id="children-2">
-                                <!-- home right -->
-                                <div class="children-right-content">
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((5 / 22) * 100%)" aria-valuenow="5" aria-valuemin="0" aria-valuemax="22">5</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label green-label">w</span>
-                                  </div>
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((3 / 22) * 100%)" aria-valuenow="3" aria-valuemin="0" aria-valuemax="22">3</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label grey-label">d</span>
-                                  </div>
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((22 / 22) * 100%)" aria-valuenow="22" aria-valuemin="0" aria-valuemax="22">22</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label orange-label">l</span>
-                                  </div>
-                                </div>
-                                <!-- home right -->
-                              </div>
-                              <div id="children-3">
-                                <!-- away right -->
-                                <div class="children-right-content">
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((5 / 22) * 100%)" aria-valuenow="5" aria-valuemin="0" aria-valuemax="22">5</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label green-label">w</span>
-                                  </div>
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((9 / 22) * 100%)" aria-valuenow="9" aria-valuemin="0" aria-valuemax="22">9</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label grey-label">d</span>
-                                  </div>
-                                  <div class="row-item">
-                                    <div class="progress-wrapper">
-                                      <div class="orange-process w-100">
-                                        <div class="progress flex-start">
-                                          <div class="progress-bar text-left" role="progressbar" style="width: calc((11/ 22) * 100%)" aria-valuenow="22" aria-valuemin="0" aria-valuemax="11">11</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="label orange-label">l</span>
-                                  </div>
-                                </div>
-                                <!-- away right -->
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!--  Seasonal tab content -->
-                      </div>
-                      <div id="sub-tab-2">
-                        tab2
-                      </div>
-                    </div>
-                    <!-- 3-way tab content -->
-                  </div>
-                  <div id="tabs-2">
-                    tab - alftime/Fulltime
-                  </div>
-                  <div id="tabs-3">
-                    tab2 - Double Chance
-                  </div>
-                </div>
-                <div class="suggesstion">
-                  <p class="suggesst-description">* 3-way betting is when you bet on the match result as one of home win (1), draw (X) or away win (2)</p>
-                  <div class="list-suggesst">
-                    <div class="suggest-item">
-                      <span class="color-item violet"></span>
-                      <span class="club-name">Manchester United</span>
-                    </div>
-                    <div class="suggest-item">
-                      <span class="color-item orange"></span>
-                      <span class="club-name">Liverpool</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Match Outcome Statistics -->
 
-              <!-- Goal Scoring Statistics -->
-              <div class="goal-scoring-statistic">
-                <h3 class="match-title">Goal Scoring Statistics</h3>
-                <div class="list-goal-scoring">
-                  <div class="goal-scoring-item">
-                    <div class="list-bar">
-                      <div class="bar-item">
-                        <!-- chiều cao tối đa ứng với 100%  = 107px
-                             giá trị tối đa MAX = 36
-                             công thức tính chiều cao của bar = (value * 107) / MAX
-                             (value là gía trị của bar)
-                        -->
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((10 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>10</span>
-                              <span>(28%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((6 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>6</span>
-                              <span>(17%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Under</div>
-                      </div>
-                      <div class="bar-item">
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Over</div>
-                      </div>
-                    </div>
-                    <div class="value">0.5</div>
-                  </div>
-                  <div class="goal-scoring-item">
-                    <div class="list-bar">
-                      <div class="bar-item">
-                        <!-- chiều cao tối đa ứng với 100%  = 107px
-                             giá trị tối đa MAX = 36
-                             công thức tính chiều cao của bar = (value * 107) / MAX
-                             (value là gía trị của bar)
-                        -->
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((10 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>10</span>
-                              <span>(28%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((6 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>6</span>
-                              <span>(17%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Under</div>
-                      </div>
-                      <div class="bar-item">
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Over</div>
-                      </div>
-                    </div>
-                    <div class="value">1.5</div>
-                  </div>
-
-                  <div class="goal-scoring-item">
-                    <div class="list-bar">
-                      <div class="bar-item">
-                        <!-- chiều cao tối đa ứng với 100%  = 107px
-                             giá trị tối đa MAX = 36
-                             công thức tính chiều cao của bar = (value * 107) / MAX
-                             (value là gía trị của bar)
-                        -->
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((10 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>10</span>
-                              <span>(28%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((6 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>6</span>
-                              <span>(17%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Under</div>
-                      </div>
-                      <div class="bar-item">
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Over</div>
-                      </div>
-                    </div>
-                    <div class="value">0.5</div>
-                  </div>
-
-                  <div class="goal-scoring-item">
-                    <div class="list-bar">
-                      <div class="bar-item">
-                        <!-- chiều cao tối đa ứng với 100%  = 107px
-                             giá trị tối đa MAX = 36
-                             công thức tính chiều cao của bar = (value * 107) / MAX
-                             (value là gía trị của bar)
-                        -->
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((10 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>10</span>
-                              <span>(28%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((6 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>6</span>
-                              <span>(17%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Under</div>
-                      </div>
-                      <div class="bar-item">
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Over</div>
-                      </div>
-                    </div>
-                    <div class="value">1.5</div>
-                  </div>
-
-                  <div class="goal-scoring-item">
-                    <div class="list-bar">
-                      <div class="bar-item">
-                        <!-- chiều cao tối đa ứng với 100%  = 107px
-                             giá trị tối đa MAX = 36
-                             công thức tính chiều cao của bar = (value * 107) / MAX
-                             (value là gía trị của bar)
-                        -->
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((10 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>10</span>
-                              <span>(28%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((6 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>6</span>
-                              <span>(17%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Under</div>
-                      </div>
-                      <div class="bar-item">
-                        <div class="bar">
-                          <div class="top-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                          <div class="bottom-bar bar-column" style="height: calc((36 * 107px) / 36)">
-                            <div class="bar-content">
-                              <span>36</span>
-                              <span>(100%)</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bar-label">Over</div>
-                      </div>
-                    </div>
-                    <div class="value">0.5</div>
-                  </div>
-                </div>
-                <div class="suggesstion">
-                  <p class="suggesst-description">* 3-way betting is when you bet on th* Over/Under bets are the ones when you bet on the number of goals exceeding or not exceeding a certain limit. <br />
-                    * Ex: Over 2.5 means the total number of goals will be over 2.5 such as; 2-1, 2-2, 3-2e match result as one of home win (1), draw (X) or away win (2)</p>
-                  <div class="list-suggesst">
-                    <div class="suggest-item">
-                      <span class="color-item violet"></span>
-                      <span class="club-name">Manchester United</span>
-                    </div>
-                    <div class="suggest-item">
-                      <span class="color-item orange"></span>
-                      <span class="club-name">Liverpool</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Goal Scoring Statistics -->
+            <!-- ===========START Lineups TABS ============= -->
+            <div id="tabs-2" class="match-tab-content">
+              tab2
             </div>
-          </div>
-          <!-- ===========END  MAIN TAB 2(Bettign)=========== -->
+            <!-- ===========END Lineups TABS ============= -->
 
 
-          <!-- ===========START MAIN TAB 3(Match Centre)=========== -->
-          <div id="main-tabs-3">
-            <div class="match-center-wrapper">
-              <div id="match-centre-tabs">
-                <ul class="match-center-sub-nav ">
-                  <li class="sub-nav-item"><a href="#sub-tab-1">Summary</a></li>
-                  <li class="sub-nav-item"><a href="#sub-tab-2">Player Statistics</a></li>
-                </ul>
-                <div id="sub-tab-1">
-                  <div class="match-center-summary">
-                    <h3 class="title">Timeline</h3>
-                    <div class="table-5-wrapper">
-                      <div class="table-row">
-                        <div class="list-player left">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-bong" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                              <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                            </svg>
-                          </div>
-                        </div>
-                        <div class="timer">
-                          <span class="time-label">27'</span>
-                        </div>
-                        <div class="list-player right"></div>
+            <!-- ===========START H2H TABS ============= -->
+            <div id="tabs-3" class="match-tab-content">
+              <h3 class="match-page-title">H2H</h3>
+              <div class="h2h-table-wrapper">
+                <div class="table-row table-heading d-flex">
+                  <div class="column-18 txt-center">Leagues</div>
+                  <div class="column-18 txt-center">Date</div>
+                  <div class="column-18 txt-center">Home</div>
+                  <div class="column-10 txt-center">Score</div>
+                  <div class="column-18 txt-center">Away</div>
+                  <div class="column-10 txt-center">Score Half</div>
+                  <div class="column-10 txt-center">Result</div>
+                </div>
+
+                <div class="table-row d-flex">
+                  <div class="column-18 txt-center league-name">Premier League</div>
+                  <div class="column-18 txt-center">13/11/2022</div>
+                  <div class="column-18 txt-center league-name">Man City</div>
+                  <div class="column-10 txt-center">
+                    <span class="txt-success">1 - 0</span>
+                  </div>
+                  <div class="column-18 txt-center league-name">Chelsea</div>
+                  <div class="column-10 txt-center">0 - 0</div>
+                  <div class="column-10 txt-center d-flex flex-center">
+                    <span class="league-sign league-sign-success">W</span>
+                  </div>
+                </div>
+
+                <div class="table-row d-flex">
+                  <div class="column-18 txt-center league-name">Champions League</div>
+                  <div class="column-18 txt-center">13/11/2022</div>
+                  <div class="column-18 txt-center">Man City</div>
+                  <div class="column-10 txt-center">
+                    <span class="txt-danger">1 - 0</span>
+                  </div>
+                  <div class="column-18 txt-center">Chelsea</div>
+                  <div class="column-10 txt-center">0 - 0</div>
+                  <div class="column-10 txt-center d-flex flex-center">
+                    <span class="league-sign league-sign-danger">L</span>
+                  </div>
+                </div>
+
+                <div class="table-row d-flex">
+                  <div class="column-18 txt-center league-name">Champions League</div>
+                  <div class="column-18 txt-center">13/11/2022</div>
+                  <div class="column-18 txt-center league-name">Man City</div>
+                  <div class="column-10 txt-center">
+                    <span class="txt-primary">1 - 0</span>
+                  </div>
+                  <div class="column-18 txt-center league-name">Chelsea</div>
+                  <div class="column-10 txt-center">0 - 0</div>
+                  <div class="column-10 txt-center d-flex flex-center">
+                    <span class="league-sign league-sign-default">D</span>
+                  </div>
+                </div>
+              </div>
+              <p class="suggestion-txt">Last 15 , Newcastle United Win <span class="txt-success">3</span>, Draw 1 , Lose <span class="txt-danger">11</span>, Score Win Prob : 20.00%</p>
+              <h3 class="match-page-title">Scheduled matches</h3>
+              <div class="past-match-content-wrapper">
+                <div class="column-50 match-left">
+                  <div class="header-block">
+                    <div class="club-wrapper">
+                      <div class="club-wrapper">
+                        <img src="./images/chel-club.png" alt="" class="club-image">
+                        <span class="club-name">Man United</span>
                       </div>
+                    </div>
+                  </div>
 
-                      <div class="table-row">
-                        <div class="list-player left">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-bong" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                              <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                            </svg>
-                          </div>
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-A" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                              <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                            </svg>
-                          </div>
-                        </div>
-                        <div class="timer">
-                          <span class="time-label">89+2'</span>
-                        </div>
-                        <div class="list-player right"></div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="list-player left"></div>
-                        <div class="timer">
-                          <span class="time-label">89+2'</span>
-                        </div>
-                        <div class="list-player right">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-mui-ten-xanh" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M12.1801 6.02938L12.1801 18.3823" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M7.3608 11.0117L12.18 6.02937L17 11.0117" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                          </div>
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-mui-ten-do" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12.1801 17.9706L12.1801 5.61768" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M7.3608 12.9883L12.18 17.9706L17 12.9883" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="table-row">
-                        <div class="list-player left"></div>
-                        <div class="timer">
-                          <span class="time-label">89+2'</span>
-                        </div>
-                        <div class="list-player right">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-A" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                              <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                            </svg>
-                          </div>
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-bong" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                              <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                            </svg>
-                          </div>
+                  <div class="list-past-match-league">
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-6.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">Europe</span>
+                          <span class="league-name">UEFA Champions League, Group E</span>
                         </div>
                       </div>
 
-                      <div class="table-row">
-                        <div class="list-player left">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="the-do" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <rect width="16" height="20" rx="3" fill="#E34B31" />
-                            </svg>
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
                           </div>
-                        </div>
-                        <div class="timer">
-                          <span class="time-label">89+2'</span>
-                        </div>
-                        <div class="list-player right">
-                        </div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="list-player left">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-A" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                              <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                            </svg>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City </span>
+                              </div>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-secondary">Chelsea</span>
+                              </div>
+                            </div>
                           </div>
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-bong" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                              <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                            </svg>
-                          </div>
-                        </div>
-                        <div class="timer">
-                          <span class="time-label">89+2'</span>
-                        </div>
-                        <div class="list-player right">
-                        </div>
-                      </div>
+                          <span class="icon-star">
 
-                      <div class="table-row">
-                        <div class="list-player left">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-
-                            <svg id="icon-mui-ten-xanh" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M12.1801 6.02938L12.1801 18.3823" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M7.3608 11.0117L12.18 6.02937L17 11.0117" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-
-                          </div>
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg id="icon-mui-ten-do" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12.1801 17.9706L12.1801 5.61768" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M7.3608 12.9883L12.18 17.9706L17 12.9883" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                          </div>
-                        </div>
-                        <div class="timer">
-                          <span class="time-label">89+2'</span>
-                        </div>
-                        <div class="list-player right">
-                        </div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="list-player left">
-                        </div>
-                        <div class="timer">
-                          <span class="time-label">89+2'</span>
-                        </div>
-                        <div class="list-player right">
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M12.1801 6.02938L12.1801 18.3823" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M7.3608 11.0117L12.18 6.02937L17 11.0117" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                          </div>
-                          <div class="player-item">
-                            <span class="player-name">Gabriel Martinelli(1-0)</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                              <path d="M12.1801 17.9706L12.1801 5.61768" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M7.3608 12.9883L12.18 17.9706L17 12.9883" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                          </div>
+
+                          </span>
                         </div>
                       </div>
                     </div>
 
-                    <div id="match-centre-summary-tabs" class="match-centre-summary-tabs">
-                      <ul class="match-center-nav">
-                        <li><a href="#tabs-1">Match Centre</a></li>
-                        <li><a href="#tabs-2">Match Commentary</a></li>
-                        <li><a href="#tabs-3">Chalkboard</a></li>
-                        <li><a href="#tabs-4">Heatmaps</a></li>
-                        <li><a href="#tabs-5">Live stream</a></li>
-                      </ul>
-                      <div id="tabs-1">
-                        <div class="match-centre-summary-content"> tab1</div>
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-1.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">England</span>
+                          <span class="league-name">Premier League</span>
+                        </div>
                       </div>
-                      <div id="tabs-2">
-                        <div class="match-centre-summary-content">tab2</div>
-                      </div>
-                      <div id="tabs-3">
-                        <div class="match-centre-summary-content">tab3</div>
-                      </div>
-                      <div id="tabs-4">
-                        <div class="match-centre-summary-content">tab4</div>
-                      </div>
-                      <div id="tabs-5">
-                        <div class="match-centre-summary-content">tab5</div>
+
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club txt-primary">Manchester City </span>
+                              </div>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-secondary">Chelsea</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City </span>
+                              </div>
+                            </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-secondary">Chelsea</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="icon-star">
+
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="sub-tab-2">
-                  <!-- club-1 -->
-                  <div class="table-4-wrapper">
-                    <div class="table-title">
-                      <img src="./images/mc-club.png" alt="" />
-                      <span class="club-name">Manchester United</span>
+                <div class="middle">
+                  <div class="dash"></div>
+                </div>
+                <div class="column-50 match-right">
+                  <div class="header-block">
+                    <div class="club-wrapper">
+                      <div class="club-wrapper">
+                        <img src="./images/mu-club.png" alt="" class="club-image">
+                        <span class="club-name">Man United</span>
+                      </div>
                     </div>
-                    <div id="match-centre-club-1-tabs">
-                      <ul class="match-center-nav">
-                        <li><a href="#tabs-1">Standings</a></li>
-                        <li><a href="#tabs-2">Offensive</a></li>
-                        <li><a href="#tabs-3">Defensive</a></li>
-                        <li><a href="#tabs-4">Passing</a></li>
-                      </ul>
-                      <div id="tabs-1">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
+                  </div>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                  <div class="list-past-match-league">
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-6.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">Europe</span>
+                          <span class="league-name">UEFA Champions League, Group E</span>
                         </div>
                       </div>
-                      <div id="tabs-2">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City </span>
                               </div>
                             </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club txt-secondary">Chelsea</span>
                               </div>
                             </div>
                           </div>
+                          <span class="icon-star">
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                          </span>
                         </div>
                       </div>
-                      <div id="tabs-3">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
+                    </div>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                    <div class="past-match-league-item">
+                      <div class="league-info-wrapper">
+                        <img src="./images/league-1.png" class="league-image" />
+                        <div class="league-info">
+                          <span class="group-name">England</span>
+                          <span class="league-name">Premier League</span>
                         </div>
                       </div>
-                      <div id="tabs-4">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
+                      <div class="list-timeline">
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club txt-primary">Manchester City </span>
                               </div>
                             </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-secondary">Chelsea</span>
                               </div>
                             </div>
                           </div>
+                          <span class="icon-star">
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City </span>
                               </div>
                             </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-secondary">Chelsea</span>
                               </div>
                             </div>
                           </div>
+                          <span class="icon-star">
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City </span>
                               </div>
                             </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-secondary">Chelsea</span>
                               </div>
                             </div>
                           </div>
+                          <span class="icon-star">
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
+                          </span>
+                        </div>
+                        <div class="block-club-common">
+                          <div class="time-wrapper">
+                            <span class="time txt-secondary">03/10/22</span>
+                            <span class="type hour txt-secondary">FT</span>
+                          </div>
+                          <div class="list-club-wrapper">
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-1.png" alt="">
+                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City Manchester City  Manchester City  </span>
                               </div>
                             </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
+                            <div class="club-item">
+                              <div class="club-info-wrapper">
+                                <img src="./images/club-2.png" alt="">
+                                <span class="club-name macth-text-overflow-club txt-secondary">Chelsea Manchester City  Manchester City  Manchester City  Manchester City </span>
                               </div>
                             </div>
                           </div>
+                          <span class="icon-star">
+
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                          </span>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <!-- club-1 -->
 
-                  <!-- club-2 -->
-                  <div class="table-4-wrapper">
-                    <div class="table-title">
-                      <img src="./images/lei-club.png" alt="" />
-                      <span class="club-name">Liverpool</span>
-                    </div>
-                    <div id="match-centre-club-2-tabs">
-                      <ul class="match-center-nav">
-                        <li><a href="#tabs-1">Standings</a></li>
-                        <li><a href="#tabs-2">Offensive</a></li>
-                        <li><a href="#tabs-3">Defensive</a></li>
-                        <li><a href="#tabs-4">Passing</a></li>
-                      </ul>
-                      <div id="tabs-1">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
+                </div>
+              </div>
+            </div>
+            <!-- ===========END H2H TABS ============= -->
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+            <!-- ===========START Standings TABS ============= -->
+            <div id="tabs-4" class="match-tab-content">
+              tab4
+            </div>
+            <!-- ===========END Standings TABS ============= -->
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+            <!-- ===========START Statistics TABS ============= -->
+            <div id="tabs-5" class="match-tab-content">
+              tab5
+            </div>
+            <!-- ===========END Statistics TABS ============= -->
 
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div id="tabs-2">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div id="tabs-3">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div id="tabs-4">
-                        <div class="table-content">
-                          <div class="table-heading">
-                            <div class="player-info">Player</div>
-                            <div class="match-value">
-                              <div class="table-column">Shots</div>
-                              <div class="table-column">ShotsOT</div>
-                              <div class="table-column">Keypasses</div>
-                              <div class="table-column">PA%</div>
-                              <div class="table-column">AerialsWon</div>
-                              <div class="table-column">Touchers</div>
-                              <div class="table-column text-danger">Rating</div>
-                              <div class="table-column">Key Events</div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="table-row">
-                            <div class="player-info">
-                              <span class="number">1</span>
-                              <div class="player-detail">
-                                <img class="flag" src="./images/flag.png" />
-                                <div>
-                                  <a href="#">
-                                    <p class="player-name">Kevin De Bruyne</p>
-                                  </a>
-                                  <p class="player-history">30, M(CLR),FW</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="match-value">
-                              <div class="table-column">3</div>
-                              <div class="table-column">0</div>
-                              <div class="table-column">2</div>
-                              <div class="table-column">86.5</div>
-                              <div class="table-column">1</div>
-                              <div class="table-column">28</div>
-                              <div class="table-column text-danger">7.67</div>
-                              <div class="table-column">
-                                <div class="key-events">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4ZM16.7 15.8H14.7L14.1 17.7C12.7 18.2 11.2 18.2 9.8 17.7L9.2 15.8H7.2C6.4 14.7 5.9 13.3 6 11.7L7.6 10.6L7 8.7C7.8 7.5 9 6.6 10.5 6.2L12 7.4L13.6 6.2C15 6.6 16.2 7.5 17 8.7L16.4 10.6L18 11.7C18.1 13.3 17.6 14.7 16.7 15.8Z" fill="#1A202C" />
-                                    <path d="M9.5 11.4L10.7 13.9H13.3L14.5 11.4L12 9.5L9.5 11.4Z" fill="#1A202C" />
-                                  </svg>
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.2" x="4" y="4" width="16" height="16" rx="8" fill="#461A53" />
-                                    <path d="M13.8724 14.1401H10.2244L9.55239 16.0001H8.40039L11.4244 7.68408H12.6844L15.6964 16.0001H14.5444L13.8724 14.1401ZM13.5604 13.2521L12.0484 9.02808L10.5364 13.2521H13.5604Z" fill="#461A53" />
-                                  </svg>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- club-2 -->
-
+          </div>
+        </div>
+        <div class="right-layout">
+          <div class="siderbar-block-common__wrapper">
+            <h3 class="match-page-title">Who will win?</h3>
+            <div class="multiple-progress-wrapper">
+              <div class="progress">
+                <div class="progress-bar progress-success" role="progressbar" style="width:50%">
+                  50.12%
+                  <span class="value txt-success">1224</span>
+                </div>
+                <div class="progress-bar progress-primary" role="progressbar" style="width:40%">
+                  20.12%
+                  <span class="value txt-primary">544</span>
+                </div>
+                <div class="progress-bar progress-info" role="progressbar" style="width:10%">
+                  <span class="value txt-info">123</span>
                 </div>
               </div>
             </div>
           </div>
-          <!-- ===========END  MAIN TAB 3(Match Centre)=========== -->
 
-
-          <!-- ===========START MAIN TAB 4(Match Report)=========== -->
-          <div id="main-tabs-4">
-            <div class="match-report-wrapper">
-              <h3 class="match-title">Match Summary</h3>
-              <div class="list-club">
-                <div class="column-50">
-                  <h3 class="club-name">Manchester United</h3>
+          <div class="siderbar-block-common__wrapper mt-16">
+            <h3 class="match-page-title">Odds</h3>
+            <div class="right-sidebar-list-odds">
+              <div class="odds-item">
+                <div class="odd-club">
+                  <img src="./images/mu-club.png" alt="" class="club-image">
+                  <span class="value">2.50 = 40%</span>
                 </div>
-                <div class="column-50">
-                  <h3 class="club-name">Liverpool</h3>
-                </div>
+                <p class="description">When the odds are 2.50 the expected chance of winning is 40%, but this team actually wins 21% matches with these odds.</p>
               </div>
-              <div class="table-wrapper">
-                <div class="table-heading">Strengths</div>
-                <div class="table-content">
-                  <div class="column-50">
-                    <ul>
-                      <li>
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_1402_1335)">
-                            <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_1402_1335">
-                              <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Created a high number of chances relative to their possession</span>
-                      </li>
-                      <li>
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_1402_1335)">
-                            <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_1402_1335">
-                              <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Were effective at creating goalscoring opportunities through individual skill</span>
-                      </li>
-                      <li>
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_1402_1335)">
-                            <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_1402_1335">
-                              <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Were effective at creating goalscoring opportunities from the flanks</span>
-                      </li>
-                      <li>
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_1402_1335)">
-                            <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_1402_1335">
-                              <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Were effective at creating goalscoring opportunities from set-pieces</span>
-                      </li>
-                      <li>
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_1402_1335)">
-                            <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_1402_1335">
-                              <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Were strong at finishing</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="column-50">
-                    <ul>
-                      <li>
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_1402_1335)">
-                            <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_1402_1335">
-                              <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Stole the ball often from the opposition</span>
-                      </li>
-                      <li>
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_1402_1335)">
-                            <path d="M2.5 6.5L5 9L10 4" stroke="#18B745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_1402_1335">
-                              <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Were effective at creating goalscoring opportunities from long shot situations</span>
-                      </li>
-                    </ul>
-                  </div>
+              <div class="odds-item">
+                <div class="odd-club">
+                  <img src="./images/mu-club.png" alt="" class="club-image">
+                  <span class="value">2.50 = 40%</span>
                 </div>
-              </div>
-              <div class="table-wrapper">
-                <div class="table-heading">Weaknesses</div>
-                <div class="table-content">
-                  <div class="column-50">
-                    <ul>
-                      <li>
-                        <span class="text-grey text-italic">Team has no significant weaknesses</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="column-50">
-                    <ul>
-                      <li>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_131_3536)">
-                            <path d="M9 3L3 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M3 3L9 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_131_3536">
-                              <rect width="12" height="12" fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Lost possession often</span>
-                      </li>
-                      <li>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_131_3536)">
-                            <path d="M9 3L3 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M3 3L9 9" stroke="#E34B31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_131_3536">
-                              <rect width="12" height="12" fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Gave away a lot of free-kicks around the box</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="table-wrapper">
-                <div class="table-heading">Weaknesses</div>
-                <div class="table-content">
-                  <div class="column-50">
-                    <ul>
-                      <li>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_131_3529)">
-                            <rect x="4" y="4" width="4" height="4" rx="2" fill="#1A202C" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_131_3529">
-                              <rect width="12" height="12" fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-
-                        <span>Attacked down the right sides</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="column-50">
-                    <ul>
-                      <li>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_131_3529)">
-                            <rect x="4" y="4" width="4" height="4" rx="2" fill="#1A202C" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_131_3529">
-                              <rect width="12" height="12" fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                        <span>Attacked down the right side</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <p class="description">When the odds are 2.50 the expected chance of winning is 40%, but this team actually wins 21% matches with these odds.</p>
               </div>
 
-              <!-- Situational Report -->
-              <div class="situational-report-wrapper">
-                <h3 class="match-title">Situational Report</h3>
-                <div id="situational-report-tabs">
-                  <ul class="tables-main-nav">
-                    <li><a href="#tabs-1">Attemp Types</a></li>
-                    <li><a href="#tabs-2">Pass Types</a></li>
-                    <li><a href="#tabs-3">Card Situations</a></li>
-                  </ul>
-                  <div id="tabs-1">
-                    <div class="situational-report-content">
-                      <h4 class="content-title">Attemp Types</h4>
-                      <div class="attemp-types-table">
-                        <div class="table-heading d-flex">
-                          <div class="column-20 text-right text-score">6</div>
-                          <div class="column-60 text-center">Total</div>
-                          <div class="column-20 d-flex text-score">10</div>
-                        </div>
-                        <div class="table-row d-flex">
-                          <div class="column-20 text-right text-score">4</div>
-                          <div class="column-60 text-center">Open Play</div>
-                          <div class="column-20 text-left text-score">8</div>
-                        </div>
-                        <div class="table-row d-flex">
-                          <div class="column-20 text-right text-score">4</div>
-                          <div class="column-60 text-center">Set Piece</div>
-                          <div class="column-20 text-left text-score">6</div>
-                        </div>
-                        <div class="table-row d-flex">
-                          <div class="column-20 text-right text-score">0</div>
-                          <div class="column-60 text-center">Counter Attack</div>
-                          <div class="column-20 text-left text-score">3</div>
-                        </div>
-                        <div class="table-row d-flex">
-                          <div class="column-20 text-right text-score">0</div>
-                          <div class="column-60 text-center">Penalty</div>
-                          <div class="column-20 text-left text-score">0</div>
-                        </div>
-                        <div class="table-row d-flex">
-                          <div class="column-20 text-right text-score">0</div>
-                          <div class="column-60 text-center">Own Goal</div>
-                          <div class="column-20 text-left text-score">0</div>
-                        </div>
-                      </div>
-                      <div class="total-wrapper">
-                        <h4 class="content-title">Total</h4>
-                        <div class="compare-wrapper">
-                          <div class="compare-item d-flex">
-                            <div class="column-30 text-right">
-                              <div class="red-process">
-                                <div class="progress flex-end">
-                                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="column-40 d-flex">
-                              <div class="column-25 text-center text-score">6</div>
-                              <div class="column-50 text-center">Shot</div>
-                              <div class="column-25 text-center text-score">10</div>
-                            </div>
-                            <div class="column-30 text-left">
-                              <div class="blue-process">
-                                <div class="progress flex-start">
-                                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="compare-item d-flex">
-                            <div class="column-30 text-right">
-                              <div class="red-process">
-                                <div class="progress flex-end">
-                                  <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="column-40 d-flex">
-                              <div class="column-25 text-center text-score">1</div>
-                              <div class="column-50 text-center">Goals</div>
-                              <div class="column-25 text-center text-score">0</div>
-                            </div>
-                            <div class="column-30 text-left">
-                              <div class="blue-process">
-                                <div class="progress flex-start">
-                                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="compare-item d-flex">
-                            <div class="column-30 text-right">
-                              <div class="red-process">
-                                <div class="progress flex-end">
-                                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="column-40 d-flex">
-                              <div class="column-25 text-center text-score">16%</div>
-                              <div class="column-50 text-center">Conversion Rate</div>
-                              <div class="column-25 text-center text-score">22%</div>
-                            </div>
-                            <div class="column-30 text-left">
-                              <div class="blue-process">
-                                <div class="progress flex-start">
-                                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="tabs-2">
-                    tab2
-                  </div>
-                  <div id="tabs-3">
-                    tab2
-                  </div>
-                </div>
-              </div>
-              <!-- Situational Report -->
+            </div>
+          </div>
 
-              <!-- Positional Report -->
-              <div class="positional-report-wrapper">
-                <h3 class="match-title">Positional Report</h3>
-                <div id="match-report-positional-report-tabs">
-                  <ul class="tables-main-nav">
-                    <li><a href="#tabs-1">Attack Sides</a></li>
-                    <li><a href="#tabs-2">Shot Directions</a></li>
-                    <li><a href="#tabs-3">Shot Zones</a></li>
-                    <li><a href="#tabs-4">Action Zones</a></li>
-                    <li><a href="#tabs-5">Player Positions</a></li>
-                  </ul>
-                  <div id="tabs-1">
-                    <div class="positional-report-content">
-                      <div class="visual-match">
-                        <div class="visual-match-item">
-                          <img src="./images/position-visual-match-1.png" alt="" class="position-visual-match-image">
-                        </div>
-                        <div class="visual-match-item">
-                          <img src="./images/position-visual-match-2.png" alt="" class="position-visual-match-image">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="tabs-2">
-                    Shot Directions
-                  </div>
-                  <div id="tabs-3">
-                    Shot Zones
-                  </div>
-                  <div id="tabs-4">Action Zones </div>
-                  <div id="tabs-5">Player Positions</div>
+          <div class="siderbar-block-common__wrapper mt-16">
+            <h3 class="match-page-title">Prematch standings</h3>
+            <div class="prematch-stading-table-wrapper">
+              <div class="table-row table-heading d-flex">
+                <div class="column-10 txt-left">#</div>
+                <div class="column-10 txt-left">Team</div>
+                <div class="column-70 txt-right">Latest</div>
+                <div class="column-10 txt-right">Pts</div>
+              </div>
+
+              <div class="table-row d-flex">
+                <div class="column-10 txt-left">1</div>
+                <div class="column-10 txt-left">
+                  <img src="./images/mu-club.png" alt="" class="club-image">
+                </div>
+                <div class="column-70 txt-right">
+                  <div class="list-league-sign">
+                    <span class="league-sign league-sign-success">W</span>
+                    <span class="league-sign league-sign-success">W</span>
+                    <span class="league-sign league-sign-success">W</span>
+                    <span class="league-sign league-sign-success">W</span>
+                    <span class="league-sign league-sign-default">D</span>
+                    <span class="league-sign league-sign-danger">L</span>
                   </div>
                 </div>
-                <!-- Positional Report -->
+                <div class="column-10 txt-right">32</div>
+              </div>
+
+              <div class="table-row d-flex">
+                <div class="column-10 txt-left">2</div>
+                <div class="column-10 txt-left">
+                  <img src="./images/mu-club.png" alt="" class="club-image">
+                </div>
+                <div class="column-70 txt-right">
+                  <div class="list-league-sign">
+                    <span class="league-sign league-sign-danger">L</span>
+                    <span class="league-sign league-sign-success">W</span>
+                    <span class="league-sign league-sign-danger">L</span>
+                    <span class="league-sign league-sign-success">W</span>
+                    <span class="league-sign league-sign-default">D</span>
+                    <span class="league-sign league-sign-danger">L</span>
+                  </div>
+                </div>
+                <div class="column-10 txt-right">32</div>
               </div>
             </div>
-            <!-- ===========END  MAIN TAB 4(Match Report)=========== -->
           </div>
         </div>
       </div>
     </div>
-    <?php include "templates/footer.php"; ?>
+  </div>
+
+  <?php include "templates/footer.php"; ?>
 </body>
 
 <script>
-  $(function() {
-    $("#match-tabs").tabs({
-      active: 0
-    });
-
-    $("#situational-report-tabs").tabs({
-      active: 0
-    })
-
-    $("#match-report-positional-report-tabs").tabs({
-      active: 0
-    })
-
-    $("#match-centre-tabs").tabs({
-      active: 0
-    })
-
-    $("#match-centre-summary-tabs").tabs({
-      active: 0
-    })
-
-    $("#match-centre-club-1-tabs").tabs({
-      active: 0
-    })
-    $("#match-centre-club-2-tabs").tabs({
-      active: 0
-    })
-
-    $("#match-outcome-statistics-tabs").tabs({
-      active: 0
-    })
-
-    $("#match-outcome-statistics-3-way-tabs").tabs({
-      active: 0
-    })
-
-    $("#match-outcome-statistics-3-way-seasonal-left-tabs").tabs({
-      active: 0
-    })
-    $("#match-outcome-statistics-3-way-seasonal-right-tabs").tabs({
-      active: 0
-    })
-
-    $("#head-to-head-tabs").tabs({
-      active: 0
-    })
-    $("#previous-meeting-tabs").tabs({
-      active: 0
-    })
-    $("#tables-main-tabs").tabs({
-      active: 0
-    })
-    $("#tables-standings-tabs").tabs({
-      active: 0
-    })
-    $("#tables-form-tabs").tabs({
-      active: 0
-    })
-    $("#tables-streaks-tabs").tabs({
-      active: 0
-    })
-    $("#fixture-left-tabs").tabs({
-      active: 0
-    })
-    $("#fixture-right-tabs").tabs({
-      active: 0
-    })
-
-    $("#fixture-all-left-tabs").tabs({
-      active: 0
-    })
-    $("#fixture-all-right-tabs").tabs({
-      active: 0
-    })
-    $("#fixture-premier-left-tabs").tabs({
-      active: 0
-    })
-
-    $("#fixture-premier-right-tabs").tabs({
-      active: 0
-    })
-
-    $("#head-to-head-player-statistics-tabs").tabs({
-      active: 0
-    })
-
-    $("#head-to-head-player-statistics-summary-tabs").tabs({
-      active: 0
-    })
-
-    $("#per-match-statistics-tabs").tabs({
-      active: 0
-    })
-
-    $("#situational-statistics-tabs").tabs({
-      active: 0
-    })
-
-    $("#head-to-head-positional-report-tabs").tabs({
-      active: 0
-    })
-
-    /* -----------------------------------------------------------
-    handle toggle show timeline of score.
-  ----------------------------------------------------------- */
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        const isActive = this.classList.contains('active')
-        const iconArrowUp = this.querySelector('.icon-arrow-up')
-        const iconArrowDown = this.querySelector('.icon-arrow-down')
-        if (isActive) {
-          iconArrowDown.style.display = 'none'
-          iconArrowUp.style.display = 'block'
-        } else {
-          iconArrowDown.style.display = 'block'
-          iconArrowUp.style.display = 'none'
-        }
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
-      });
-    }
-
-    // auto resize bar column
-    const barColumns = document.getElementsByClassName('bar-column')
-    if (barColumns && barColumns.length) {
-      for (let i = 0; i < barColumns.length; i++) {
-        const item = barColumns[i]
-        const offsetHeight = item.offsetHeight
-        if (offsetHeight <= 30) {
-          item.style.padding = '4px 0px'
-          const children = item.children
-          if (children && children.length) {
-            const content = children[0]
-            content.style.flexDirection = 'row'
-            content.style.lineHeight = '9px'
-            content.style.fontSize = '11px'
-          }
-        }
-      }
-    }
-  });
+  $("#match-tabs").tabs({
+    active: 2
+  })
 </script>
 
 </html>
