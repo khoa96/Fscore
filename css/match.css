@@ -116,7 +116,6 @@
   align-items: center;
   width: 50%;
   flex-grow: 1;
-  border: 1px solid green;
 }
 @media only screen and (max-width: 991px) {
   .main-match-page-wrapper .match-info-wrapper .club-wrapper {
@@ -842,6 +841,249 @@
 @media only screen and (max-width: 991px) {
   .macth-text-overflow-club {
     max-width: 180px;
+  }
+}
+
+.match-standing-table-wrapper .column-10 {
+  width: 10%;
+}
+.match-standing-table-wrapper .column-30 {
+  width: 30%;
+}
+.match-standing-table-wrapper .column-20 {
+  width: 20%;
+}
+.match-standing-table-wrapper .column-5 {
+  width: 5%;
+}
+.match-standing-table-wrapper .number {
+  min-width: 28px;
+  max-width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border-radius: 50%;
+  color: #1A202C;
+  text-transform: uppercase;
+}
+.match-standing-table-wrapper .number-primary {
+  background-color: #3AC5C9;
+}
+.match-standing-table-wrapper .number-secondary {
+  background-color: #DFCE33;
+}
+.match-standing-table-wrapper .number-danger {
+  background-color: #E53E3E;
+}
+.match-standing-table-wrapper .table-row {
+  padding: 6px 0px;
+  border-bottom: 1px solid #E2E8F0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .match-standing-table-wrapper .table-row {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.match-standing-table-wrapper .table-row:hover {
+  background-color: rgba(49, 57, 85, 0.05);
+}
+@media only screen and (max-width: 991px) {
+  .match-standing-table-wrapper .table-row {
+    min-width: 846px;
+  }
+}
+.match-standing-table-wrapper .table-heading {
+  padding: 12px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* Gray:600 */
+  color: #718096;
+  background-color: #EDF2F7 !important;
+}
+@media only screen and (max-width: 991px) {
+  .match-standing-table-wrapper .table-heading {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+.match-standing-table-wrapper .table-heading:hover {
+  background-color: #EDF2F7;
+}
+.match-standing-table-wrapper .row-danger {
+  background-color: rgba(213, 63, 140, 0.1);
+  position: relative;
+}
+.match-standing-table-wrapper .row-danger::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #D53F8C;
+}
+.match-standing-table-wrapper .row-danger:hover {
+  background-color: rgba(213, 63, 140, 0.1);
+}
+.match-standing-table-wrapper .row-info {
+  position: relative;
+  background-color: rgba(90, 103, 216, 0.1);
+}
+.match-standing-table-wrapper .row-info::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #5A67D8;
+}
+.match-standing-table-wrapper .row-info:hover {
+  background-color: rgba(90, 103, 216, 0.1);
+}
+.match-standing-table-wrapper .club-wrapper {
+  display: flex;
+  align-items: center;
+}
+.match-standing-table-wrapper .club-wrapper img {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  object-fit: cover;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.match-standing-table-wrapper .club-wrapper .club-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media only screen and (max-width: 991px) {
+  .match-standing-table-wrapper .match-standing-table {
+    max-width: 90vw;
+    overflow: scroll;
+  }
+}
+.match-standing-table-wrapper .match-standing-suggesstion {
+  margin: 24px 0px;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .match-standing-table-wrapper .match-standing-suggesstion {
+    flex-direction: column;
+  }
+}
+.match-standing-table-wrapper .match-standing-suggesstion li {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .match-standing-table-wrapper .match-standing-suggesstion li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.match-standing-table-wrapper .match-standing-suggesstion li .dot-primary {
+  background-color: #3AC5C9;
+}
+.match-standing-table-wrapper .match-standing-suggesstion li .dot-secondary {
+  background-color: #DFCE33;
+}
+.match-standing-table-wrapper .match-standing-suggesstion li .dot-danger {
+  background-color: #E53E3E;
+}
+.match-standing-table-wrapper .match-standing-suggesstion li .dot {
+  width: 16px;
+  height: 16px;
+  display: block;
+  border: none;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.match-standing-table-wrapper .match-standing-suggesstion li .label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+}
+
+.statistics-tab-content-wrapper .table-row {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+  border-bottom: 1px solid #EDF2F7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  /* Gray:900 */
+  color: #1A202C;
+}
+@media only screen and (max-width: 991px) {
+  .statistics-tab-content-wrapper .table-row {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+  }
+}
+.statistics-tab-content-wrapper .table-column {
+  width: 33.3333333333%;
+}
+.statistics-tab-content-wrapper .statistics-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  /* #3AC5C9 */
+  color: #3AC5C9;
+}
+@media only screen and (max-width: 991px) {
+  .statistics-tab-content-wrapper .statistics-info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.statistics-tab-content-wrapper .statistics-danger {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #F1516E;
+}
+@media only screen and (max-width: 991px) {
+  .statistics-tab-content-wrapper .statistics-danger {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
   }
 }
 

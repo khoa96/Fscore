@@ -1121,11 +1121,9 @@
                             </div>
                           </div>
                           <span class="icon-star">
-
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7141 3.44083L15.0301 8.09983C15.1461 8.33483 15.3701 8.49883 15.6301 8.53683L20.8151 9.28583C21.0251 9.31383 21.2141 9.42383 21.3431 9.59183C21.5851 9.90683 21.5481 10.3528 21.2581 10.6238L17.5001 14.2578C17.3091 14.4378 17.2241 14.7018 17.2741 14.9588L18.1741 20.0868C18.2371 20.5118 17.9471 20.9098 17.5221 20.9788C17.3461 21.0058 17.1661 20.9778 17.0061 20.8988L12.3881 18.4778C12.1561 18.3518 11.8781 18.3518 11.6461 18.4778L6.99413 20.9118C6.60513 21.1098 6.12913 20.9628 5.91713 20.5818C5.83613 20.4278 5.80813 20.2528 5.83613 20.0818L6.73613 14.9538C6.78113 14.6978 6.69613 14.4348 6.51013 14.2538L2.73213 10.6208C2.42413 10.3148 2.42213 9.81683 2.72913 9.50883C2.73013 9.50783 2.73113 9.50583 2.73213 9.50483C2.85913 9.38983 3.01513 9.31283 3.18413 9.28283L8.37013 8.53383C8.62913 8.49283 8.85213 8.33083 8.97013 8.09583L11.2841 3.44083C11.3771 3.25183 11.5421 3.10683 11.7421 3.04083C11.9431 2.97383 12.1631 2.98983 12.3521 3.08483C12.5071 3.16183 12.6341 3.28683 12.7141 3.44083Z" stroke="#1A202C" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-
                           </span>
                         </div>
                       </div>
@@ -1286,13 +1284,13 @@
                             <div class="club-item">
                               <div class="club-info-wrapper">
                                 <img src="./images/club-1.png" alt="">
-                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City Manchester City  Manchester City  </span>
+                                <span class="club-name macth-text-overflow-club  txt-primary">Manchester City Manchester City Manchester City </span>
                               </div>
                             </div>
                             <div class="club-item">
                               <div class="club-info-wrapper">
                                 <img src="./images/club-2.png" alt="">
-                                <span class="club-name macth-text-overflow-club txt-secondary">Chelsea Manchester City  Manchester City  Manchester City  Manchester City </span>
+                                <span class="club-name macth-text-overflow-club txt-secondary">Chelsea Manchester City Manchester City Manchester City Manchester City </span>
                               </div>
                             </div>
                           </div>
@@ -1316,7 +1314,239 @@
 
             <!-- ===========START Standings TABS ============= -->
             <div id="tabs-4" class="match-tab-content">
-              tab4
+              <div id="match-standing-tabs">
+                <ul class="match-nav">
+                  <li><a href="#tabs-1">All</a></li>
+                  <li><a href="#tabs-2">Home</a></li>
+                  <li><a href="#tabs-3">Away</a></li>
+                </ul>
+                <div id="tabs-1" class="match-sub-tabs">
+                  <div class="match-standing-table-wrapper">
+                    <div class="match-standing-table">
+                      <div class="table-row table-heading d-flex">
+                        <div class="column-10 txt-center">#</div>
+                        <div class="column-30 txt-left">Team</div>
+                        <div class="column-5 txt-center">P</div>
+                        <div class="column-5 txt-center">W</div>
+                        <div class="column-5 txt-center">D</div>
+                        <div class="column-5 txt-center">L</div>
+                        <div class="column-10 txt-center">Goals</div>
+                        <div class="column-20 txt-center">Last 5</div>
+                        <div class="column-10 txt-center">Pts</div>
+                      </div>
+
+                      <div class="table-row  d-flex">
+                        <div class="column-10 txt-center d-flex flex-center">
+                          <span class="number number-primary">1</span>
+                        </div>
+                        <div class="column-30 txt-left">
+                          <div class="club-wrapper">
+                            <img src="./images/mc-club.png" alt="">
+                            <span class="club-name">Arsenal</span>
+                          </div>
+                        </div>
+                        <div class="column-5 txt-center">14</div>
+                        <div class="column-5 txt-center">12</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-10 txt-center">33.11</div>
+                        <div class="column-20 txt-center list-league-sign">
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-default">D</span>
+                          <span class="league-sign league-sign-danger">L</span>
+                        </div>
+                        <div class="column-10 txt-center">37</div>
+                      </div>
+
+                      <div class="table-row  d-flex row-info">
+                        <div class="column-10 txt-center d-flex flex-center">
+                          <span class="number number-secondary">2</span>
+                        </div>
+                        <div class="column-30 txt-left">
+                          <div class="club-wrapper">
+                            <img src="./images/mc-club.png" alt="">
+                            <span class="club-name">Arsenal</span>
+                          </div>
+                        </div>
+                        <div class="column-5 txt-center">14</div>
+                        <div class="column-5 txt-center">12</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-10 txt-center">33.11</div>
+                        <div class="column-20 txt-center list-league-sign">
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-default">D</span>
+                          <span class="league-sign league-sign-danger">L</span>
+                        </div>
+                        <div class="column-10 txt-center">37</div>
+                      </div>
+
+                      <div class="table-row  d-flex">
+                        <div class="column-10 txt-center d-flex flex-center">
+                          <span class="number number-danger">3</span>
+                        </div>
+                        <div class="column-30 txt-left">
+                          <div class="club-wrapper">
+                            <img src="./images/mc-club.png" alt="">
+                            <span class="club-name">Arsenal</span>
+                          </div>
+                        </div>
+                        <div class="column-5 txt-center">14</div>
+                        <div class="column-5 txt-center">12</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-10 txt-center">33.11</div>
+                        <div class="column-20 txt-center list-league-sign">
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-default">D</span>
+                          <span class="league-sign league-sign-danger">L</span>
+                        </div>
+                        <div class="column-10 txt-center">37</div>
+                      </div>
+
+                      <div class="table-row  d-flex  row-danger">
+                        <div class="column-10 txt-center d-flex flex-center">
+                          <span class="number">4</span>
+                        </div>
+                        <div class="column-30 txt-left">
+                          <div class="club-wrapper">
+                            <img src="./images/mc-club.png" alt="">
+                            <span class="club-name">Arsenal</span>
+                          </div>
+                        </div>
+                        <div class="column-5 txt-center">14</div>
+                        <div class="column-5 txt-center">12</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-10 txt-center">33.11</div>
+                        <div class="column-20 txt-center list-league-sign">
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-default">D</span>
+                          <span class="league-sign league-sign-danger">L</span>
+                        </div>
+                        <div class="column-10 txt-center">37</div>
+                      </div>
+
+                      <div class="table-row  d-flex">
+                        <div class="column-10 txt-center d-flex flex-center">
+                          <span class="number">5</span>
+                        </div>
+                        <div class="column-30 txt-left">
+                          <div class="club-wrapper">
+                            <img src="./images/mc-club.png" alt="">
+                            <span class="club-name">Arsenal</span>
+                          </div>
+                        </div>
+                        <div class="column-5 txt-center">14</div>
+                        <div class="column-5 txt-center">12</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-10 txt-center">33.11</div>
+                        <div class="column-20 txt-center list-league-sign">
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-default">D</span>
+                          <span class="league-sign league-sign-danger">L</span>
+                        </div>
+                        <div class="column-10 txt-center">37</div>
+                      </div>
+
+                      <div class="table-row  d-flex">
+                        <div class="column-10 txt-center d-flex flex-center">
+                          <span class="number number-danger">6</span>
+                        </div>
+                        <div class="column-30 txt-left">
+                          <div class="club-wrapper">
+                            <img src="./images/mc-club.png" alt="">
+                            <span class="club-name">Arsenal</span>
+                          </div>
+                        </div>
+                        <div class="column-5 txt-center">14</div>
+                        <div class="column-5 txt-center">12</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-10 txt-center">33.11</div>
+                        <div class="column-20 txt-center list-league-sign">
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-default">D</span>
+                          <span class="league-sign league-sign-danger">L</span>
+                        </div>
+                        <div class="column-10 txt-center">37</div>
+                      </div>
+
+                      <div class="table-row  d-flex">
+                        <div class="column-10 txt-center d-flex flex-center">
+                          <span class="number number-danger">7</span>
+                        </div>
+                        <div class="column-30 txt-left">
+                          <div class="club-wrapper">
+                            <img src="./images/mc-club.png" alt="">
+                            <span class="club-name">Arsenal</span>
+                          </div>
+                        </div>
+                        <div class="column-5 txt-center">14</div>
+                        <div class="column-5 txt-center">12</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-5 txt-center">1</div>
+                        <div class="column-10 txt-center">33.11</div>
+                        <div class="column-20 txt-center list-league-sign">
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-success">W</span>
+                          <span class="league-sign league-sign-default">D</span>
+                          <span class="league-sign league-sign-danger">L</span>
+                        </div>
+                        <div class="column-10 txt-center">37</div>
+                      </div>
+                    </div>
+                    <ul class="match-standing-suggesstion">
+                      <li>
+                        <span class="dot dot-primary"></span>
+                        <span class="label">UEFA CL group stage</span>
+                      </li>
+                      <li>
+                        <span class="dot dot-secondary"></span>
+                        <span class="label">UEFA EL group stage</span>
+                      </li>
+                      <li>
+                        <span class="dot dot-danger"></span>
+                        <span class="label">Relegation</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="tabs-2" class="match-sub-tabs">
+                  tab2
+                </div>
+                <div id="tabs-3" class="match-sub-tabs">
+                  tab3
+                </div>
+              </div>
             </div>
             <!-- ===========END Standings TABS ============= -->
 
@@ -1324,7 +1554,135 @@
 
             <!-- ===========START Statistics TABS ============= -->
             <div id="tabs-5" class="match-tab-content">
-              tab5
+            <div id="match-statistics-tabs">
+                <ul class="match-nav">
+                  <li><a href="#tabs-1">All</a></li>
+                  <li><a href="#tabs-2">1st</a></li>
+                  <li><a href="#tabs-3">2st</a></li>
+                </ul>
+                <div id="tabs-1" class="match-sub-tabs">
+                  <div class="statistics-tab-content-wrapper">
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start">49%</div>
+                      <div class="table-column d-flex flex-center">Ball possession</div>
+                      <div class="table-column d-flex flex-end statistics-danger">51%</div>
+                    </div>
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Total shots</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Shots on target</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Shots off target</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Blocked shots</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Corner kicks</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Offsides</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Fouls</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Yellow cards</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Big chances</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">10</div>
+                      <div class="table-column d-flex flex-center">Big chances</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start">10</div>
+                      <div class="table-column d-flex flex-center">Big chances missed</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start">10</div>
+                      <div class="table-column d-flex flex-center">Shots inside box</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-star">10</div>
+                      <div class="table-column d-flex flex-center">Shots outside box</div>
+                      <div class="table-column d-flex flex-end">5</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start statistics-info">451</div>
+                      <div class="table-column d-flex flex-center">Passes</div>
+                      <div class="table-column d-flex flex-end">451</div>
+                    </div>
+
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start">373 (83%)</div>
+                      <div class="table-column d-flex flex-center">Acc. passes</div>
+                      <div class="table-column d-flex flex-end statistics-danger">396 (84%)</div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start">373 (83%)</div>
+                      <div class="table-column d-flex flex-center">Long balls</div>
+                      <div class="table-column d-flex flex-end statistics-danger">396 (84%)</div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="table-column d-flex flex-start">373 (83%)</div>
+                      <div class="table-column d-flex flex-center">Crosses</div>
+                      <div class="table-column d-flex flex-end statistics-danger">396 (84%)</div>
+                    </div>
+                  </div>
+                </div>
+                <div id="tabs-2" class="match-sub-tabs">
+                  tab2
+                </div>
+                <div id="tabs-3" class="match-sub-tabs">
+                  tab3
+                </div>
+              </div>
             </div>
             <!-- ===========END Statistics TABS ============= -->
 
@@ -1428,7 +1786,15 @@
 
 <script>
   $("#match-tabs").tabs({
-    active: 2
+    active: 0
+  })
+
+  $("#match-standing-tabs").tabs({
+    active: 0
+  })
+
+  $("#match-statistics-tabs").tabs({
+    active: 0
   })
 </script>
 

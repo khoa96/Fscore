@@ -109,8 +109,6 @@
       </div>
 
       <!--Popup chưa nạp vip  https://www.youtube.com/embed/VkGzajNpNwo-->
-      <br />
-      <br />
       <div class="play-match">
         <div class="player-wrapper">
           <div class="box-player">

@@ -748,6 +748,12 @@ li {
   display: flex;
   align-items: center;
 }
+@media only screen and (max-width: 991px) {
+  .league-nav li a {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
 .league-nav .ui-tabs-active a {
   background-color: #313955;
   color: #fff !important;
@@ -1178,13 +1184,57 @@ li {
   object-fit: cover;
   margin-right: 12px;
 }
-.prematch-stading-table-wrapper .list-league-sign {
+
+.list-league-sign {
   display: flex;
   justify-content: flex-end;
 }
-.prematch-stading-table-wrapper .list-league-sign .league-sign {
+.list-league-sign .league-sign {
   border-radius: 8px !important;
   margin: 0px 1px;
+}
+
+.match-nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.match-nav li {
+  min-width: max-content;
+  margin-right: 12px;
+}
+.match-nav li a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #EDF2F7;
+  border-radius: 8px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1A202C;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .match-nav li a {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.match-nav .ui-tabs-active a {
+  background-color: #3AC5C9;
+  color: #fff !important;
+}
+.match-nav .ui-tabs-active a .count-live {
+  color: #fff !important;
+}
+
+.match-sub-tabs {
+  padding: 16px 0px;
 }
 
 /*# sourceMappingURL=common.css.map */

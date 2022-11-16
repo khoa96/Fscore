@@ -797,6 +797,11 @@ li {
 			color: #1A202C;
 			display: flex;
 			align-items: center;
+
+			@include mq(max_md) {
+				font-size: 13px;
+				line-height: 15px;
+			}
 		}
 	}
 
@@ -1304,6 +1309,7 @@ li {
 		/* Gray:600 */
 
 		color: #718096;
+
 	}
 
 	.club-image {
@@ -1312,13 +1318,65 @@ li {
 		object-fit: cover;
 		margin-right: 12px;
 	}
+}
 
-	.list-league-sign {
-		display: flex;
-		justify-content: flex-end;
-		.league-sign  {
-			border-radius: 8px !important;
-			margin: 0px 1px;
+.list-league-sign {
+	display: flex;
+	justify-content: flex-end;
+	.league-sign  {
+		border-radius: 8px !important;
+		margin: 0px 1px;
+	}
+}
+
+.match-nav {
+	width: 100%;
+	height: auto;
+	display: flex;
+
+
+	li {
+		min-width: max-content;
+		margin-right: 12px;
+
+		a {
+			display: inline-block;
+			padding: 8px 12px;
+			background: #EDF2F7;
+			border-radius: 8px;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+			/* identical to box height */
+
+
+			/* Gray:900 */
+
+			color: #1A202C;
+			display: flex;
+			align-items: center;
+
+			@include mq(max_md) {
+				font-size: 13px;
+				line-height: 15px;
+			}
 		}
 	}
+
+	.ui-tabs-active {
+		a {
+			background-color: #3AC5C9;
+			color: #fff !important;
+
+			.count-live {
+				color: #fff !important;
+			}
+		}
+	}
+}
+
+.match-sub-tabs {
+	padding: 16px 0px;
 }
