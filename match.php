@@ -2084,7 +2084,7 @@
 
 <script>
   $("#match-tabs").tabs({
-    active: 1
+    active: 0
   })
 
   $("#match-standing-tabs").tabs({
