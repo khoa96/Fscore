@@ -141,7 +141,13 @@
                   </div>
 
                   <button class="btn-select-plan">Get 1 month plan</button>
-                  <p class="plan-description">31-Day money-back guarantee</p>
+                   <p class="plan-description">
+                    Your plan renews automatically. You can <a href="#">
+                      <strong>
+                        <u> stop automatic renewal</u>
+                      </strong>
+                    </a> at any time.
+                  </p>
                 </div>
               </div>
             </div>
