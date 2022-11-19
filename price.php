@@ -246,7 +246,7 @@
               <span class="step-detail">Select a payment method</span>
             </div>
 
-            <div class="select-plan-content-wrapper create-account-content-wrapper">
+            <div class="select-plan-content-wrapper create-account-content-wrapper select-payment">
               <div class="select-plan-header">
                 <span class="title">Select a payment method</span>
               </div>

@@ -542,6 +542,9 @@
     color: #1a202c;
   }
 }
+.page-price-wrapper .select-payment {
+  border-radius: 8px 0px 0px 8px !important;
+}
 .page-price-wrapper .icon {
   display: flex;
   width: 24px;
