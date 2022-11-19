@@ -23,6 +23,7 @@
 		<link rel="stylesheet" type="text/css" href="css/account.css">
 		<link rel="stylesheet" type="text/css" href="css/price.css">
 		<link rel="stylesheet" type="text/css" href="css/thankiu.css">
+		<link rel="stylesheet" type="text/css" href="css/authen.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file://-->

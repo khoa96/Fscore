@@ -1,11 +1,12 @@
 <?php include "templates/head.php"; ?>
-
 <body>
-  <div class="signin-wraper">
-    <div class="container singin-content">
-      <form action="#" method="#" class="signin-form">
+  <div class="authen-wrapper">
+    <div class="left-authen"></div>
+    <div class="right-authen">
+      <form action="#" method="#" class="authen-form">
         <div class="logo-wrapper">
-          <img src="./images/logo.png" alt="">
+          <img src="./images/logo.png" class="logo-for-pc" alt="">
+          <img src="./images/logo-authen-mobile.png" class="logo-for-mobile" alt="">
         </div>
         <h3 class="form-title">Sign in</h3>
 
@@ -72,5 +73,4 @@
     </div>
   </div>
 </body>
-
 </html>
