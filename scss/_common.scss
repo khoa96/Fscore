@@ -12,6 +12,11 @@ html {
 	background-color: #f5f5f5;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+}
+
 img {
 	max-width: 100%;
 }
@@ -921,12 +926,6 @@ li {
 
 	.arrow {
 		margin-right: 6px;
-
-		svg {
-			@include mq(max_md) {
-				fill: #1A202C !important;
-			}
-		}
 	}
 }
 
@@ -1277,6 +1276,7 @@ li {
 	.column-10 {
 		width: 10%;
 	}
+
 	.column-70 {
 		width: 70%;
 	}
@@ -1323,7 +1323,8 @@ li {
 .list-league-sign {
 	display: flex;
 	justify-content: flex-end;
-	.league-sign  {
+
+	.league-sign {
 		border-radius: 8px !important;
 		margin: 0px 1px;
 	}

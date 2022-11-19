@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+@import "common";
+
+.thankiu-page-wrapper {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 137px 0px 417px 0px;
+	flex-grow: 1;
+
+	@include mq(max_md) {
+		padding: 65px 0px 200px 0px;
+	}
+
+	.thank-description {
+		font-style: normal;
+		font-weight: 400;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 21px;
+
+		color: #1A202C;
+		margin: 24px 0px 16px 0px;
+
+		@include mq(max_md) {
+			font-size: 14px;
+			line-height: 21px;
+			margin: 12px 0px 12px 0px;
+		}
+	}
+
+	.total-purchase {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 38px;
+
+		color: #1A202C;
+		display: inline-block;
+		margin-bottom: 24px;
+	}
+
+	.list-btn {
+		display: flex;
+		margin-bottom: 24px;
+
+		@include mq(max_md) {
+			flex-direction: column;
+		}
+
+		.btn-view {
+			font-weight: 400 !important;
+			background-color: transparent;
+			margin-right: 16px;
+			font-family: 'Rubik';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			/* identical to box height */
+
+
+			/* #313955 */
+
+			color: #313955;
+			background: #FFFFFF;
+			/* #313955 */
+
+			border: 1px solid #313955;
+			border-radius: 8px;
+
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+
+			@include mq(max_md) {
+				margin-right: 0;
+				margin-bottom: 12px;
+			}
+		}
+	}
+
+	.contact-us {
+		color: #3AC5C9;
+	}
+
+	.description {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		/* identical to box height */
+
+
+		color: #1A202C;
+		margin-bottom: 32px;
+	}
+
+	.btn-back {
+		min-width: 190px;
+		display: block;
+		margin: 0 auto;
+		height: auto;
+		padding: 12px 0px;
+		text-align: center;
+		border: none;
+		cursor: pointer;
+		text-align: center;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		background: #3AC5C9;
+		border-radius: 8px;
+		font-family: 'Rubik';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		/* identical to box height */
+
+		text-align: center;
+
+		/* Gray:900 */
+
+		color: #1A202C;
+		font-family: 'Rubik';
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+}

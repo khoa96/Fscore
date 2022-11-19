@@ -2,241 +2,388 @@
 @import "variables";
 @import "mixins";
 
+
 .account-page-wrapper {
-  width: 100%;
-  height: auto;
-  padding-top: 12px;
+  padding: 16px 0px 24px 0px;
 
 
-  .list-category {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 60px;
+  @include mq(max_md) {
+    // padding-top: 24px;
+    // padding-bottom: 100px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1A202C;
+    margin-bottom: 19px;
+
 
     @include mq(max_md) {
-      margin-bottom: 30px;
-    }
-
-    li {
-       a {
-        text-decoration: none;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 21px;
-        color: #1A202C;
-        &:hover {
-          text-decoration: underline;
-        }
-       }
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 10px;
     }
   }
 
-  .account-info-wrapper {
+  .account-header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #FFFFFF;
+    margin: 16px 0px;
+
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 24px;
 
     @include mq(max_md) {
       flex-direction: column;
-      margin-bottom: 20px;
       align-items: flex-start;
-      gap: 12px;
+      padding: 16px;
+      margin: 12px 0px;
     }
+  }
 
-    .account-info {
+  .user-info-wrapper {
+    display: flex;
+    align-items: center;
+
+    .btn-upload {
+      position: relative;
+      width: 144px;
+      height: 144px;
+      border-radius: 50%;
       display: flex;
+      justify-content: center;
       align-items: center;
-      gap: 24px;
+      border: 0;
+      transition: 0.2s;
+      cursor: pointer;
+      overflow: hidden;
+      background-color: #EDF2F7;
+
       @include mq(max_md) {
-        gap:  12px;
-      }
-
-      .account-image {
-        display: block;
-        min-width: 80px;
-        max-width: 80px;
+        width: 80px;
         height: 80px;
-        border: none;
-        border-radius: 50%;
-        object-fit: cover;
-
-        @include mq(max_md) {
-          min-width: 40px;
-          max-width: 40px;
-          height: 40px;
-        }
-      }
-
-      .account-description {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-
-
-        .account-name {
-          margin: 0;
-          padding: 0;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 48px;
-          color: #1A202C;
-
-          @include mq(max_md) {
-            font-size: 24px;
-            line-height: 32px;
-          }
-        }
-
-        .email {
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 21px;
-          color: #1A202C;
-        }
       }
     }
 
-    .list-control {
-      display: flex;
-      gap: 16px;
+    .btn-upload input[type="file"] {
+      cursor: pointer;
+      position: absolute;
+      left: 0%;
+      top: 0%;
+      transform: scale(3);
+      opacity: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
 
-      .btn {
-        cursor: pointer;
-        padding: 6px 10px;
+
+    .user-avatar {
+      min-width: 80px;
+      max-width: 80px;
+      height: 80px;
+      border: none;
+      border-radius: 50%;
+      margin-right: 24px;
+    }
+
+    .info-detail {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+
+      .username {
+        margin: 0;
+        padding: 0;
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        color: #461A53;
-        background-color: #fff;
-        border: 1px solid #461A53;
-        border-radius: 8px;
+        font-size: 32px;
+        line-height: 38px;
+        /* identical to box height */
 
-        &:focus {
-          outline: none;
+
+        /* Gray:900 */
+
+        color: #1A202C;
+
+        @include mq(max_md) {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 28px;
         }
+      }
+
+      .line {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-bottom: 8px;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1A202C;
+      }
+
+      .expiration-date {
+        display: inline-block;
+        padding: 8px 10px;
+        background: #F1516E;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        margin-right: 16px;
+        ;
+      }
+
+      .renew-plan {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+
+        /* Gray:900 */
+
+        color: #1A202C;
+      }
+
+      .txt-link {
+        text-decoration: none;
+        color: #3AC5C9;
+
+        &:hover {
+          text-decoration: none;
+        }
+
       }
     }
   }
 
-  .account-title {
-    font-style: normal;
-    font-weight: 550;
-    font-size: 16px;
-    line-height: 24px;
-    color: #1A202C;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 16px;
-    margin-top: 40px;
+  .transaction-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    padding: 24px;
+    min-width: 100%;
+    max-width: 100%;
+    background: #FFFFFF;
+    /* Gray:300 */
+
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    max-width: auto;
 
     @include mq(max_md) {
-      font-size: 14px;
-      line-height: 21px;
-      margin-bottom: 12px;
-      margin-top: 20px;
-    }
-  }
-
-  .table-content {
-
-    width: 100%;
-    .column-30 {
-      width: calc(100% / 3);
+      padding: 16px;
+      min-width: 100%;
+      max-width: 100%;
+      margin-left: 0;
     }
 
-    .column-50 {
-      width: 50%;
-    }
-
-    .text-left {
-      text-align: left;
-    }
-
-    .text-center {
-      text-align: center;
-    }
-
-    .text-right {
-      text-align: right;
-    }
-
-    .text-strong {
+    .transaction-title {
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
       line-height: 24px;
       color: #1A202C;
-    }
-
-    .table-row {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      padding: 12px 32px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 21px;
-      color: #1A202C;
-      border-bottom: 1px solid #EDF2F7;;
+      margin-bottom: 12px;
 
       @include mq(max_md) {
-        padding: 6px 16px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 8px;
+      }
+
+    }
+
+    .list-transaction {
+      width: 100%;
+      margin-right: 76px;
+      overflow-x: scroll;
+      max-width: 1000%;
+
+      @include mq(max_md) {
+        margin-right: 0;
+      }
+
+      .table-heading {
+        background-color: #EDF2F7;
+
+        .column-item {
+          color: #718096 !important;
+          font-size: 14px !important;
+          line-height: 21px;
+        }
+
+        @include mq(max_md) {
+          min-width: max-content;
+        }
+      }
+
+      .table-row {
+        display: flex;
+        border-top: 1px solid #EDF2F7;
+        padding: 10px 12px;
+        padding-right: 0;
+
+        &:last-of-type {
+          border-bottom: 1px solid #EDF2F7;
+        }
+
+        @include mq(max_md) {
+          padding: 6px 8px;
+        }
+
+        .column-item {
+          width: calc(100% / 6);
+          font-style: normal;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+
+
+
+          /* Gray:900 */
+
+          color: #1A202C;
+          min-width: max-content;
+          text-align: left;
+          display: flex;
+          align-items: center;
+
+          @include mq(max_md) {
+            font-size: 14px;
+            line-height: 21px;
+          }
+
+          &:nth-of-type(2),
+          &:nth-of-type(3) {
+            width: 15%;
+
+            @include mq(max_md) {
+              min-width: 120px;
+            }
+          }
+
+          &:nth-of-type(1),
+          &:nth-of-type(4),
+          &:nth-of-type(5),
+          &:nth-of-type(6) {
+            width: 20%;
+
+            @include mq(max_md) {
+              min-width: 240px;
+            }
+          }
+
+          &:nth-of-type(6) {
+            width: 15% !important;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 24px;
+
+            @include mq(max_md) {
+              min-width: 120px;
+            }
+          }
+
+          &:nth-of-type(1) {
+            justify-content: flex-start !important;
+          }
+        }
+
+        .btn-view-transaction {
+          min-width: 58px;
+          height: auto;
+          padding: 8px 12px;
+          text-align: center;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+
+          text-align: center;
+
+          /* #313955 */
+
+          color: #313955;
+          background: #3AC5C9;
+          border-radius: 4px;
+
+          font-family: 'Rubik';
+
+          &:focus {
+            outline: none;
+          }
+        }
       }
     }
   }
 
-  .pagination {
+  .list-btn {
     display: flex;
-    justify-content: flex-end;
-    gap: 8px;
-    align-items: center;
-    margin-top: 24px;
+
     @include mq(max_md) {
-      margin-top: 12px;
+      margin-top: 16px;
     }
 
-
-    .pagination-item {
-      min-width: 32px;
-      max-width: 32px;
-      height: 32px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 400;
+    .btn-view {
+      font-weight: 500;
+      background-color: transparent;
+      margin-right: 16px;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
       font-size: 14px;
       line-height: 21px;
-      color: #1A202C;
+      /* identical to box height */
 
-      &:focus {
-        outline: none;
+
+      /* #313955 */
+
+      color: #313955;
+      padding: 6px 10px;
+      background: #FFFFFF;
+      /* #313955 */
+
+      border: 1px solid #313955;
+      border-radius: 8px;
+
+      @include mq(max_md) {
+        margin-bottom: 0;
+      }
+
+
+      &:last-of-type {
+        margin-right: 0;
       }
     }
+  }
 
-    .active {
-      background: #461A53;
-      color: #fff;
-    }
-
-    .disabled {
-      opacity: 0.65;
-    }
-
-    .btn-prev {
-      transform: rotate(180deg);
-    }
-
+  @include mq(max_md) {
+    padding-top: 23px;
   }
 }
