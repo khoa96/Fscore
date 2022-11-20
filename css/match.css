@@ -979,6 +979,7 @@
   .match-standing-table-wrapper .match-standing-table {
     max-width: 90vw;
     overflow: scroll;
+    padding-bottom: 8px;
   }
 }
 .match-standing-table-wrapper .match-standing-suggesstion {
@@ -1474,6 +1475,18 @@
   .list-match-player .miss-player-label-2 {
     visibility: visible;
   }
+}
+
+.club-page-wrapper .common-match-list-timeline {
+  margin-bottom: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .club-page-wrapper .common-match-list-timeline {
+    margin-bottom: 24px;
+  }
+}
+.club-page-wrapper .common-match-list-timeline .middle-column .club-name {
+  max-width: 180px !important;
 }
 
 /*# sourceMappingURL=match.css.map */

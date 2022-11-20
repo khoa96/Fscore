@@ -82,4 +82,112 @@
   width: 100%;
 }
 
+.club-page-wrapper .common-info-wrapper .league-info .league-name {
+  max-width: 500px !important;
+}
+@media only screen and (max-width: 991px) {
+  .club-page-wrapper .common-info-wrapper .league-info .league-name {
+    max-width: 250px !important;
+  }
+}
+.club-page-wrapper .prem-stats-wrapper {
+  max-width: fit-content !important;
+}
+.club-page-wrapper .prem-stats-wrapper .prem-stats-column {
+  width: 20% !important;
+  padding: 0px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.club-page-wrapper .prem-stats-wrapper .prem-stats-column .label {
+  max-width: fit-content;
+}
+.club-page-wrapper .club-visual-match-wrapper {
+  padding: 16px 0px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.club-page-wrapper .club-visual-match {
+  width: 542px;
+  height: 550px;
+  background-image: url("../images/visual-club-visual.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.club-page-wrapper .club-visual-match .visual-line {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.club-page-wrapper .club-visual-match .visual-line:nth-of-type(1) {
+  top: 67px;
+  left: 0;
+}
+.club-page-wrapper .club-visual-match .visual-line:nth-of-type(2) {
+  top: 95px;
+  left: 0;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
+.club-page-wrapper .club-visual-match .visual-line:nth-of-type(3) {
+  top: 204px;
+  left: 0;
+}
+.club-page-wrapper .club-visual-match .visual-line:nth-of-type(4) {
+  top: 333px;
+  left: 0;
+}
+.club-page-wrapper .club-visual-match .visual-line:nth-of-type(5) {
+  top: 446px;
+  left: 0;
+}
+.club-page-wrapper .club-visual-match .player-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 88px;
+}
+.club-page-wrapper .club-visual-match .player-item:last-of-type {
+  margin-right: 0;
+}
+.club-page-wrapper .club-visual-match .player-item .number {
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  /* Gray:900 */
+  color: #1A202C;
+  background: #3AC5C9;
+  border-radius: 40px;
+  margin-bottom: 4px;
+}
+.club-page-wrapper .club-visual-match .player-item .player-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+
 /*# sourceMappingURL=league.css.map */

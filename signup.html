@@ -3,7 +3,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Yeahscore</title>
+		<title>FScore</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -13,12 +13,19 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome-all.min.css">
 		<link rel="stylesheet" type="text/css" href="css/slick.min.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" type="text/css" href="css/header.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
 		<link rel="stylesheet" type="text/css" href="css/home.css">
 		<link rel="stylesheet" type="text/css" href="css/live.css">
 		<link rel="stylesheet" type="text/css" href="css/signin.css">
 		<link rel="stylesheet" type="text/css" href="css/signup.css">
+		<link rel="stylesheet" type="text/css" href="css/match.css">
+		<link rel="stylesheet" type="text/css" href="css/account.css">
+		<link rel="stylesheet" type="text/css" href="css/price.css">
+		<link rel="stylesheet" type="text/css" href="css/thankiu.css">
+		<link rel="stylesheet" type="text/css" href="css/authen.css">
+		<link rel="stylesheet" type="text/css" href="css/league.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file://-->
@@ -27,18 +34,19 @@
 		script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
 		-->
 	</head>
-
 <body>
-  <div class="signup-wraper">
-    <div class="container singup-content">
-      <form action="#" method="#" class="signup-form">
+  <div class="authen-wrapper">
+    <div class="left-authen"></div>
+    <div class="right-authen">
+      <form action="#" method="#" class="authen-form">
         <div class="logo-wrapper">
-          <img src="./images/logo.png" alt="">
+          <img src="./images/logo.png" class="logo-for-pc" alt="">
+          <img src="./images/logo-authen-mobile.png" class="logo-for-mobile" alt="">
         </div>
-        <h3 class="form-title">Sign up</h3>
+        <h3 class="form-title">Sign Up</h3>
 
         <div class="input-item">
-          <input type="text" name="" value="" placeholder="Email address" class="input-common" />
+          <input type="email" name="" value="" placeholder="Email address" class="input-common" />
         </div>
 
         <div class="input-item">
@@ -66,11 +74,10 @@
         <span class="have-account-title">Already a member?</span>
 
         <div class="form-submit submit-signup">
-          <a href="signin.html" class="btn-submit btn-signup">Sign in</a>
+          <a href="signup.html" target="#"  class="btn-submit btn-signup">Sign in</a>
         </div>
       </form>
     </div>
   </div>
 </body>
-
 </html>

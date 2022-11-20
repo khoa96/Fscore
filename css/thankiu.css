@@ -1363,6 +1363,14 @@ li {
     padding-right: 0;
   }
 }
+.common-page-wrapper .common-info-wrapper .header-club-column {
+  width: 50%;
+}
+@media only screen and (max-width: 991px) {
+  .common-page-wrapper .common-info-wrapper .header-club-column {
+    width: 100%;
+  }
+}
 .common-page-wrapper .common-info-wrapper .image-league {
   min-width: 80px;
   max-width: 80px;
@@ -1608,6 +1616,9 @@ li {
   .common-page-wrapper #league-tabs .sub-nav,
 .common-page-wrapper #club-tabs .sub-nav {
     padding-left: 12px !important;
+    max-width: 90vw;
+    overflow-x: scroll;
+    padding-bottom: 8px;
   }
 }
 
@@ -1966,6 +1977,17 @@ li {
     max-width: 100px;
   }
 }
+.common-match-list-timeline .match-timeline-item .league-column {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 170px;
+}
+@media only screen and (max-width: 991px) {
+  .common-match-list-timeline .match-timeline-item .league-column {
+    display: none;
+  }
+}
 .common-match-list-timeline .match-timeline-item .middle-column {
   flex-grow: 1;
   display: flex;
@@ -2304,6 +2326,211 @@ li {
 
 .stats-detail-wrapper {
   padding-top: 24px;
+}
+
+.common-league-stading-table {
+  width: 100%;
+}
+.common-league-stading-table .column-10 {
+  width: 10%;
+}
+.common-league-stading-table .column-70 {
+  width: 70%;
+  padding-left: 12px;
+}
+.common-league-stading-table .column-20 {
+  width: 20%;
+}
+.common-league-stading-table .table-heading {
+  padding: 10px;
+  background: #EDF2F7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height */
+  display: flex;
+  /* Gray:600 */
+  color: #718096;
+  border-bottom: none;
+}
+.common-league-stading-table .table-footer {
+  padding: 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3AC5C9;
+  cursor: pointer;
+}
+.common-league-stading-table .table-row {
+  padding: 8px 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* Gray:900 */
+  border-bottom: 1px solid #EDF2F7;
+  color: #1A202C;
+}
+.common-league-stading-table .active {
+  background-color: rgba(58, 197, 201, 0.1);
+  color: #3AC5C9;
+}
+.common-league-stading-table .club-wrapper {
+  display: flex;
+  align-items: center;
+}
+.common-league-stading-table .club-wrapper .club-image {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .common-league-stading-table .club-wrapper .club-image {
+    margin-right: 8px;
+  }
+}
+.common-league-stading-table .club-wrapper .club-name {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+@media only screen and (max-width: 991px) {
+  .common-league-stading-table .club-wrapper .club-name {
+    max-width: 100px;
+  }
+}
+
+.common-club-matches-table .table-heading {
+  display: flex;
+  background: #EDF2F7;
+  padding: 12px 16px;
+  justify-content: space-between;
+}
+.common-club-matches-table .table-heading .heading-column {
+  width: 33.3333333333%;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  cursor: pointer;
+}
+
+.common-club-stats-table {
+  margin-bottom: 32px;
+}
+.common-club-stats-table .table-heading {
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  background: #EDF2F7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #718096 !important;
+  border-bottom: none;
+}
+.common-club-stats-table .table-footer {
+  border-top: 1px solid #E2E8F0;
+  border-bottom: none !important;
+}
+.common-club-stats-table .list-score {
+  display: flex;
+  align-items: center;
+}
+.common-club-stats-table .list-score .score {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+}
+.common-club-stats-table .list-score .score:last-of-type {
+  margin-right: 0;
+}
+.common-club-stats-table .list-score .score-danger {
+  background: #E53E3E;
+}
+.common-club-stats-table .list-score .score-default {
+  background-color: none;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+}
+.common-club-stats-table .list-score .score-warning {
+  background: #F59D35;
+  border-radius: 4px;
+}
+.common-club-stats-table .table-row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  border-bottom: 1px solid #E2E8F0;
+}
+.common-club-stats-table .column-40 {
+  width: 40%;
+}
+.common-club-stats-table .column-10 {
+  width: 10%;
+  display: flex;
+}
+.common-club-stats-table .club-wrapper {
+  display: flex;
+  align-items: center;
+}
+.common-club-stats-table .club-wrapper .club-image {
+  min-width: 30px;
+  max-width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.common-club-stats-table .club-wrapper .club-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}
+
+.txt-line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  margin-bottom: 8px;
 }
 
 .thankiu-page-wrapper {
