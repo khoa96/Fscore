@@ -142,6 +142,10 @@ li {
   margin-top: 32px;
 }
 
+.mb-12 {
+  margin-bottom: 12px;
+}
+
 .count {
   margin: 0px 3px;
 }
@@ -1565,7 +1569,7 @@ li {
     font-weight: 500;
     font-size: 17px;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 12px !important;
   }
 }
 .common-page-wrapper .main-common-content {
@@ -2205,6 +2209,12 @@ li {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-width: 450px;
+}
+@media only screen and (max-width: 991px) {
+  .common-stats-table .player-wrapper .player-name {
+    max-width: 180px;
+  }
 }
 
 .common-pagination {
@@ -2251,6 +2261,49 @@ li {
 }
 .common-pagination .btn-prev {
   transform: rotate(180deg);
+}
+
+.content-tab-only-for-pc {
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .content-tab-only-for-pc {
+    display: none;
+  }
+}
+
+.content-tab-only-for-mobile {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .content-tab-only-for-mobile {
+    display: block;
+  }
+}
+
+.statis-nav-for-mobile li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0px;
+  border-bottom: 1px solid #EDF2F7;
+  padding-right: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.statis-nav-for-mobile li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* Gray:900 */
+  color: #1A202C;
+  width: 100%;
+  height: auto;
+}
+
+.stats-detail-wrapper {
+  padding-top: 24px;
 }
 
 .thankiu-page-wrapper {

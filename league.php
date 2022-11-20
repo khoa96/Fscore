@@ -1740,7 +1740,8 @@
               <div class="main-common-content">
                 <div class="stading-block-wrapper">
                   <h3 class="main-common-title">Stats</h3>
-                  <div id="leaguage-stats-tabs">
+                  <!-- FOR PC ONLY -->
+                  <div id="leaguage-stats-tabs" class="content-tab-only-for-pc">
                     <ul class="pill-nav">
                       <li><a href="#sub-tabs-1">Players</a></li>
                       <li><a href="#sub-tabs-2">Team</a></li>
@@ -1982,6 +1983,427 @@
                       tab2
                     </div>
                   </div>
+                  <!-- FOR PC ONLY -->
+
+                  <!-- FOR MOBILE ONLY -->
+                  <!-- DIRECTION TO ./stats-detail.php WHEN CLICK -->
+                  <div class="content-tab-only-for-mobile">
+                    <ul class="statis-nav-for-mobile">
+                      <li>
+                        <a href="./stats-detail.php">Goals</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Assists</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Minutes played</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Red cards</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Yellow cards</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Shots</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Dribble</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Dribble succ</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Clearances</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Interceptions</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Passes</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Yellow cards</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Key passes</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Crosses</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Crosses accuracy</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Long balls</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Long balls accuracy</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Duels</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Duels won</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Fouls</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Dispossessed</a>
+                          <span class="icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_483_18764)">
+                                <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_483_18764">
+                                  <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                          </span>
+                      </li>
+                      <li>
+                        <a href="./stats-detail.php">Was fouled</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="./stats-detail.php">Punches</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="./stats-detail.php">Runs out</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+
+
+                      <li>
+                        <a href="./stats-detail.php">Runs out succ</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+
+
+                      <li>
+                        <a href="./stats-detail.php">Good high claim</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="./stats-detail.php">Passes accuracy</a>
+                        <span class="icon">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_483_18764)">
+                              <path d="M7.5 5L12.5 10L7.5 15" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_483_18764">
+                                <rect width="20" height="20" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- FOR MOBILE ONLY -->
                 </div>
               </div>
             </div>
@@ -2479,7 +2901,7 @@
 </body>
 <script>
   $("#league-tabs").tabs({
-    active: 3
+    active: 0
   })
 
   $("#overview-top-player-tabs").tabs({

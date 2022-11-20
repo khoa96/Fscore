@@ -112,6 +112,10 @@ li {
 	margin-top: 32px;
 }
 
+.mb-12 {
+	margin-bottom: 12px;
+}
+
 .count {
 	margin: 0px 3px;
 }
@@ -1739,7 +1743,7 @@ li {
 			font-weight: 500;
 			font-size: 17px;
 			line-height: 20px;
-			margin-bottom: 12px;
+			margin-bottom: 12px !important;
 		}
 	}
 
@@ -2470,6 +2474,10 @@ li {
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
+			max-width: 450px;
+			@include mq(max_md) {
+				max-width: 180px;
+			}
 
 		}
 
@@ -2527,4 +2535,49 @@ li {
 		transform: rotate(180deg);
 	}
 
+}
+
+.content-tab-only-for-pc {
+	display: block;
+
+	@include mq(max_md) {
+		display: none;
+	}
+}
+
+.content-tab-only-for-mobile {
+	display: none;
+	@include mq(max_md) {
+		display: block
+	}
+}
+
+.statis-nav-for-mobile  {
+	li {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		padding: 14px 0px;
+		border-bottom: 1px solid #EDF2F7;
+		padding-right: 12px;
+		align-items: center;
+		cursor: pointer;
+
+		a {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 15px;
+
+			/* Gray:900 */
+
+			color: #1A202C;
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.stats-detail-wrapper {
+	padding-top: 24px;
 }
