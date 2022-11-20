@@ -1613,7 +1613,7 @@
             <!-- ===========START Standings TABS ============= -->
             <div id="tabs-4" class="match-tab-content">
               <div id="match-standing-tabs">
-                <ul class="match-nav">
+                <ul class="pill-nav">
                   <li><a href="#tabs-1">All</a></li>
                   <li><a href="#tabs-2">Home</a></li>
                   <li><a href="#tabs-3">Away</a></li>
@@ -1853,7 +1853,7 @@
             <!-- ===========START Statistics TABS ============= -->
             <div id="tabs-5" class="match-tab-content">
               <div id="match-statistics-tabs">
-                <ul class="match-nav">
+                <ul class="pill-nav">
                   <li><a href="#tabs-1">All</a></li>
                   <li><a href="#tabs-2">1st</a></li>
                   <li><a href="#tabs-3">2st</a></li>
