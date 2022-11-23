@@ -3377,6 +3377,245 @@
             <div class="middle-layout">
               <div class="main-common-content">
                 <h3 class="main-common-title">Manchester City Season statistics</h3>
+                <div class="common-season-statistics-content-wrapper">
+                  <div class="column">
+                    <div class="list-season-statistics-table">
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Summary</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Matches</span>
+                            <span class="value">40</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals scored</span>
+                            <span class="value">34</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals conceded</span>
+                            <span class="value">33</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Assists</span>
+                            <span class="value">12</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Passes</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Ball possession</span>
+                            <span class="value">66.5%</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Accurate per game</span>
+                            <span class="value">610 (89.4%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. own half</span>
+                            <span class="value">286 (94.0%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. opposition half</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. long balls</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. crosses</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Defending</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Clean sheets</span>
+                            <span class="value">13</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals conceded per game</span>
+                            <span class="value">610 (89.4%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Tackles per game</span>
+                            <span class="value">286 (94.0%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Interceptions per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Clearances per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Saves per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Errors leading to shot</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Errors leading to goal</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Penalties committed</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Penalty goals conceded</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Clearance off line</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">other</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Clean sheets</span>
+                            <span class="value">13</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals conceded per game</span>
+                            <span class="value">610 (89.4%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Tackles per game</span>
+                            <span class="value">286 (94.0%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Interceptions per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Clearances per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Saves per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Errors leading to shot</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Errors leading to goal</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Penalties committed</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Penalty goals conceded</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Clearance off line</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column">
+                  <div class="list-season-statistics-table">
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Attacking</h5>
+                        <div class="table-content">
+                        <div class="table-row">
+                            <span class="label">Ball possession</span>
+                            <span class="value">66.5%</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Accurate per game</span>
+                            <span class="value">610 (89.4%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. own half</span>
+                            <span class="value">286 (94.0%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. opposition half</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. long balls</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. crosses</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Matches</span>
+                            <span class="value">40</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals scored</span>
+                            <span class="value">34</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals conceded</span>
+                            <span class="value">33</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Assists</span>
+                            <span class="value">12</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Clean sheets</span>
+                            <span class="value">13</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals conceded per game</span>
+                            <span class="value">610 (89.4%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Tackles per game</span>
+                            <span class="value">286 (94.0%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Interceptions per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Clearances per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Saves per game</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Errors leading to shot</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Errors leading to goal</span>
+                            <span class="value">331 (82.7%)</span>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="right-layout">

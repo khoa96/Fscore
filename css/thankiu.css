@@ -1600,7 +1600,7 @@ li {
 }
 @media only screen and (max-width: 991px) {
   .common-page-wrapper .main-common-content {
-    padding: 16px 0px;
+    padding: 0 0 16px 0px;
     border: none;
     border-radius: 0;
     background-color: transparent;
@@ -2897,6 +2897,54 @@ li {
     font-size: 13px;
     line-height: 15px;
   }
+}
+
+.common-season-statistics-content-wrapper {
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .common-season-statistics-content-wrapper {
+    flex-direction: column;
+  }
+}
+.common-season-statistics-content-wrapper .column {
+  width: 50%;
+  height: auto;
+  padding-right: 80px;
+}
+@media only screen and (max-width: 991px) {
+  .common-season-statistics-content-wrapper .column {
+    padding-right: 0;
+    width: 100%;
+  }
+}
+.common-season-statistics-content-wrapper .list-season-statistics-table {
+  width: 100%;
+}
+.common-season-statistics-content-wrapper .season-statistics-table-item {
+  margin-bottom: 24px;
+}
+.common-season-statistics-content-wrapper .season-statistics-table-item .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1A202C;
+  margin-bottom: 12px;
+}
+.common-season-statistics-content-wrapper .season-statistics-table-item .table-content {
+  width: 100%;
+}
+.common-season-statistics-content-wrapper .season-statistics-table-item .table-row {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid #EDF2F7;
 }
 
 .thankiu-page-wrapper {
