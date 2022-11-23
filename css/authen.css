@@ -2799,22 +2799,22 @@ li {
   outline: none;
 }
 
-.champion-tab-header {
+.club-tab-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 32px;
 }
 @media only screen and (max-width: 991px) {
-  .champion-tab-header {
+  .club-tab-header {
     margin-bottom: 22px;
   }
 }
-.champion-tab-header .box-select-time-wrapper {
+.club-tab-header .box-select-time-wrapper {
   display: flex;
   align-items: center;
 }
-.champion-tab-header .box-select-time-wrapper .label {
+.club-tab-header .box-select-time-wrapper .label {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2823,7 +2823,7 @@ li {
   margin-right: 8px;
 }
 @media only screen and (max-width: 991px) {
-  .champion-tab-header .box-select-time-wrapper .label {
+  .club-tab-header .box-select-time-wrapper .label {
     font-size: 13px;
     line-height: 15px;
   }
@@ -2945,6 +2945,155 @@ li {
   justify-content: space-between;
   padding: 10px 0px;
   border-bottom: 1px solid #EDF2F7;
+}
+
+.common-transfer-table-wrapper {
+  width: 100%;
+  height: auto;
+}
+.common-transfer-table-wrapper .transfer-table-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  margin-top: 36px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #EDF2F7;
+}
+@media only screen and (max-width: 991px) {
+  .common-transfer-table-wrapper .transfer-table-title {
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 24px;
+  }
+}
+.common-transfer-table-wrapper .txt-grey {
+  font-weight: 400 !important;
+  line-height: 17px;
+  color: #718096;
+  margin-left: 4px;
+}
+.common-transfer-table-wrapper .column-10 {
+  width: 10%;
+}
+.common-transfer-table-wrapper .column-50 {
+  width: 50%;
+}
+.common-transfer-table-wrapper .column-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common-transfer-table-wrapper .column-45 {
+  width: 45%;
+}
+.common-transfer-table-wrapper .column-30 {
+  width: 30%;
+}
+.common-transfer-table-wrapper .column-player {
+  width: 30%;
+}
+@media only screen and (max-width: 991px) {
+  .common-transfer-table-wrapper .column-player {
+    width: 100%;
+  }
+}
+.common-transfer-table-wrapper .column-list-club {
+  width: 50%;
+}
+@media only screen and (max-width: 991px) {
+  .common-transfer-table-wrapper .column-list-club {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+.common-transfer-table-wrapper .column-type {
+  width: 10%;
+}
+@media only screen and (max-width: 991px) {
+  .common-transfer-table-wrapper .column-type {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
+.common-transfer-table-wrapper .column-time {
+  width: 10%;
+}
+@media only screen and (max-width: 991px) {
+  .common-transfer-table-wrapper .column-time {
+    display: none !important;
+  }
+}
+.common-transfer-table-wrapper .table-row {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 12px 0px;
+  color: #1A202C;
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #EDF2F7;
+}
+@media only screen and (max-width: 991px) {
+  .common-transfer-table-wrapper .table-row {
+    flex-direction: column;
+  }
+}
+.common-transfer-table-wrapper .txt-highlight {
+  color: #3AC5C9;
+}
+.common-transfer-table-wrapper .txt-transter {
+  max-width: 100%;
+  word-wrap: word;
+}
+.common-transfer-table-wrapper .list-club {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.common-transfer-table-wrapper .club-image {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  border: none;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.common-transfer-table-wrapper .club-item {
+  display: flex;
+  align-items: center;
+}
+.common-transfer-table-wrapper .club-1 {
+  justify-content: flex-end;
+}
+.common-transfer-table-wrapper .club-1 .club-image {
+  margin-left: 8px;
+}
+.common-transfer-table-wrapper .txt-transfer-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+@media only screen and (max-width: 991px) {
+  .common-transfer-table-wrapper .txt-transfer-overflow {
+    max-width: 100px;
+  }
+}
+.common-transfer-table-wrapper .club-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.common-transfer-table-wrapper .club-2 .club-image {
+  margin-right: 8px;
+}
+.common-transfer-table-wrapper .column-transfer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .authen-wrapper {

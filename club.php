@@ -2925,7 +2925,549 @@
 
         <!-- ===========START Tranfer TABS ============= -->
         <div id="tabs-5" class="common-tab-content">
-          tab5
+          <div class="main-layout">
+            <div class="middle-layout">
+              <div class="main-common-content">
+                <div class="club-tab-header mb-0">
+                  <h3 class="main-common-title mb-0">Transfer</h3>
+                  <div class="box-select-time-wrapper">
+                    <span class="label">Year</span>
+                    <div class="select-block">
+                      <select name="" id="" value="">
+                        <option value="">22/23</option>
+                        <option value="">22/24</option>
+                        <option value="">22/25</option>
+                        <option value="">22/26</option>
+                        <option value="">22/27</option>
+                        <option value="">22/28</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="common-transfer-table-wrapper">
+                  <h4 class="transfer-table-title">
+                    <strong>Transfer in</strong>
+                    <span class="txt-grey">(€ 121.75M)</span>
+                  </h4>
+                  <div class="transfer-table">
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 13.0M
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">End of loan
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Loan
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="common-transfer-table-wrapper">
+                  <h4 class="transfer-table-title">
+                    <strong>Transfer out</strong>
+                    <span class="txt-grey">(€ 121.75M)</span>
+                  </h4>
+                  <div class="transfer-table">
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 13.0M
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">End of loan
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">16 Aug</div>
+                      <div class="column-player">
+                        <div class="common-player-wrapper">
+                          <img src="./images/account-image.png" class="player-image" />
+                          <div class="player-info">
+                            <span class="player-name mw-100">Erling Braut Håland</span>
+                            <span class="player-description">D - Age 21 - Spain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png"  alt="" class="club-image">
+                           <span class="club-name txt-transfer-overflow">Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Loan
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="right-layout">
+              <div class="right-common-content">
+                <h4 class="block-right-title">English Premier League Standings 22-23</h4>
+                <div class="common-league-stading-table">
+                  <div class="table-row table-heading">
+                    <div class="column-10 txt-center">#</div>
+                    <div class="column-70 txt-left">Team</div>
+                    <div class="column-10 txt-center">P</div>
+                    <div class="column-10 txt-center">Pts</div>
+                  </div>
+
+                  <div class="table-row">
+                    <div class="column-10 txt-center">1</div>
+                    <div class="column-70">
+                      <div class="club-wrapper">
+                        <img src="./images/mc-club.png" alt="" class="club-image">
+                        <span class="club-name">Arsenal</span>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">14</div>
+                    <div class="column-10 txt-center">37</div>
+                  </div>
+
+                  <div class="table-row active">
+                    <div class="column-10 txt-center">2</div>
+                    <div class="column-70">
+                      <div class="club-wrapper">
+                        <img src="./images/mc-club.png" alt="" class="club-image">
+                        <span class="club-name">Arsenal</span>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">14</div>
+                    <div class="column-10 txt-center">37</div>
+                  </div>
+
+
+                  <div class="table-row">
+                    <div class="column-10 txt-center">3</div>
+                    <div class="column-70">
+                      <div class="club-wrapper">
+                        <img src="./images/mc-club.png" alt="" class="club-image">
+                        <span class="club-name">Tottenham</span>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">14</div>
+                    <div class="column-10 txt-center">37</div>
+                  </div>
+
+                  <div class="table-row">
+                    <div class="column-10 txt-center">4</div>
+                    <div class="column-70">
+                      <div class="club-wrapper">
+                        <img src="./images/mc-club.png" alt="" class="club-image">
+                        <span class="club-name">Arsenal Tottenham Tottenham Tottenham</span>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">14</div>
+                    <div class="column-10 txt-center">37</div>
+                  </div>
+                  <div class="table-footer">
+                    <span class="label">Standings</span>
+                    <span class="icon">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_448_11547)">
+                          <path d="M7.5 5L12.5 10L7.5 15" stroke="#3AC5C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_448_11547">
+                            <rect width="20" height="20" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right-common-content league-top-player-wrapper mt-16">
+                <h4 class="block-right-title">Manchester City Top players 22-23</h4>
+                <div id="transfer-top-player-tabs">
+                  <ul class="pill-nav">
+                    <li><a href="#pill-tabs-1">Goals</a></li>
+                    <li><a href="#pill-tabs-2">Assists</a></li>
+                  </ul>
+                  <div id="pill-tabs-1" class="pill-sub-tabs">
+                    <div class="top-player-table">
+                      <div class="table-heading">
+                        <div class="column-10 txt-center">#</div>
+                        <div class="column-50 txt-center">Players</div>
+                        <div class="column-20 txt-center">Matches</div>
+                        <div class="column-20 txt-center">Goals(PK)</div>
+                      </div>
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">1</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+                            <div class="player-info">
+                              <span class="player-name">Erling Braut Håland</span>
+                              <span class="position">Defender</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">2</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+
+                            <div class="player-info">
+                              <span class="player-name">Marcus Edward</span>
+                              <span class="position">Foward</span>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">3</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+
+                            <div class="player-info">
+                              <span class="player-name">Neymar</span>
+                              <span class="position">Midfielder</span>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">3</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+
+                            <div class="player-info">
+                              <span class="player-name">Pedro Flips</span>
+                              <span class="position">Defender</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">3</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+                            <div class="player-info">
+                              <span class="player-name">Pedro Flips</span>
+                              <span class="position">Defender</span>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">3</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+
+                            <div class="player-info">
+                              <span class="player-name">Pedro Flips</span>
+                              <span class="position">Defender</span>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">3</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+
+                            <div class="player-info">
+                              <span class="player-name">Pedro Flips</span>
+                              <span class="position">Defender</span>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+
+                      <div class="table-row">
+                        <div class="column-10 txt-center">3</div>
+                        <div class="column-50">
+                          <div class="player-wrapper">
+                            <div class="avatar-wrapper">
+                              <img src="./images/account-image.png" alt="" class="user-avatar">
+                            </div>
+
+                            <div class="player-info">
+                              <span class="player-name">Pedro Flips</span>
+                              <span class="position">Defender</span>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="column-20 txt-center">13</div>
+                        <div class="column-20 txt-center">18(3)</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="pill-tabs-2" class="pill-sub-tabs">
+                    tab2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- ===========END Tranfer TABS ============= -->
 
@@ -2934,7 +3476,7 @@
           <div class="main-layout">
             <div class="middle-layout">
               <div class="main-common-content">
-                <div class="champion-tab-header">
+                <div class="club-tab-header">
                   <h3 class="main-common-title mb-0">Champions</h3>
                   <div class="box-select-time-wrapper">
                     <span class="label">Year</span>
@@ -3534,11 +4076,11 @@
                     </div>
                   </div>
                   <div class="column">
-                  <div class="list-season-statistics-table">
+                    <div class="list-season-statistics-table">
                       <div class="season-statistics-table-item">
                         <h5 class="title">Attacking</h5>
                         <div class="table-content">
-                        <div class="table-row">
+                          <div class="table-row">
                             <span class="label">Ball possession</span>
                             <span class="value">66.5%</span>
                           </div>
@@ -3879,7 +4421,7 @@
 </body>
 <script>
   $("#club-tabs").tabs({
-    active: 6
+    active: 4
   })
 
   $("#overview-top-player-tabs").tabs({
@@ -3903,6 +4445,10 @@
   })
 
   $("#season-statistics-top-player-tabs").tabs({
+    active: 0
+  })
+
+  $("#transfer-top-player-tabs").tabs({
     active: 0
   })
 </script>

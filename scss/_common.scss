@@ -3158,7 +3158,7 @@ li {
 	}
 }
 
-.champion-tab-header {
+.club-tab-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -3318,5 +3318,168 @@ li {
 			padding: 10px 0px;
 			border-bottom: 1px solid #EDF2F7;
 		}
+	}
+}
+
+.common-transfer-table-wrapper {
+	width: 100%;
+	height: auto;
+
+	.transfer-table-title  {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #1A202C;
+		margin-top: 36px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #EDF2F7;
+
+		@include mq(max_md) {
+			font-size: 13px;
+			line-height: 15px;
+			margin-top: 24px;
+		}
+
+	}
+
+	.txt-grey {
+		font-weight: 400 !important;
+		line-height: 17px;
+		color: #718096;
+		margin-left: 4px;
+	}
+	.column-10 {
+		width: 10%;
+	}
+
+	.column-50 {
+		width: 50%;
+	}
+
+	.column-arrow {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.column-45 {
+		width: 45%;
+	}
+
+	.column-30 {
+		width: 30%;
+	}
+
+
+	.column-player {
+		width: 30%;
+
+		@include mq(max_md) {
+		  width: 100%;
+		}
+	}
+
+	.column-list-club {
+		width: 50%;
+
+		@include mq(max_md) {
+		  width: 100%;
+			margin-top: 10px;
+		}
+	}
+
+	.column-type {
+		width: 10%;
+
+		@include mq(max_md) {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+	}
+	.column-time {
+		width: 10%;
+		@include mq(max_md) {
+			display: none !important;
+		}
+	}
+
+	.table-row {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		padding: 12px 0px;
+		color: #1A202C;
+		display: flex;;
+	  position: relative;
+		border-bottom: 1px solid #EDF2F7;
+		@include mq(max_md) {
+			flex-direction: column;
+		}
+	}
+	.txt-highlight {
+		color: #3AC5C9
+	}
+
+	.txt-transter {
+		max-width: 100%;
+		word-wrap: word;
+	}
+
+	.list-club {
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+
+
+	.club-image {
+		min-width: 24px;
+		max-width: 24px;
+		height: 24px;
+		border: none;
+		object-fit: cover;
+		border-radius: 50%;
+	}
+
+
+	.club-item {
+		display: flex;
+		align-items: center;
+	}
+
+	.club-1 {
+		justify-content: flex-end;
+		.club-image {
+			margin-left: 8px;
+		}
+	}
+
+	.txt-transfer-overflow {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 150px;
+
+		@include mq(max_md) {
+			max-width: 100px;
+		}
+	}
+
+	.club-2 {
+		display: flex;
+		justify-content: flex-start;
+
+		.club-image {
+			margin-right: 8px;
+		}
+	}
+
+	.column-transfer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
