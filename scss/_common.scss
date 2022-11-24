@@ -2720,6 +2720,12 @@ li {
 }
 
 .common-club-matches-table {
+
+	@include mq(max_md) {
+		max-width: 95vw;
+		overflow: auto;
+		padding-bottom: 4px;
+	}
 	.table-heading {
 		display: flex;
 		background: #EDF2F7;
@@ -2744,6 +2750,12 @@ li {
 .common-club-stats-table {
 	margin-bottom: 32px;
 
+	@include mq(max_md) {
+		max-width: 95vw;
+		overflow: auto;
+		padding-bottom: 4px;
+	}
+
 	.table-heading {
 		padding: 12px 0px;
 		display: flex;
@@ -2757,6 +2769,7 @@ li {
 		text-align: center;
 		color: #718096 !important;
 		border-bottom: none;
+
 	}
 
 	.table-footer {
@@ -2819,6 +2832,10 @@ li {
 		line-height: 17px;
 		color: #1A202C;
 		border-bottom: 1px solid #E2E8F0;
+
+		@include mq(max_md) {
+			min-width: 846px;
+		}
 	}
 
 	.column-40 {

@@ -136,6 +136,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include mq(max_md) {
+      max-width: 95vw;
+    }
   }
 
   .club-visual-match {
@@ -146,6 +150,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    @include mq(max_md) {
+      width: 100%;
+      height: 350px !important;
+      max-height: 350px;;
+    }
 
     .visual-line {
       position: absolute;
@@ -159,29 +169,56 @@
         top: 67px;
         left: 0;
 
+        @include mq(max_md) {
+          top: 22px;
+        }
+
       }
 
       &:nth-of-type(2) {
         top: 95px;
         left: 0;
-
         justify-content: space-between;
-        padding: 0px 150px;
+        padding: 0px 100px;
+
+        @include mq(max_md) {
+          padding: 0px 50px;
+          top: 50px;
+        }
       }
 
       &:nth-of-type(3) {
         top: 204px;
         left: 0;
+        @include mq(max_md) {
+          top: 130px;
+        }
       }
 
       &:nth-of-type(4) {
         top: 333px;
         left: 0;
+
+        @include mq(max_md) {
+          top: 200px;
+          .player-item {
+            margin-right: 20px;
+
+            &:last-of-type {
+              margin-right: 0;
+            }
+          }
+        }
+
       }
 
       &:nth-of-type(5) {
         top: 446px;
         left: 0;
+
+        @include mq(max_md) {
+          top: 280px;
+        }
       }
 
     }
@@ -192,6 +229,10 @@
       justify-content: center;
       align-items: center;
       margin-right: 88px;
+
+      @include mq(max_md) {
+        margin-right: 34px;
+      }
 
       &:last-of-type {
         margin-right: 0;

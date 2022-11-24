@@ -4421,7 +4421,7 @@
 </body>
 <script>
   $("#club-tabs").tabs({
-    active: 4
+    active: 0
   })
 
   $("#overview-top-player-tabs").tabs({
