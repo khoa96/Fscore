@@ -510,250 +510,31 @@
             </div>
             <div class="right-layout">
               <div class="right-common-content">
-                <h4 class="block-right-title">English Premier League Standings 22-23</h4>
-                <div class="common-league-stading-table">
-                  <div class="table-row table-heading">
-                    <div class="column-10 txt-center">#</div>
-                    <div class="column-70 txt-left">Team</div>
-                    <div class="column-10 txt-center">P</div>
-                    <div class="column-10 txt-center">Pts</div>
-                  </div>
-
-                  <div class="table-row">
-                    <div class="column-10 txt-center">1</div>
-                    <div class="column-70">
-                      <div class="club-wrapper">
-                        <img src="./images/mc-club.png" alt="" class="club-image">
-                        <span class="club-name">Arsenal</span>
-                      </div>
-                    </div>
-                    <div class="column-10 txt-center">14</div>
-                    <div class="column-10 txt-center">37</div>
-                  </div>
-
-                  <div class="table-row active">
-                    <div class="column-10 txt-center">2</div>
-                    <div class="column-70">
-                      <div class="club-wrapper">
-                        <img src="./images/mc-club.png" alt="" class="club-image">
-                        <span class="club-name">Arsenal</span>
-                      </div>
-                    </div>
-                    <div class="column-10 txt-center">14</div>
-                    <div class="column-10 txt-center">37</div>
-                  </div>
-
-
-                  <div class="table-row">
-                    <div class="column-10 txt-center">3</div>
-                    <div class="column-70">
-                      <div class="club-wrapper">
-                        <img src="./images/mc-club.png" alt="" class="club-image">
-                        <span class="club-name">Tottenham</span>
-                      </div>
-                    </div>
-                    <div class="column-10 txt-center">14</div>
-                    <div class="column-10 txt-center">37</div>
-                  </div>
-
-                  <div class="table-row">
-                    <div class="column-10 txt-center">4</div>
-                    <div class="column-70">
-                      <div class="club-wrapper">
-                        <img src="./images/mc-club.png" alt="" class="club-image">
-                        <span class="club-name">Arsenal Tottenham Tottenham Tottenham</span>
-                      </div>
-                    </div>
-                    <div class="column-10 txt-center">14</div>
-                    <div class="column-10 txt-center">37</div>
-                  </div>
-                  <div class="table-footer">
-                    <span class="label">Standings</span>
-                    <span class="icon">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_448_11547)">
-                          <path d="M7.5 5L12.5 10L7.5 15" stroke="#3AC5C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_448_11547">
-                            <rect width="20" height="20" fill="white" />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="right-common-content league-top-player-wrapper mt-16">
-                <h4 class="block-right-title">Manchester City Top players 22-23</h4>
-                <div id="overview-top-player-tabs">
-                  <ul class="pill-nav">
-                    <li><a href="#pill-tabs-1">Goals</a></li>
-                    <li><a href="#pill-tabs-2">Assists</a></li>
+                <div class="common-footballer-right-sidebar-block">
+                  <h4 class="block-right-title">Strengths</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Consistency</span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Ball control </span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Playmaking</span>
+                    </li>
                   </ul>
-                  <div id="pill-tabs-1" class="pill-sub-tabs">
-                    <div class="top-player-table">
-                      <div class="table-heading">
-                        <div class="column-10 txt-center">#</div>
-                        <div class="column-50 txt-center">Players</div>
-                        <div class="column-20 txt-center">Matches</div>
-                        <div class="column-20 txt-center">Goals(PK)</div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">1</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-                            <div class="player-info">
-                              <span class="player-name">Erling Braut Håland</span>
-                              <span class="position">Defender</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">2</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-
-                            <div class="player-info">
-                              <span class="player-name">Marcus Edward</span>
-                              <span class="position">Foward</span>
-                            </div>
-
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">3</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-
-                            <div class="player-info">
-                              <span class="player-name">Neymar</span>
-                              <span class="position">Midfielder</span>
-                            </div>
-
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">3</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-
-                            <div class="player-info">
-                              <span class="player-name">Pedro Flips</span>
-                              <span class="position">Defender</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">3</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-                            <div class="player-info">
-                              <span class="player-name">Pedro Flips</span>
-                              <span class="position">Defender</span>
-                            </div>
-
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">3</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-
-                            <div class="player-info">
-                              <span class="player-name">Pedro Flips</span>
-                              <span class="position">Defender</span>
-                            </div>
-
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">3</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-
-                            <div class="player-info">
-                              <span class="player-name">Pedro Flips</span>
-                              <span class="position">Defender</span>
-                            </div>
-
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-
-                      <div class="table-row">
-                        <div class="column-10 txt-center">3</div>
-                        <div class="column-50">
-                          <div class="player-wrapper">
-                            <div class="avatar-wrapper">
-                              <img src="./images/account-image.png" alt="" class="user-avatar">
-                            </div>
-
-                            <div class="player-info">
-                              <span class="player-name">Pedro Flips</span>
-                              <span class="position">Defender</span>
-                            </div>
-
-                          </div>
-                        </div>
-                        <div class="column-20 txt-center">13</div>
-                        <div class="column-20 txt-center">18(3)</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="pill-tabs-2" class="pill-sub-tabs">
-                    tab2
-                  </div>
+                </div>
+                <div class="common-footballer-right-sidebar-block mt-16">
+                  <h4 class="block-right-title">Weaknesses</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Error proneness</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
