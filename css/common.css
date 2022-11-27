@@ -194,6 +194,10 @@ li {
   color: #0DC66D !important;
 }
 
+.txt-uppercase {
+  text-transform: uppercase;
+}
+
 .bd-top {
   border-top: 1px solid #EDF2F7;
 }
@@ -1617,17 +1621,20 @@ li {
   padding: 24px 12px;
 }
 .common-page-wrapper #league-tabs,
+.common-page-wrapper #footballer-tabs,
 .common-page-wrapper #club-tabs {
   position: relative;
   top: -54px;
   left: 0;
 }
 .common-page-wrapper #league-tabs .sub-nav,
+.common-page-wrapper #footballer-tabs .sub-nav,
 .common-page-wrapper #club-tabs .sub-nav {
   padding-left: 24px !important;
 }
 @media only screen and (max-width: 991px) {
   .common-page-wrapper #league-tabs .sub-nav,
+.common-page-wrapper #footballer-tabs .sub-nav,
 .common-page-wrapper #club-tabs .sub-nav {
     padding-left: 12px !important;
     max-width: 90vw;
@@ -2917,6 +2924,22 @@ li {
     line-height: 15px;
   }
 }
+.common-list-champion-wrapper .list-champion-cup .cup-item .label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #718096;
+  margin-top: 4px;
+  display: inline-block;
+}
+@media only screen and (max-width: 991px) {
+  .common-list-champion-wrapper .list-champion-cup .cup-item .label {
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 2px;
+  }
+}
 
 .common-season-statistics-content-wrapper {
   display: flex;
@@ -3113,6 +3136,108 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.common-footballer-right-sidebar-block .list-property-footballer li {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1A202C;
+  margin-bottom: 10px;
+}
+.common-footballer-right-sidebar-block .list-property-footballer li:last-of-type {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 991px) {
+  .common-footballer-right-sidebar-block .list-property-footballer li {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+.common-footballer-right-sidebar-block .list-property-footballer li .dot {
+  width: 3px;
+  height: 3px;
+  background-color: #1A202C;
+  border: none;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+.common-player-salary-table {
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-salary-table {
+    max-width: 95vw;
+    overflow: auto;
+  }
+}
+.common-player-salary-table .column-15 {
+  width: 15%;
+}
+.common-player-salary-table .column-20 {
+  width: 20%;
+}
+.common-player-salary-table .column-5 {
+  width: 5%;
+}
+.common-player-salary-table .column-10 {
+  width: 10%;
+}
+.common-player-salary-table .column-25 {
+  width: 25%;
+}
+.common-player-salary-table .column-30 {
+  width: 30%;
+}
+.common-player-salary-table .table-heading {
+  display: flex;
+  padding: 13px 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #718096;
+  background-color: #EDF2F7;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-salary-table .table-heading {
+    font-size: 11px;
+    line-height: 13px;
+    min-width: 846px;
+  }
+}
+.common-player-salary-table .table-row {
+  display: flex;
+  padding: 20px 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  border-bottom: 1px solid #EDF2F7;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-salary-table .table-row {
+    font-size: 13px;
+    line-height: 15px;
+    min-width: 846px;
+  }
+}
+.common-player-salary-table .txt-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+.common-player-salary-table .mw-180 {
+  max-width: 180px;
+}
+.common-player-salary-table .mw-100 {
+  max-width: 100px;
 }
 
 /*# sourceMappingURL=common.css.map */
