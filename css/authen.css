@@ -139,7 +139,7 @@ li {
 }
 
 .mb-16 {
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
 }
 
 .mt-32 {
@@ -3238,6 +3238,208 @@ li {
 }
 .common-player-salary-table .mw-100 {
   max-width: 100px;
+}
+
+.common-list-select-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.common-list-select-box .seclect-box-item {
+  margin-right: 8px;
+}
+.common-list-select-box .seclect-box-item:last-of-type {
+  margin-right: 0;
+}
+
+.footballer-page-wrapper .prem-stats-wrapper {
+  max-width: fit-content;
+}
+
+.common-player-table .column-10 {
+  width: 10%;
+}
+.common-player-table .column-15 {
+  width: 15%;
+}
+.common-player-table .column-25 {
+  width: 25%;
+}
+.common-player-table .column-20 {
+  width: 20%;
+}
+.common-player-table .column-40 {
+  width: 40%;
+}
+.common-player-table .column-50 {
+  width: 50%;
+}
+.common-player-table .title-header {
+  padding: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1A202C;
+  background: #F7FAFC;
+}
+.common-player-table .league-name-stats-table {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 215px;
+}
+.common-player-table .team-wrapper {
+  display: flex;
+  align-items: center;
+}
+.common-player-table .team-wrapper .team-image {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.common-player-table .team-wrapper .team-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 130px;
+}
+.common-player-table .table-heading {
+  padding: 13px 12px;
+  background: #EDF2F7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #718096;
+}
+.common-player-table .table-row {
+  padding: 12px 12px 10px 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  color: #1A202C;
+  border-bottom: 1px solid #EDF2F7;
+}
+.common-player-table .league-info {
+  flex-direction: column;
+  display: flex;
+}
+.common-player-table .league-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 165px;
+}
+.common-player-table .time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #718096;
+  display: inline-block;
+  margin-top: 2px;
+}
+.common-player-table .txt-highlight {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  /* #3AC5C9 */
+  color: #3AC5C9;
+}
+.common-player-table .list-club-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.common-player-table .list-club-wrapper .club-item {
+  display: flex;
+  align-items: center;
+}
+.common-player-table .list-club-wrapper .club-image {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.common-player-table .list-club-wrapper .club-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  max-width: 120px;
+}
+.common-player-table .list-club-wrapper .score {
+  display: flex;
+  justify-content: center;
+  min-width: 60px;
+  max-width: 60px;
+}
+.common-player-table .list-club-wrapper .club-1 {
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .list-club-wrapper .club-1 {
+    justify-content: space-between;
+  }
+}
+.common-player-table .list-club-wrapper .club-1 .club-image {
+  margin-left: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .list-club-wrapper .club-1 .club-image {
+    margin-left: 0;
+    margin-right: 8px;
+  }
+}
+.common-player-table .list-club-wrapper .club-1 .club-name {
+  direction: ltr;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .list-club-wrapper .club-1 .club-info {
+    flex-direction: row-reverse;
+  }
+}
+.common-player-table .list-club-wrapper .club-2 {
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .list-club-wrapper .club-2 {
+    margin-top: 8px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}
+.common-player-table .list-club-wrapper .club-2 .score {
+  margin-right: 40px;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .list-club-wrapper .club-2 .score {
+    margin-right: 0;
+  }
+}
+.common-player-table .list-club-wrapper .club-2 .club-image {
+  margin-right: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .list-club-wrapper .club-2 .club-info {
+    justify-content: space-between;
+  }
 }
 
 .authen-wrapper {
