@@ -31,22 +31,47 @@
           </div>
         </a>
       </div>
-      <div class="common-header-wrapper">
+      <div class="common-header-wrapper footballer-header-wrapper">
         <div class="block-common">
           <div class="common-info-wrapper">
-            <div class="column header-club-column">
+            <div class="column header-club-column left-column">
               <img src="./images/league-image.png" alt="" class="image-league">
-              <div class="league-info">
-                <span class="league-name">Premier League</span>
-                <div class="club-info-wrapper">
-                  <div class="info-block">
-                    <img src="./images/club-1.png" class="image-club" />
-                    <span class="club-name">England</span>
+              <div class="footbaler-info-header-block">
+                <div class="league-info">
+                  <span class="league-name">Premier League</span>
+                  <div class="club-info-wrapper">
+                    <div class="info-block mr-16">
+                      <img src="./images/club-1.png" class="image-club" />
+                      <span class="club-name">England</span>
+                    </div>
+                    <div class="info-block">
+                      <img src="./images/club-2.png" class="image-club" />
+                      <span class="club-name">Paris Saint Germain (PSG) Paris Saint Germain (PSG)</span>
+                    </div>
                   </div>
+                </div>
+                <div class="player-info-detail">
+                  <div class="row-info">
+                    <span class="label">Shirt number:</span>
+                    <span class="value">30</span>
+                  </div>
+                  <div class="row-info">
+                    <span class="label">Position:</span>
+                    <span class="value txt-uppercase">F</span>
+                  </div>
+                  <div class="row-info">
+                    <span class="label">Foot:</span>
+                    <span class="value">Left</span>
+                  </div>
+                  <div class="row-info">
+                    <span class="label">Contract untill:</span>
+                    <span class="value"> 29 Jun 2023</span>
+                  </div>
+
                 </div>
               </div>
             </div>
-            <div class="header-club-column d-flex flex-end">
+            <div class="header-club-column d-flex flex-end right-column">
               <div class="prem-stats-wrapper">
                 <span class="prem-title">PLAYER INFO</span>
                 <div class="prem-stats-table">
@@ -290,8 +315,8 @@
 
                 <div class="list-stats-player-table">
                   <div class="stats-player-table-item mb-24">
+                    <div class="title-header">22/23</div>
                     <div class="common-player-table">
-                      <div class="title-header">22/23</div>
                       <div class="table-heading d-flex">
                         <div class="column-20 txt-left">Team</div>
                         <div class="column-25 txt-left">League</div>
@@ -368,8 +393,8 @@
                   </div>
 
                   <div class="stats-player-table-item mb-24">
+                    <div class="title-header">2022</div>
                     <div class="common-player-table">
-                      <div class="title-header">2022</div>
                       <div class="table-heading d-flex">
                         <div class="column-20 txt-left">Team</div>
                         <div class="column-25 txt-left">League</div>
@@ -447,8 +472,8 @@
 
 
                   <div class="stats-player-table-item mb-24">
+                    <div class="title-header">2022</div>
                     <div class="common-player-table">
-                      <div class="title-header">2022</div>
                       <div class="table-heading d-flex">
                         <div class="column-20 txt-left">Team</div>
                         <div class="column-25 txt-left">League</div>
@@ -520,6 +545,82 @@
                         <div class="column-10 txt-center">10</div>
                         <div class="column-10 txt-center">0</div>
                         <div class="column-10 txt-center">0</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="main-common-content">
+                <h3 class="main-common-title mb-16">Transfer</h3>
+                <div class="common-transfer-table-wrapper footballer-transfer-table">
+                  <div class="transfer-table">
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">09 Aug 2021</div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png" alt="" class="club-image">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 13.0M
+                      </div>
+                    </div>
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">09 Aug 2021</div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png" alt="" class="club-image">
+                            <span class="club-name txt-transfer-overflow">Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 24.0M
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">09 Aug 2021</div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png" alt="" class="club-image">
+                            <span class="club-name txt-transfer-overflow">Arsenal Arsenal Arsenal </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 24.0M
                       </div>
                     </div>
                   </div>
@@ -596,7 +697,6 @@
                     <div class="column-10 txt-center">35</div>
                     <div class="column-10 txt-center">2023-06-29</div>
                   </div>
-
 
                   <div class="table-row">
                     <div class="column-15">2022-2023</div>
@@ -1059,7 +1159,7 @@
       </div>
     </div>
   </div>
-    <?php include "templates/footer.php"; ?>
+  <?php include "templates/footer.php"; ?>
 </body>
 <script>
   $("#footballer-tabs").tabs({

@@ -109,6 +109,11 @@ li {
 
 }
 
+
+.mr-16 {
+	margin-right: 16px;
+}
+
 .mb-16 {
 	margin-bottom: 16px !important;
 }
@@ -1565,6 +1570,13 @@ li {
 
 		}
 
+		.footbaler-info-header-block {
+			display: flex;
+			@include mq(max_md) {
+				flex-direction: column;
+			}
+		}
+
 		.league-info {
 			display: flex;
 			flex-direction: column;
@@ -1595,13 +1607,21 @@ li {
 			display: flex;
 			align-items: center;
 
+			@include mq(max_md) {
+				flex-direction: column;
+				align-items: flex-start;;
+				margin-bottom: 12px;
+			}
+
 			.info-block {
 				display: flex;
 				align-items: center;
 				margin-right: 20px;
 
 				@include mq(max_md) {
-					margin-right: 16px;
+					margin-right:0;
+					margin-bottom: 8px;
+
 				}
 			}
 
@@ -1639,6 +1659,8 @@ li {
 
 		@include mq(max_md) {
 			padding: 12px;
+			min-width: 100%;
+			max-width: 100%;
 		}
 
 		.prem-title {
@@ -3670,13 +3692,41 @@ li {
 	}
 }
 
+.title-header {
+	padding: 12px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #1A202C;
+	background: #F7FAFC;
+}
+
+.list-stats-player-table {
+	min-width: 100%;
+	max-width: 100%;
+
+	@include mq(max_md) {
+		max-width: 95vw;
+	}
+}
+
 .common-player-table {
+
+	@include mq(max_md) {
+		max-width: 95vw;
+		overflow: auto;
+		padding-bottom: 4px;
+	}
+
 	.column-10 {
 		width: 10%;
 	}
+
 	.column-15 {
 		width: 15%;
 	}
+
 	.column-25 {
 		width: 25%;
 	}
@@ -3693,28 +3743,14 @@ li {
 		width: 50%;
 	}
 
-
-	.title-header {
-		padding: 12px;
-		font-style: normal;
-		font-weight: 500;
-		font-size: 14px;
-		line-height: 17px;
-		/* identical to box height */
-
-
-		/* Gray:900 */
-
-		color: #1A202C;
-		background: #F7FAFC;
-	}
-
 	.league-name-stats-table {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		max-width: 215px;;
+		max-width: 215px;
+		;
 	}
+
 	.team-wrapper {
 		display: flex;
 		align-items: center;
@@ -3734,6 +3770,10 @@ li {
 			overflow: hidden;
 			text-overflow: ellipsis;
 			max-width: 130px;
+
+			@include mq(max_md) {
+				max-width: 120px;
+			}
 		}
 	}
 
@@ -3745,6 +3785,10 @@ li {
 		font-size: 12px;
 		line-height: 14px;
 		color: #718096;
+
+		@include mq(max_md) {
+			min-width: 846px;
+		}
 	}
 
 	.table-row {
@@ -3756,7 +3800,10 @@ li {
 		align-items: center;
 		color: #1A202C;
 		border-bottom: 1px solid #EDF2F7;
-		;
+
+		@include mq(max_md) {
+			min-width: 846px;
+		}
 	}
 
 
@@ -3764,12 +3811,17 @@ li {
 		flex-direction: column;
 		display: flex;
 	}
+
 	.league-name {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		display: inline-block;
 		max-width: 165px;
+
+		@include mq(max_md) {
+			max-width: 150px;
+		}
 	}
 
 	.time {
@@ -3787,11 +3839,6 @@ li {
 		font-weight: 600;
 		font-size: 14px;
 		line-height: 17px;
-		/* identical to box height */
-
-		text-align: center;
-
-		/* #3AC5C9 */
 
 		color: #3AC5C9;
 	}
@@ -3801,6 +3848,7 @@ li {
 		height: auto;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 
 		.club-item {
 			display: flex;
@@ -3820,9 +3868,13 @@ li {
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
-			max-width: 100%;
 			max-width: 120px;
+
+			@include mq(max_md) {
+				max-width: 100px;
+			}
 		}
+
 		.score {
 			display: flex;
 			justify-content: center;
@@ -3883,6 +3935,103 @@ li {
 				@include mq(max_md) {
 					justify-content: space-between;
 				}
+			}
+		}
+	}
+}
+
+.footballer-transfer-table {
+	.table-row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.column-transfer {
+		min-width: max-content;
+	}
+
+	.column-list-club {
+		flex-grow: 1;
+		margin: 0px 12px;
+
+		@include mq(max_md) {
+			margin: 0;
+			margin-top: 12px;
+		}
+
+		.club-name {
+			max-width: 300px;
+
+			@include mq(max_md) {
+				max-width: 150px;
+			}
+		}
+	}
+
+	.column-time {
+		@include mq(max_md) {
+			display: block !important;
+		}
+	}
+}
+
+.footballer-header-wrapper {
+
+	.left-column {
+		width: auto !important;
+		flex-grow: 1;
+
+		@include mq(max_md) {
+			width: 100% !important;
+		}
+	}
+
+	.right-column {
+		width: auto !important;
+		min-width: max-content;
+		@include mq(max_md) {
+			width: 100% !important;
+		}
+	}
+
+	.league-info {
+		.league-name {
+			max-width: 250px !important;
+		}
+	}
+	.info-block {
+		.club-name {
+			max-width: 250px !important;
+		}
+	}
+
+	.player-info-detail {
+		border-left: 1px solid #E2E8F0;
+		padding-left: 24px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 20px;
+
+		@include mq(max_md) {
+			font-size: 11px;
+			line-height: 16px;
+			padding: 0;
+		}
+
+		.row-info {
+			display: flex;
+			align-items: center;
+
+			.label {
+				min-width: max-content;
+				min-width: 100px;
+				max-width: 100px;
+				color: #718096;
+			}
+
+			.value {
+				color: #1A202C;
 			}
 		}
 	}

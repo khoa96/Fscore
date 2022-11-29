@@ -138,6 +138,10 @@ li {
   margin-bottom: 8px !important;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 .mb-16 {
   margin-bottom: 16px !important;
 }
@@ -1409,6 +1413,14 @@ li {
   border-radius: 50%;
   margin-right: 8px;
 }
+.common-page-wrapper .common-info-wrapper .footbaler-info-header-block {
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .common-page-wrapper .common-info-wrapper .footbaler-info-header-block {
+    flex-direction: column;
+  }
+}
 .common-page-wrapper .common-info-wrapper .league-info {
   display: flex;
   flex-direction: column;
@@ -1436,6 +1448,13 @@ li {
   display: flex;
   align-items: center;
 }
+@media only screen and (max-width: 991px) {
+  .common-page-wrapper .common-info-wrapper .club-info-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+}
 .common-page-wrapper .common-info-wrapper .club-info-wrapper .info-block {
   display: flex;
   align-items: center;
@@ -1443,7 +1462,8 @@ li {
 }
 @media only screen and (max-width: 991px) {
   .common-page-wrapper .common-info-wrapper .club-info-wrapper .info-block {
-    margin-right: 16px;
+    margin-right: 0;
+    margin-bottom: 8px;
   }
 }
 .common-page-wrapper .common-info-wrapper .club-info-wrapper .club-name {
@@ -1479,6 +1499,8 @@ li {
 @media only screen and (max-width: 991px) {
   .common-page-wrapper .prem-stats-wrapper {
     padding: 12px;
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 .common-page-wrapper .prem-stats-wrapper .prem-title {
@@ -3256,6 +3278,33 @@ li {
   max-width: fit-content;
 }
 
+.title-header {
+  padding: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  background: #F7FAFC;
+}
+
+.list-stats-player-table {
+  min-width: 100%;
+  max-width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .list-stats-player-table {
+    max-width: 95vw;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .common-player-table {
+    max-width: 95vw;
+    overflow: auto;
+    padding-bottom: 4px;
+  }
+}
 .common-player-table .column-10 {
   width: 10%;
 }
@@ -3273,17 +3322,6 @@ li {
 }
 .common-player-table .column-50 {
   width: 50%;
-}
-.common-player-table .title-header {
-  padding: 12px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height */
-  /* Gray:900 */
-  color: #1A202C;
-  background: #F7FAFC;
 }
 .common-player-table .league-name-stats-table {
   white-space: nowrap;
@@ -3310,6 +3348,11 @@ li {
   text-overflow: ellipsis;
   max-width: 130px;
 }
+@media only screen and (max-width: 991px) {
+  .common-player-table .team-wrapper .team-name {
+    max-width: 120px;
+  }
+}
 .common-player-table .table-heading {
   padding: 13px 12px;
   background: #EDF2F7;
@@ -3318,6 +3361,11 @@ li {
   font-size: 12px;
   line-height: 14px;
   color: #718096;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .table-heading {
+    min-width: 846px;
+  }
 }
 .common-player-table .table-row {
   padding: 12px 12px 10px 12px;
@@ -3329,6 +3377,11 @@ li {
   color: #1A202C;
   border-bottom: 1px solid #EDF2F7;
 }
+@media only screen and (max-width: 991px) {
+  .common-player-table .table-row {
+    min-width: 846px;
+  }
+}
 .common-player-table .league-info {
   flex-direction: column;
   display: flex;
@@ -3339,6 +3392,11 @@ li {
   text-overflow: ellipsis;
   display: inline-block;
   max-width: 165px;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .league-name {
+    max-width: 150px;
+  }
 }
 .common-player-table .time {
   font-style: normal;
@@ -3354,9 +3412,6 @@ li {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-  text-align: center;
-  /* #3AC5C9 */
   color: #3AC5C9;
 }
 .common-player-table .list-club-wrapper {
@@ -3364,6 +3419,7 @@ li {
   height: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .common-player-table .list-club-wrapper .club-item {
   display: flex;
@@ -3381,8 +3437,12 @@ li {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 100%;
   max-width: 120px;
+}
+@media only screen and (max-width: 991px) {
+  .common-player-table .list-club-wrapper .club-name {
+    max-width: 100px;
+  }
 }
 .common-player-table .list-club-wrapper .score {
   display: flex;
@@ -3440,6 +3500,90 @@ li {
   .common-player-table .list-club-wrapper .club-2 .club-info {
     justify-content: space-between;
   }
+}
+
+.footballer-transfer-table .table-row {
+  display: flex;
+  justify-content: space-between;
+}
+.footballer-transfer-table .column-transfer {
+  min-width: max-content;
+}
+.footballer-transfer-table .column-list-club {
+  flex-grow: 1;
+  margin: 0px 12px;
+}
+@media only screen and (max-width: 991px) {
+  .footballer-transfer-table .column-list-club {
+    margin: 0;
+    margin-top: 12px;
+  }
+}
+.footballer-transfer-table .column-list-club .club-name {
+  max-width: 300px;
+}
+@media only screen and (max-width: 991px) {
+  .footballer-transfer-table .column-list-club .club-name {
+    max-width: 150px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .footballer-transfer-table .column-time {
+    display: block !important;
+  }
+}
+
+.footballer-header-wrapper .left-column {
+  width: auto !important;
+  flex-grow: 1;
+}
+@media only screen and (max-width: 991px) {
+  .footballer-header-wrapper .left-column {
+    width: 100% !important;
+  }
+}
+.footballer-header-wrapper .right-column {
+  width: auto !important;
+  min-width: max-content;
+}
+@media only screen and (max-width: 991px) {
+  .footballer-header-wrapper .right-column {
+    width: 100% !important;
+  }
+}
+.footballer-header-wrapper .league-info .league-name {
+  max-width: 250px !important;
+}
+.footballer-header-wrapper .info-block .club-name {
+  max-width: 250px !important;
+}
+.footballer-header-wrapper .player-info-detail {
+  border-left: 1px solid #E2E8F0;
+  padding-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .footballer-header-wrapper .player-info-detail {
+    font-size: 11px;
+    line-height: 16px;
+    padding: 0;
+  }
+}
+.footballer-header-wrapper .player-info-detail .row-info {
+  display: flex;
+  align-items: center;
+}
+.footballer-header-wrapper .player-info-detail .row-info .label {
+  min-width: max-content;
+  min-width: 100px;
+  max-width: 100px;
+  color: #718096;
+}
+.footballer-header-wrapper .player-info-detail .row-info .value {
+  color: #1A202C;
 }
 
 .authen-wrapper {
