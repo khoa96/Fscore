@@ -1,0 +1,1434 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>FScore</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link data-n-head="ssr" rel="icon" type="image/x-icon" href="images/logo.png">
+
+		<!-- STYLESHEET -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome-all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/slick.min.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" type="text/css" href="css/live.css">
+		<link rel="stylesheet" type="text/css" href="css/signin.css">
+		<link rel="stylesheet" type="text/css" href="css/signup.css">
+		<link rel="stylesheet" type="text/css" href="css/match.css">
+		<link rel="stylesheet" type="text/css" href="css/account.css">
+		<link rel="stylesheet" type="text/css" href="css/price.css">
+		<link rel="stylesheet" type="text/css" href="css/thankiu.css">
+		<link rel="stylesheet" type="text/css" href="css/authen.css">
+		<link rel="stylesheet" type="text/css" href="css/league.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file://-->
+		<!--if lt IE 9
+		script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+		script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+		-->
+	</head>
+
+<body>
+  <div class="header">
+    <header class="main-header">
+	<div class="container-fluid">
+		<div class="row g-0 justify-content-between align-items-center">
+			<div class="col-auto col-logo">
+				<a href="#" class="logo">
+					<img src="./images/logo.png" alt="yeahscore" class=" d-none d-lg-block">
+					<img src="./images/logo-sp.png" alt="yeascore" class="d-block d-lg-none">
+				</a>
+			</div>
+			<div class="col-auto col-nav">
+				<ul class="main-nav d-none d-lg-block">
+					<li><a href="#">Live Scores</a></li>
+					<li><a href="#">Statistics</a></li>
+					<li><a href="#">Previews</a></li>
+					<li><a href="#">Pricing</a></li>
+					<div class="authen-header">
+						<a href="#" target=""><button class="btn-header btn-signin">Sign in</button></a>
+						<a href="#" target=""><button class="btn-header btn-signup">Sign up</button></a>
+					</div>
+				</ul>
+				<button class="btn border-0 d-block d-lg-none btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1.42871 4.42871H18.5716M1.42871 10.143H18.5716M1.42871 15.8573H18.5716" stroke="#461A53" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</button>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- /END .main-header -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu">
+	<div class="offcanvas-header">
+		<h5 class="offcanvas-title">
+			<a href="#" class="logo"><img src="./images/logo-sp.png" alt="yeahscore"></a>
+		</h5>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<ul class="main-nav">
+			<li><a href="#">Live Scores</a></li>
+			<li><a href="#">Statistics</a></li>
+			<li><a href="#">Previews</a></li>
+			<li><a href="#">Pricing</a></li>
+			<div class="authen-header">
+				<a href="signin.html" target=""><button class="btn-header btn-signin">Sign in</button></a>
+				<a href="signup.html" target=""><button class="btn-header btn-signup">Sign up</button></a>
+			</div>
+		</ul>
+	</div>
+</div>
+<!-- /END .offcanvas -->
+<!-- /.main-header -->
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/jquery-ui.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/jquery.magnific-popup.min.js"></script>
+<script src="./js/main.js"></script>    <div class="main-menu-wrapper">
+  <div class="container">
+    <ul class="main-menu">
+      <li class="active">
+        <a href="#" target="">
+          <img src="../images/icon-menu-1.png" alt="">
+          <span>Football</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" target="">
+          <img src="../images/icon-menu-2.png" alt="">
+          <span>Basketball</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" target="">
+          <img src="../images/icon-menu-3.png" alt="">
+          <span>Volleyball</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" target="">
+          <img src="../images/icon-menu-4.png" alt="">
+          <span>Tennis</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" target="">
+          <img src="../images/icon-menu-5.png" alt="">
+          <span>Badminton</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" target="">
+          <img src="../images/icon-menu-6.png" alt="">
+          <span>Hockey</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" target="">
+          <img src="../images/icon-menu-7.png" alt="">
+          <span>Baseball</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>  </div>
+  <div class="container">
+    <div class="common-page-wrapper footballer-page-wrapper">
+      <div class="common-list-category">
+        <a href="#" target="">
+          <div class="category-item">
+            <span>Champions League</span>
+          </div>
+        </a>
+        <div class="arrow">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_103_3181)">
+              <path d="M4.5 3.5L7.5 6.5L4.5 9.5" stroke="#4A5568" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <defs>
+              <clipPath id="clip0_103_3181">
+                <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <a href="#" target="">
+          <div class="category-item">
+            <span>Barcelona - Man United</span>
+          </div>
+        </a>
+      </div>
+      <div class="common-header-wrapper footballer-header-wrapper">
+        <div class="block-common">
+          <div class="common-info-wrapper">
+            <div class="column header-club-column left-column">
+              <img src="./images/league-image.png" alt="" class="image-league">
+              <div class="footbaler-info-header-block">
+                <div class="league-info">
+                  <span class="league-name">Premier League</span>
+                  <div class="club-info-wrapper">
+                    <div class="info-block mr-16">
+                      <img src="./images/club-1.png" class="image-club" />
+                      <span class="club-name">England</span>
+                    </div>
+                    <div class="info-block">
+                      <img src="./images/club-2.png" class="image-club" />
+                      <span class="club-name">Paris Saint Germain (PSG) Paris Saint Germain (PSG)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="player-info-detail">
+                  <div class="row-info">
+                    <span class="label">Shirt number:</span>
+                    <span class="value">30</span>
+                  </div>
+                  <div class="row-info">
+                    <span class="label">Position:</span>
+                    <span class="value txt-uppercase">F</span>
+                  </div>
+                  <div class="row-info">
+                    <span class="label">Foot:</span>
+                    <span class="value">Left</span>
+                  </div>
+                  <div class="row-info">
+                    <span class="label">Contract untill:</span>
+                    <span class="value"> 29 Jun 2023</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="header-club-column d-flex flex-end right-column">
+              <div class="prem-stats-wrapper">
+                <span class="prem-title">PLAYER INFO</span>
+                <div class="prem-stats-table">
+                  <div class="prem-stats-column">
+                    <span class="label">Height(cm)</span>
+                    <span class="value">170</span>
+                  </div>
+
+                  <div class="prem-stats-column">
+                    <span class="label">Weight(kg)</span>
+                    <span class="value">72</span>
+                  </div>
+
+                  <div class="prem-stats-column">
+                    <span class="label">24 Jun 1987</span>
+                    <span class="value">34</span>
+                  </div>
+
+                  <div class="prem-stats-column">
+                    <span class="label">Player value</span>
+                    <span class="value txt-hightlight ">£154.3M</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footballer-tabs">
+        <ul class="sub-nav">
+          <li><a href="#tabs-1">Overview</a></li>
+          <li><a href="#tabs-2">Salary</a></li>
+          <li><a href="#tabs-3">Champions</a></li>
+          <li><a href="#tabs-4">Statistics</a></li>
+        </ul>
+        <!-- ===========START Overview TABS ============= -->
+        <div id="tabs-1" class="common-tab-content">
+          <div class="main-layout">
+            <div class="middle-layout">
+              <div class="main-common-content">
+                <h3 class="main-common-title mb-16">Matches</h3>
+                <div class="common-list-select-box">
+                  <div class="seclect-box-item">
+                    <div class="select-block">
+                      <select name="" id="" value="">
+                        <option value="">All League</option>
+                        <option value="">Champions League</option>
+                        <option value="">FIFA Wolrd Cup</option>
+                        <option value="">French Ligue 1</option>
+                        <option value="">Champions League</option>
+                        <option value="">Champions League</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="seclect-box-item">
+                    <div class="select-block">
+                      <select name="" id="" value="">
+                        <option value="">Nov 2022</option>
+                        <option value="">Nov 2023</option>
+                        <option value="">Nov 2024</option>
+                        <option value="">Nov 2025</option>
+                        <option value="">Nov 2026</option>
+                        <option value="">Nov 2027</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="common-player-table">
+                  <div class="table-heading d-flex">
+                    <div class="column-20 txt-left">Leagues</div>
+                    <div class="column-40 txt-center">Match</div>
+                    <div class="column-10 txt-center">Played</div>
+                    <div class="column-10 txt-center">Goals</div>
+                    <div class="column-10 txt-center">Assists</div>
+                    <div class="column-10 txt-center">Rating</div>
+                  </div>
+
+                  <div class="table-row d-flex">
+                    <div class="column-20 txt-left">
+                      <div class="league-info">
+                        <span class="league-name">UEFA Champions League</span>
+                        <span class="time">03 Nov 03:00</span>
+                      </div>
+                    </div>
+                    <div class="column-40 txt-center">
+                      <div class="list-club-wrapper">
+                        <div class="column-50 club-item club-1">
+                          <span class="club-name">Man City</span>
+                          <img src="./images/club-1.png" alt="" class="club-image">
+                        </div>
+                        <div class="column-10 score">1 - 2</div>
+                        <div class="column-50 club-item club-2">
+                          <img src="./images/club-2.png" alt="" class="club-image">
+                          <span class="club-name">Man City Man City Man City Man City</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">90'</div>
+                    <div class="column-10 txt-center">2</div>
+                    <div class="column-10 txt-center">-</div>
+                    <div class="column-10 txt-center txt-highlight ">7.48</div>
+                  </div>
+
+                  <div class="table-row d-flex">
+                    <div class="column-20 txt-left">
+                      <div class="league-info">
+                        <span class="league-name">UEFA Champions League</span>
+                        <span class="time">03 Nov 03:00</span>
+                      </div>
+                    </div>
+                    <div class="column-40 txt-center">
+                      <div class="list-club-wrapper">
+                        <div class="column-50 club-item club-1">
+                          <span class="club-name">Man City Man City Man City </span>
+                          <img src="./images/club-1.png" alt="" class="club-image">
+                        </div>
+                        <div class="column-10 score">1 - 2</div>
+                        <div class="column-50 club-item club-2">
+                          <img src="./images/club-2.png" alt="" class="club-image">
+                          <span class="club-name">Man City Man City Man City Man City</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">90'</div>
+                    <div class="column-10 txt-center">2</div>
+                    <div class="column-10 txt-center">-</div>
+                    <div class="column-10 txt-center txt-highlight ">7.48</div>
+                  </div>
+
+                  <div class="table-row d-flex">
+                    <div class="column-20 txt-left">
+                      <div class="league-info">
+                        <span class="league-name">UEFA Champions League</span>
+                        <span class="time">03 Nov 03:00</span>
+                      </div>
+                    </div>
+                    <div class="column-40 txt-center">
+                      <div class="list-club-wrapper">
+                        <div class="column-50 club-item club-1">
+                          <span class="club-name">Man City Man City Man City </span>
+                          <img src="./images/club-1.png" alt="" class="club-image">
+                        </div>
+                        <div class="column-10 score">1 - 2</div>
+                        <div class="column-50 club-item club-2">
+                          <img src="./images/club-2.png" alt="" class="club-image">
+                          <span class="club-name">Man City Man City Man City Man City</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">90'</div>
+                    <div class="column-10 txt-center">2</div>
+                    <div class="column-10 txt-center">-</div>
+                    <div class="column-10 txt-center txt-highlight ">7.48</div>
+                  </div>
+
+
+                  <div class="table-row d-flex">
+                    <div class="column-20 txt-left">
+                      <div class="league-info">
+                        <span class="league-name">French Ligue 1</span>
+                        <span class="time">03 Nov 03:00</span>
+                      </div>
+                    </div>
+                    <div class="column-40 txt-center">
+                      <div class="list-club-wrapper">
+                        <div class="column-50 club-item club-1">
+                          <span class="club-name">Man City</span>
+                          <img src="./images/club-1.png" alt="" class="club-image">
+                        </div>
+                        <div class="column-10 score">1 - 2</div>
+                        <div class="column-50 club-item club-2">
+                          <img src="./images/club-2.png" alt="" class="club-image">
+                          <span class="club-name">Man City</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">90'</div>
+                    <div class="column-10 txt-center">2</div>
+                    <div class="column-10 txt-center">-</div>
+                    <div class="column-10 txt-center txt-highlight ">7.48</div>
+                  </div>
+
+                  <div class="table-row d-flex">
+                    <div class="column-20 txt-left">
+                      <div class="league-info">
+                        <span class="league-name">French Ligue 1 French Ligue 1 French Ligue 1</span>
+                        <span class="time">03 Nov 03:00</span>
+                      </div>
+                    </div>
+                    <div class="column-40 txt-center">
+                      <div class="list-club-wrapper">
+                        <div class="column-50 club-item club-1">
+                          <span class="club-name">Man City</span>
+                          <img src="./images/club-1.png" alt="" class="club-image">
+                        </div>
+                        <div class="column-10 score">1 - 2</div>
+                        <div class="column-50 club-item club-2">
+                          <img src="./images/club-2.png" alt="" class="club-image">
+                          <span class="club-name">Man City</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-10 txt-center">90'</div>
+                    <div class="column-10 txt-center">2</div>
+                    <div class="column-10 txt-center">-</div>
+                    <div class="column-10 txt-center txt-highlight ">7.48</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="main-common-content">
+                <h3 class="main-common-title mb-16">Stats</h3>
+                <div class="common-list-select-box">
+                  <div class="seclect-box-item">
+                    <div class="select-block">
+                      <select name="" id="" value="">
+                        <option value="">All League</option>
+                        <option value="">Champions League</option>
+                        <option value="">FIFA Wolrd Cup</option>
+                        <option value="">French Ligue 1</option>
+                        <option value="">Champions League</option>
+                        <option value="">Champions League</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="seclect-box-item">
+                    <div class="select-block">
+                      <select name="" id="" value="">
+                        <option value="">Nov 2022</option>
+                        <option value="">Nov 2023</option>
+                        <option value="">Nov 2024</option>
+                        <option value="">Nov 2025</option>
+                        <option value="">Nov 2026</option>
+                        <option value="">Nov 2027</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list-stats-player-table">
+                  <div class="stats-player-table-item mb-24">
+                    <div class="title-header">22/23</div>
+                    <div class="common-player-table">
+                      <div class="table-heading d-flex">
+                        <div class="column-20 txt-left">Team</div>
+                        <div class="column-25 txt-left">League</div>
+                        <div class="column-10 txt-center">Apps</div>
+                        <div class="column-10 txt-center">Starts</div>
+                        <div class="column-10 txt-center">Goals</div>
+                        <div class="column-10 txt-center">Assists</div>
+                        <div class="column-10 txt-center">Yellow cards</div>
+                        <div class="column-10 txt-center">Red cards</div>
+                      </div>
+
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League</div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona Barcelona Barcelona </span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League</div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League UEFA Champions League UEFA Champions League </div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League UEFA Champions League UEFA Champions League </div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="stats-player-table-item mb-24">
+                    <div class="title-header">2022</div>
+                    <div class="common-player-table">
+                      <div class="table-heading d-flex">
+                        <div class="column-20 txt-left">Team</div>
+                        <div class="column-25 txt-left">League</div>
+                        <div class="column-10 txt-center">Apps</div>
+                        <div class="column-10 txt-center">Starts</div>
+                        <div class="column-10 txt-center">Goals</div>
+                        <div class="column-10 txt-center">Assists</div>
+                        <div class="column-10 txt-center">Yellow cards</div>
+                        <div class="column-10 txt-center">Red cards</div>
+                      </div>
+
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League</div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona Barcelona Barcelona </span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League</div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League UEFA Champions League UEFA Champions League </div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League UEFA Champions League UEFA Champions League </div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="stats-player-table-item mb-24">
+                    <div class="title-header">2022</div>
+                    <div class="common-player-table">
+                      <div class="table-heading d-flex">
+                        <div class="column-20 txt-left">Team</div>
+                        <div class="column-25 txt-left">League</div>
+                        <div class="column-10 txt-center">Apps</div>
+                        <div class="column-10 txt-center">Starts</div>
+                        <div class="column-10 txt-center">Goals</div>
+                        <div class="column-10 txt-center">Assists</div>
+                        <div class="column-10 txt-center">Yellow cards</div>
+                        <div class="column-10 txt-center">Red cards</div>
+                      </div>
+
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League</div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona Barcelona Barcelona </span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League</div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League UEFA Champions League UEFA Champions League </div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+
+                      <div class="table-row d-flex">
+                        <div class="column-20 txt-left">
+                          <div class="team-wrapper">
+                            <img src="./images/club-1.png" alt="" class="team-image">
+                            <span class="team-name">Barcelona</span>
+                          </div>
+                        </div>
+                        <div class="column-25 txt-left league-name-stats-table">UEFA Champions League UEFA Champions League UEFA Champions League </div>
+                        <div class="column-10 txt-center">23</div>
+                        <div class="column-10 txt-center">13</div>
+                        <div class="column-10 txt-center">7</div>
+                        <div class="column-10 txt-center">10</div>
+                        <div class="column-10 txt-center">0</div>
+                        <div class="column-10 txt-center">0</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="main-common-content">
+                <h3 class="main-common-title mb-16">Transfer</h3>
+                <div class="common-transfer-table-wrapper footballer-transfer-table">
+                  <div class="transfer-table">
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">09 Aug 2021</div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png" alt="" class="club-image">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 13.0M
+                      </div>
+                    </div>
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">09 Aug 2021</div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png" alt="" class="club-image">
+                            <span class="club-name txt-transfer-overflow">Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 24.0M
+                      </div>
+                    </div>
+
+                    <div class="table-row">
+                      <div class="txt-center column-transfer column-time">09 Aug 2021</div>
+                      <div class="column-list-club d-flex flex-center">
+                        <div class="list-club">
+                          <div class="column-45 club-item club-1">
+                            <span class="club-name txt-transfer-overflow">Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal Arsenal</span>
+                            <img src="./images/club-1.png" alt="" class="club-image">
+                          </div>
+                          <div class="column-10 column-transfer">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.7376 7.51842L9.87089 1.67109C9.77759 1.57807 9.65881 1.51479 9.52956 1.48923C9.40031 1.46367 9.26638 1.47698 9.14469 1.52748C9.023 1.57798 8.919 1.66341 8.84583 1.77298C8.77266 1.88254 8.73359 2.01133 8.73356 2.14309V5.49309C8.73356 5.53729 8.716 5.57968 8.68475 5.61094C8.65349 5.6422 8.6111 5.65975 8.56689 5.65975H0.733561C0.55675 5.65975 0.387181 5.72999 0.262157 5.85502C0.137132 5.98004 0.0668945 6.14961 0.0668945 6.32642V9.65976C0.0668945 9.83657 0.137132 10.0061 0.262157 10.1312C0.387181 10.2562 0.55675 10.3264 0.733561 10.3264H8.56689C8.6111 10.3264 8.65349 10.344 8.68475 10.3752C8.716 10.4065 8.73356 10.4489 8.73356 10.4931V13.8551C8.73359 13.9869 8.7727 14.1158 8.84596 14.2254C8.91922 14.335 9.02332 14.4204 9.14512 14.4709C9.26692 14.5213 9.40095 14.5345 9.53025 14.5088C9.65955 14.4831 9.77833 14.4196 9.87156 14.3264L15.7382 8.45975C15.8003 8.39783 15.8496 8.32426 15.8832 8.24327C15.9168 8.16227 15.9341 8.07545 15.9341 7.98776C15.9341 7.90007 15.9168 7.81324 15.8832 7.73224C15.8496 7.65125 15.8003 7.57768 15.7382 7.51576L15.7376 7.51842Z" fill="#3AC5C9" />
+                            </svg>
+                          </div>
+                          <div class="column-45  club-item  club-2">
+                            <img src="./images/club-2.png" alt="" class="club-image">
+                            <span class="club-name txt-transfer-overflow">Arsenal Arsenal Arsenal </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column-type txt-center txt-highlight  txt-transter column-transfer">Transfer € 24.0M
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-layout">
+              <div class="right-common-content">
+                <div class="common-footballer-right-sidebar-block">
+                  <h4 class="block-right-title">Strengths</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Consistency</span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Ball control </span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Playmaking</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="common-footballer-right-sidebar-block mt-16">
+                  <h4 class="block-right-title">Weaknesses</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Error proneness</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===========END Overview TABS ============= -->
+
+
+        <!-- ===========START Salary TABS ============= -->
+        <div id="tabs-2" class="common-tab-content">
+          <div class="main-layout">
+            <div class="middle-layout">
+              <div class="main-common-content">
+                <h3 class="main-common-title">Lionel Messi Salary</h3>
+                <div class="common-player-salary-table">
+                  <div class="table-heading">
+                    <div class="column-15">Year</div>
+                    <div class="column-15">Weekly Salary</div>
+                    <div class="column-15">Annual Salary</div>
+                    <div class="column-25">Team</div>
+                    <div class="column-20 txt-center">Leagues</div>
+                    <div class="column-10 txt-center">Age</div>
+                    <div class="column-10 txt-center">Contract untill</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="column-15">2022-2023</div>
+                    <div class="column-15">£1,026,205</div>
+                    <div class="column-15">£53,362,673</div>
+                    <div class="column-25 txt-overflow">Paris Saint Germain (PSG)</div>
+                    <div class="column-20 txt-overflow txt-center">French Ligue 1</div>
+                    <div class="column-10 txt-center">35</div>
+                    <div class="column-10 txt-center">2023-06-29</div>
+                  </div>
+
+                  <div class="table-row">
+                    <div class="column-15">2022-2023</div>
+                    <div class="column-15">£1,026,205</div>
+                    <div class="column-15">£53,362,673</div>
+                    <div class="column-25 txt-overflow">Paris Saint Germain (PSG)</div>
+                    <div class="column-20 txt-overflow txt-center">French Ligue 1</div>
+                    <div class="column-10 txt-center">35</div>
+                    <div class="column-10 txt-center">2023-06-29</div>
+                  </div>
+
+                  <div class="table-row">
+                    <div class="column-15">2022-2023</div>
+                    <div class="column-15">£1,026,205</div>
+                    <div class="column-15">£53,362,673</div>
+                    <div class="column-25 txt-overflow">Paris Saint Germain (PSG)</div>
+                    <div class="column-20 txt-overflow txt-center">French Ligue 1</div>
+                    <div class="column-10 txt-center">35</div>
+                    <div class="column-10 txt-center">2023-06-29</div>
+                  </div>
+
+                  <div class="table-row">
+                    <div class="column-15">2022-2023</div>
+                    <div class="column-15">£1,026,205</div>
+                    <div class="column-15">£53,362,673</div>
+                    <div class="column-25 txt-overflow">Paris Saint Germain (PSG)</div>
+                    <div class="column-20 txt-overflow txt-center">French Ligue 1</div>
+                    <div class="column-10 txt-center">35</div>
+                    <div class="column-10 txt-center">-</div>
+                  </div>
+
+                  <div class="table-row">
+                    <div class="column-15">2022-2023</div>
+                    <div class="column-15">£1,026,205</div>
+                    <div class="column-15">£53,362,673</div>
+                    <div class="column-25 txt-overflow">Paris Saint Germain (PSG)</div>
+                    <div class="column-20 txt-overflow txt-center">French Ligue 1</div>
+                    <div class="column-10 txt-center">35</div>
+                    <div class="column-10 txt-center">-</div>
+                  </div>
+
+                  <div class="table-row">
+                    <div class="column-15">2022-2023</div>
+                    <div class="column-15">£1,026,205</div>
+                    <div class="column-15">£53,362,673</div>
+                    <div class="column-25 txt-overflow">Paris Saint Germain (PSG)</div>
+                    <div class="column-20 txt-overflow txt-center">French Ligue 1</div>
+                    <div class="column-10 txt-center">35</div>
+                    <div class="column-10 txt-center">-</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-layout">
+              <div class="right-common-content">
+                <div class="common-footballer-right-sidebar-block">
+                  <h4 class="block-right-title">Strengths</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Consistency</span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Ball control </span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Playmaking</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="common-footballer-right-sidebar-block mt-16">
+                  <h4 class="block-right-title">Weaknesses</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Error proneness</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===========END Salary TABS ============= -->
+
+
+        <!-- ===========START Champions TABS ============= -->
+        <div id="tabs-3" class="common-tab-content">
+          <div class="main-layout">
+            <div class="middle-layout">
+              <div class="main-common-content">
+                <div class="club-tab-header">
+                  <h3 class="main-common-title mb-0">Champions</h3>
+                </div>
+
+                <div class="common-list-champion-wrapper">
+                  <h5 class="champion-header-title">
+                    English Champion <span class="txt-hightlight">x8</span>
+                  </h5>
+                  <div class="list-champion-cup">
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+
+
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+
+
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/champion-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label txt-uppercase">PSG</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="common-list-champion-wrapper">
+                  <h5 class="champion-header-title">
+                    English League Cup <span class="txt-hightlight">x8</span>
+                  </h5>
+                  <div class="list-champion-cup">
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/league-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label">Barcelona</span>
+                      </div>
+                    </div>
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/league-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label">Barcelona</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="common-list-champion-wrapper">
+                  <h5 class="champion-header-title">
+                    English Supercup <span class="txt-hightlight">x8</span>
+                  </h5>
+                  <div class="list-champion-cup">
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/super-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label">Barcelona</span>
+                      </div>
+                    </div>
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/super-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label">Barcelona</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="common-list-champion-wrapper">
+                  <h5 class="champion-header-title">
+                    FA Cup<span class="txt-hightlight">x8</span>
+                  </h5>
+                  <div class="list-champion-cup">
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/fa-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+
+                      </div>
+                    </div>
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/fa-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label">Barcelona</span>
+                      </div>
+                    </div>
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/fa-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label">Barcelona</span>
+                      </div>
+                    </div>
+                    <div class="champion-cup-item">
+                      <div class="cup-item">
+                        <img src="./images/fa-cup.png" alt="" class="cup-image">
+                        <span class="time">2021/2022</span>
+                        <span class="label">Barcelona</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-layout">
+              <div class="right-common-content">
+                <div class="common-footballer-right-sidebar-block">
+                  <h4 class="block-right-title">Strengths</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Consistency</span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Ball control </span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Playmaking</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="common-footballer-right-sidebar-block mt-16">
+                  <h4 class="block-right-title">Weaknesses</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Error proneness</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===========END Champions TABS ============= -->
+
+        <!-- ===========START Season statistics TABS ============= -->
+        <div id="tabs-4" class="common-tab-content">
+          <div class="main-layout">
+            <div class="middle-layout">
+              <div class="main-common-content">
+                <h3 class="main-common-title">Matches</h3>
+                <div class="common-season-statistics-content-wrapper">
+                  <div class="column">
+                    <div class="list-season-statistics-table">
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Summary</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Total played</span>
+                            <span class="value">1</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Started</span>
+                            <span class="value">1</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Minutes per game</span>
+                            <span class="value">90.0</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Attacking</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Goals</span>
+                            <span class="value">1</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Scoring Frequency</span>
+                            <span class="value">90.0</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goals per game</span>
+                            <span class="value">1</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Shots per game</span>
+                            <span class="value">4.0</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Defending</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Interceptions per game</span>
+                            <span class="value">0</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Tackles per game</span>
+                            <span class="value">0</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Tackles per game</span>
+                            <span class="value">286 (94.0%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Clearances per game</span>
+                            <span class="value">0</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Cards</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Goals per game</span>
+                            <span class="value">0</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Goal conversion</span>
+                            <span class="value">0</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Penalty goals</span>
+                            <span class="value">0</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="list-season-statistics-table">
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Passes</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Assists</span>
+                            <span class="value">2.9</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Passes</span>
+                            <span class="value">16%</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Key passes</span>
+                            <span class="value">3/3</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Accurate Per game</span>
+                            <span class="value">1/6</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. long balls</span>
+                            <span class="value">34/167</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Acc. crosses</span>
+                            <span class="value">5/80</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="season-statistics-table-item">
+                        <h5 class="title">Other(per game)</h5>
+                        <div class="table-content">
+                          <div class="table-row">
+                            <span class="label">Succ. dribbles</span>
+                            <span class="value">2(67%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Total duels won</span>
+                            <span class="value">4(40%)</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Fouls</span>
+                            <span class="value">2.0</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Was fouled</span>
+                            <span class="value">1.0</span>
+                          </div>
+                          <div class="table-row">
+                            <span class="label">Offsides</span>
+                            <span class="value">1</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-layout">
+              <div class="right-common-content">
+                <div class="common-footballer-right-sidebar-block">
+                  <h4 class="block-right-title">Strengths</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Consistency</span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Ball control </span>
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      <span>Playmaking</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="common-footballer-right-sidebar-block mt-16">
+                  <h4 class="block-right-title">Weaknesses</h4>
+                  <ul class="list-property-footballer">
+                    <li>
+                      <span class="dot"></span>
+                      <span>Error proneness</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===========END statistics TABS ============= -->
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+  <div class="container footer-content">
+    <a href="#" class="logo-footer">
+      <img src="./images/logo-footer.png" alt="logo-footer" />
+    </a>
+    <p class="txt-detail">
+    AiScore Football LiveScore provides you with unparalleled football live scores and football
+    results from over 2600+ football leagues, cups and tournaments. Get live scores, halftime and
+    full time soccer results, goal scorers and assistants, cards, substitutions, match statistics
+     and live stream from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie,
+     Russian Premier League, Brasileirão, MLS, Super Lig and Championship on AiScore.com.
+      AiScore offers to all the soccer fans live scores, soccer LiveScore, soccer scores,
+      league tables and fixtures for leagues, cups and tournaments,
+      and not only from the most popular football leagues as England Premier League,
+      Spain La Liga, Italy Serie A, Germany Bundesliga, France Ligue 1,
+      but also from a large range of football countries all over the world,
+      including from North and South America, Asia and Africa. Our football LiveScore scorecards are
+      updated live in real-time to keep you up to date with all the football match LiveScore
+      updates happening today along with football LiveScore results for all finished
+      football matches for every football & soccer league. On the match page,
+       our football scorecards are allowing you to view past game results for all previously played
+       fixtures for every football competitions. Get all of your football live results on AiScore.com!
+    </p>
+    <ul class="list-club">
+      <li>
+        <a href="#">
+          <img src="./images/footer-1.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-2.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-3.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-4.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-5.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-6.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-7.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-8.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-9.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/footer-10.png" alt="">
+        </a>
+      </li>
+    </ul>
+    <p class="footer-description">
+      Bingsport is the world’s only sports-focused live TV streaming service with top leagues and teams.
+      Email: bingsport.com@gmail.com.
+    </p>
+    <ul class="sub-footer-menu">
+      <li>
+        <a href="#" target="">Disclaimer</a>
+        <a href="#" target="">Privacy Policy</a>
+        <a href="#" target="">Terms of use</a>
+        <a href="#" target="">Account</a>
+        <a href="#" target="">Contact</a>
+        <a href="#" target="">Video API</a>
+        <a href="#" target="">Livescore Widget</a>
+      </li>
+    </ul>
+    <p class="footer-privacy">© 2020 Bingsport Inc.</p>
+  </div>
+</footer>
+</body>
+<script>
+  $("#footballer-tabs").tabs({
+    active: 0
+  })
+
+  $("#overview-top-player-tabs").tabs({
+    active: 0
+  })
+
+  $("#schedule-top-player-tabs").tabs({
+    active: 0
+  })
+
+  $("#squad-top-player-tabs").tabs({
+    active: 0
+  })
+
+  $("#club-stats-player-tabs").tabs({
+    active: 0
+  })
+
+  $("#champions-top-player-tabs").tabs({
+    active: 0
+  })
+
+  $("#season-statistics-top-player-tabs").tabs({
+    active: 0
+  })
+
+  $("#transfer-top-player-tabs").tabs({
+    active: 0
+  })
+</script>
+
+</html>
