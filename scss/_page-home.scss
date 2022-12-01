@@ -16,7 +16,13 @@
    .title-wrapper {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #E2E8F0;
+
+    @include mq(max_md) {
+      padding: 12px;
+      border: none;
+    }
 
     img {
       min-width: 20px;
@@ -46,6 +52,10 @@
         color: #1A202C;
       }
     }
+   }
+
+   .main-content-block {
+    padding: 16px;
    }
 
    .list-league-hot-match {

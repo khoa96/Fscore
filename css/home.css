@@ -11,7 +11,14 @@
 .main-body-wrapper .top-main-content-wrapper .title-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  padding: 16px;
+  border-bottom: 1px solid #E2E8F0;
+}
+@media only screen and (max-width: 991px) {
+  .main-body-wrapper .top-main-content-wrapper .title-wrapper {
+    padding: 12px;
+    border: none;
+  }
 }
 .main-body-wrapper .top-main-content-wrapper .title-wrapper img {
   min-width: 20px;
@@ -36,6 +43,9 @@
     /* Gray:900 */
     color: #1A202C;
   }
+}
+.main-body-wrapper .top-main-content-wrapper .main-content-block {
+  padding: 16px;
 }
 .main-body-wrapper .top-main-content-wrapper .list-league-hot-match .league-hot-match-item {
   width: 100%;

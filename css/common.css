@@ -385,6 +385,10 @@ li {
   border-radius: 8px;
 }
 
+.pd-0 {
+  padding: 0 !important;
+}
+
 .siderbar-block-common__wrapper {
   background: #FFFFFF;
   /* Gray:300 */
@@ -3584,6 +3588,286 @@ li {
 }
 .footballer-header-wrapper .player-info-detail .row-info .value {
   color: #1A202C;
+}
+
+.txt-live {
+  color: #F72727 !important;
+}
+
+.home-league-table-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+  margin-bottom: 4px;
+}
+@media only screen and (max-width: 991px) {
+  .home-league-table-title {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 2px;
+  }
+}
+
+.common-home-league-table .table-row {
+  border-bottom: 1px solid #EDF2F7;
+  display: flex;
+  padding: 16px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A202C;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .table-row {
+    font-size: 13px;
+    line-height: 15px;
+    flex-direction: column;
+  }
+}
+.common-home-league-table .left-column {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .left-column {
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+  }
+}
+.common-home-league-table .right-column {
+  width: 60%;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .right-column {
+    width: 100%;
+    align-items: center;
+  }
+}
+.common-home-league-table .time-wrapper {
+  min-width: 100px;
+  max-width: 100px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .time-wrapper {
+    margin-right: 0;
+    min-width: 60px;
+    max-width: 60px;
+  }
+}
+.common-home-league-table .time {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+}
+.common-home-league-table .text-default {
+  color: #718096;
+}
+.common-home-league-table .text-highlight {
+  color: #0DC66D;
+}
+.common-home-league-table .dot {
+  display: block;
+  width: 3px;
+  height: 3px;
+  border: none;
+  border-radius: 50%;
+  background-color: #A0AEC0;
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .dot {
+    display: block;
+    margin: 0px 8px;
+  }
+}
+.common-home-league-table .league-name {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 12px;
+}
+.common-home-league-table .list-club-wrapper {
+  flex-grow: 1;
+  padding: 0px 8px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .list-club-wrapper {
+    padding: 0;
+  }
+}
+.common-home-league-table .icon-box {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .icon-box {
+    margin-left: 8px;
+  }
+}
+.common-home-league-table .list-club-wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .list-club-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 16px;
+    border-right: 1px solid #E2E8F0;
+  }
+}
+.common-home-league-table .dash {
+  margin: 0px 5px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .dash {
+    display: none;
+  }
+}
+.common-home-league-table .column-50 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .column-50 {
+    width: 100%;
+  }
+}
+.common-home-league-table .club-item {
+  display: flex;
+  align-items: center;
+}
+.common-home-league-table .club-image {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+}
+.common-home-league-table .club-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .club-name {
+    max-width: 250px;
+  }
+}
+.common-home-league-table .club-1 {
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .club-1 {
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+}
+.common-home-league-table .club-1 .club-item {
+  margin-right: 28px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .club-1 .club-item {
+    flex-direction: row-reverse;
+  }
+}
+.common-home-league-table .club-1 .club-image {
+  margin-left: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .club-1 .club-image {
+    margin: 0;
+    margin-right: 12px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .club-2 {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}
+.common-home-league-table .club-2 .club-item {
+  margin-left: 28px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .club-2 .club-item {
+    margin-left: 0;
+  }
+}
+.common-home-league-table .club-2 .club-image {
+  margin-right: 12px;
+}
+
+.common-home-league-table-wrapper {
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table-wrapper {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row {
+    flex-direction: row !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row .left-column {
+    width: 12%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row .left-column .time-wrapper {
+    min-width: max-content;
+    max-width: max-content;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row .left-column .dot, .live-schedule-table .table-row .left-column .league-name {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row .club-2 {
+    justify-content: flex-end;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row .right-column {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row .right-column .list-club-wrapper {
+    border: none;
+    padding: 0;
+    border-left: 1px solid #E2E8F0;
+    padding-left: 16px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .live-schedule-table .table-row .icon-box {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
