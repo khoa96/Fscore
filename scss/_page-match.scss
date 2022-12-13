@@ -1306,15 +1306,20 @@
     .visual-club {
       flex-grow: 1;
       position: relative;
+      display: flex;
+      justify-content: space-around;
+
+      @include mq(max_md) {
+        flex-direction: column;
+      }
     }
 
     .visual-row {
       width: 48px;
-      height: 100%;
+      height: 524px;
       display: flex;
       justify-content: center;
       align-items: center;
-      position: absolute;
       flex-direction: column;
 
       @include mq(max_md) {
@@ -1324,90 +1329,12 @@
       }
     }
 
-    .visual-club-1 {
-      .visual-row-1 {
-        top: 0;
-        left: 64px;
-
-        @include mq(max_md) {
-          top: 10px;
-          left: 0;
-        }
-      }
-
-      .visual-row-2 {
-        top: 0;
-        left: 160px;
-
-        @include mq(max_md) {
-          top: 75px;
-          left: 0;
-        }
-      }
-
-      .visual-row-3 {
-        top: 0;
-        left: 275px;
-
-        @include mq(max_md) {
-          top: 157px;
-          left: 0;
-        }
-      }
-
-      .visual-row-4 {
-        top: 0;
-        left: 385px;
-
-        @include mq(max_md) {
-          top: 240px;
-          left: 0;
-        }
-      }
-
-    }
 
     .visual-club-2 {
-      .visual-row-1 {
-        top: 0;
-        right: 64px;
-
-        @include mq(max_md) {
-          top: 80%;
-          right: 0;
-        }
+      flex-direction: row-reverse;
+      @include mq(max_md) {
+        flex-direction: column-reverse;
       }
-
-      .visual-row-2 {
-        top: 0;
-        right: 160px;
-
-        @include mq(max_md) {
-          top: 55%;
-          right: 0
-        }
-      }
-
-      .visual-row-3 {
-        top: 0;
-        right: 275px;
-
-        @include mq(max_md) {
-          top: 30%;
-          right: 0
-        }
-      }
-
-      .visual-row-4 {
-        top: 0;
-        right: 385px;
-
-        @include mq(max_md) {
-          top: 10px;
-          right: 0;
-        }
-      }
-
     }
 
     .player-wrapper {

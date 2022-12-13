@@ -970,6 +970,11 @@
                       </div>
 
                       <div class="player-wrapper">
+                        <span class="number info">15</span>
+                        <span class="player-name">Aymeric Laporte</span>
+                      </div>
+
+                      <div class="player-wrapper">
                         <span class="number info">16</span>
                         <span class="player-name">Manuel Akanji</span>
                       </div>
@@ -989,8 +994,33 @@
                         <span class="number info">19</span>
                         <span class="player-name">Joao Cancelo</span>
                       </div>
+                      <div class="player-wrapper">
+                        <span class="number info">30</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+                      <div class="player-wrapper">
+                        <span class="number info">32</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
                     </div>
                     <div class="visual-row visual-row-4">
+                      <div class="player-wrapper">
+                        <span class="number info">20</span>
+                        <span class="player-name">Manuel Akanji</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">21</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+
+                      <div class="player-wrapper">
+                        <span class="number info">22</span>
+                        <span class="player-name">Joao Cancelo</span>
+                      </div>
+                    </div>
+
+                    <div class="visual-row visual-row-5">
                       <div class="player-wrapper">
                         <span class="number info">20</span>
                         <span class="player-name">Manuel Akanji</span>
