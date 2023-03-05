@@ -1,0 +1,528 @@
+.football-block-wrapper {
+  padding: 16px 0px 120px;
+}
+.football-block-wrapper .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* Gray:900 */
+  color: #1a202c;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper {
+    padding: 12px 12px 100px;
+    background-color: #fff !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .container {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0 !important;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper {
+  width: 100%;
+  height: auto;
+  background: #e2e8f0;
+  border-radius: 8px;
+  padding: 24px 0px;
+  display: flex;
+  margin-top: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper {
+    border-radius: 0;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .column {
+  width: 33.3333333333%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.football-block-wrapper .match-info-detail-wrapper .club-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  /* Gray:900 */
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-name {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-image {
+  min-width: 88px;
+  max-width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-image {
+    min-width: 64px;
+    max-width: 64px;
+    height: 64px;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-name-pc {
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-name-pc {
+    display: none;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-name-mb {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper .club-wrapper .club-name-mb {
+    display: block;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .line-info {
+  width: 100%;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: right;
+  /* Gray:900 */
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper .line-info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 4px;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .line-info .line-left,
+.football-block-wrapper .match-info-detail-wrapper .line-info .line-right {
+  width: 50%;
+}
+.football-block-wrapper .match-info-detail-wrapper .line-info .line-left {
+  text-align: right;
+}
+.football-block-wrapper .match-info-detail-wrapper .line-info .line-right {
+  text-align: left;
+  padding-left: 12px;
+  min-width: max-content;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper .line-info .line-right {
+    padding-left: 8px;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .line-score {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1a202c;
+}
+@media only screen and (max-width: 991px) {
+  .football-block-wrapper .match-info-detail-wrapper .line-score {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.football-block-wrapper .match-info-detail-wrapper .slash {
+  margin: 0px 8px;
+}
+.football-block-wrapper .match-info-detail-wrapper .txt-strong {
+  font-weight: bold;
+}
+
+.match-player-wrapper {
+  width: 100%;
+  padding-top: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .match-player-wrapper {
+    padding-top: 12px;
+  }
+}
+.match-player-wrapper .sub-nav {
+  padding: 0 !important;
+}
+.match-player-wrapper .football-tab-content {
+  padding-top: 16px;
+  min-width: 100%;
+  max-width: 100%;
+  height: 675px;
+}
+.match-player-wrapper .football-tab-content .player-wrapper {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .match-player-wrapper .football-tab-content {
+    height: 211px;
+  }
+}
+.match-player-wrapper .football-tab-content iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.match-plan-wrapper {
+  padding-top: 36px;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper {
+    padding-top: 24px;
+  }
+}
+.match-plan-wrapper .list-match-plan {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan {
+    flex-direction: column;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item {
+  min-width: calc((100% - 48px) / 3);
+  max-width: calc((100% - 48px) / 3);
+  height: auto;
+  background: #ffffff;
+  /* Gray:300 */
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  padding: 16px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+.match-plan-wrapper .list-match-plan .plan-item:last-of-type {
+  margin-right: 0;
+}
+.match-plan-wrapper .list-match-plan .plan-item:nth-child(2) {
+  border-radius: 0px 0px 8px 8px;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item {
+    min-width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    padding: 12px;
+    margin: 0 !important;
+    border: none;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #edf2f7;
+    flex-direction: row;
+    align-items: center;
+  }
+  .match-plan-wrapper .list-match-plan .plan-item:last-of-type {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .plan-item-content {
+  width: 100%;
+}
+.match-plan-wrapper .list-match-plan .plan-item .highlight {
+  color: #3ac5c9;
+}
+.match-plan-wrapper .list-match-plan .plan-item .recommend-label {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 6px 0px;
+  background: #3ac5c9;
+  border-radius: 8px 8px 0px 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.3em;
+  color: #f7fafc;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .recommend-label {
+    margin-bottom: 12px;
+    background-color: transparent;
+    top: 12px;
+    right: 0;
+    color: #3ac5c9;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .plan-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1a202c;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .plan-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .price-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 6px 0px;
+}
+.match-plan-wrapper .list-match-plan .plan-item .price-wrapper .top-price {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .price-wrapper {
+    margin-top: 0;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .prev-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  text-decoration-line: line-through;
+  /* Gray:600 */
+  color: #718096;
+  margin-right: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .prev-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .primary-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.match-plan-wrapper .list-match-plan .plan-item .primary-price .left-content {
+  display: flex;
+  align-items: center;
+}
+.match-plan-wrapper .list-match-plan .plan-item .primary-price .sign {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #f1516e;
+}
+.match-plan-wrapper .list-match-plan .plan-item .primary-price .price {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  /* #F1516E */
+  color: #f1516e;
+  margin: 0px 6px;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .primary-price .price {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .primary-price .month {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  /* Gray:900 */
+  color: #1a202c;
+}
+.match-plan-wrapper .list-match-plan .plan-item .save-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #f1516e;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .save-label {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .btn-select-plan {
+  max-width: max-content;
+  min-width: max-content;
+  text-align: center;
+  border: none;
+  background: #f1516e;
+  padding: 12px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.match-plan-wrapper .list-match-plan .plan-item .btn-select-plan:focus {
+  outline: none;
+  border: none;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .btn-select-plan {
+    margin-top: 0;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .plan-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 6px 0px 16px;
+  /* Gray:700 */
+  color: #4a5568;
+}
+.match-plan-wrapper .list-match-plan .plan-item .plan-description a {
+  text-decoration: none;
+  color: #4a5568;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item .plan-description {
+    display: none;
+  }
+}
+.match-plan-wrapper .list-match-plan .plan-item .plan-btn-block {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 991px) {
+  .match-plan-wrapper .list-match-plan .plan-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+  }
+}
+
+.match-league-highlight {
+  padding-top: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .match-league-highlight {
+    padding-top: 24px;
+  }
+}
+.match-league-highlight .list-match-of-league {
+  background: #ffffff;
+  /* Gray:300 */
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .match-league-highlight .list-match-of-league {
+    padding: 12px;
+    border-radius: 0;
+  }
+}
+.match-league-highlight .list-match-of-league .common-home-league-table .table-row {
+  padding: 6px 0px;
+}
+.match-league-highlight .list-match-of-league .common-home-league-table .left-column {
+  width: 30% !important;
+}
+@media only screen and (max-width: 991px) {
+  .match-league-highlight .list-match-of-league .common-home-league-table .left-column {
+    width: fit-content !important;
+  }
+}
+.match-league-highlight .list-match-of-league .common-home-league-table .left-column .time-wrapper {
+  margin-right: 0 !important;
+}
+@media only screen and (max-width: 991px) {
+  .match-league-highlight .list-match-of-league .common-home-league-table .left-column .time-wrapper {
+    min-width: 60px;
+    max-width: 60px;
+  }
+}
+.match-league-highlight .list-match-of-league .common-home-league-table .right-column {
+  width: 70% !important;
+}
+@media only screen and (max-width: 991px) {
+  .match-league-highlight .list-match-of-league .common-home-league-table .right-column {
+    width: 100%;
+  }
+}
+.match-league-highlight .list-match-of-league .common-home-league-table .right-column .club-item .club-name {
+  max-width: 300px !important;
+}
+@media (max-width: 1300px) {
+  .match-league-highlight .list-match-of-league .common-home-league-table .right-column .club-item .club-name {
+    max-width: 200px !important;
+  }
+}
+
+/*# sourceMappingURL=football.css.map */

@@ -1,0 +1,569 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+.football-block-wrapper {
+  padding: 16px 0px 120px;
+
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* Gray:900 */
+
+    color: #1a202c;
+    margin-bottom: 30px;
+
+    @include mq(max_md) {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 21px;
+      margin-bottom: 16px;;
+    }
+  }
+
+  @include mq(max_md) {
+    padding: 12px 12px 100px;
+    background-color: #fff !important;
+  }
+
+  .container {
+    @include mq(max_md) {
+      min-width: 100%;
+      max-width: 100%;
+      padding: 0 !important;
+    }
+  }
+
+  .match-info-detail-wrapper {
+    width: 100%;
+    height: auto;
+    background: #e2e8f0;
+    border-radius: 8px;
+    padding: 24px 0px;
+    display: flex;
+    margin-top: 16px;
+
+    @include mq(max_md) {
+      border-radius: 0;
+    }
+
+    .column {
+      width: calc(100% / 3);
+      height: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .club-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .club-name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+
+        /* Gray:900 */
+
+        color: #1a202c;
+        margin-bottom: 8px;
+
+        @include mq(max_md) {
+          font-style: normal;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .club-image {
+        min-width: 88px;
+        max-width: 88px;
+        height: 88px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: none;
+        @include mq(max_md) {
+          min-width: 64px;
+          max-width: 64px;
+          height: 64px;
+        }
+      }
+
+      .club-name-pc {
+        display: block;
+
+        @include mq(max_md) {
+          display: none;
+        }
+      }
+      .club-name-mb {
+        display: none;
+
+        @include mq(max_md) {
+          display: block;
+        }
+      }
+    }
+
+    .line-info {
+      width: 100%;
+      display: flex;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+      text-align: right;
+
+      /* Gray:900 */
+
+      color: #1a202c;
+      margin-bottom: 8px;
+
+      @include mq(max_md) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 4px;
+      }
+
+      .line-left,
+      .line-right {
+        width: 50%;
+      }
+
+      .line-left {
+        text-align: right;
+      }
+
+      .line-right {
+        text-align: left;
+        padding-left: 12px;
+        min-width: max-content;
+
+        @include mq(max_md) {
+          padding-left: 8px;
+        }
+      }
+    }
+
+    .line-score {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      color: #1a202c;
+
+      @include mq(max_md) {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    .slash {
+      margin: 0px 8px;
+    }
+
+    .txt-strong {
+      font-weight: bold;
+    }
+  }
+}
+
+.match-player-wrapper {
+  width: 100%;
+  padding-top: 16px;
+
+  @include mq(max_md) {
+    padding-top: 12px;
+  }
+
+  .sub-nav {
+    padding: 0 !important;
+  }
+
+  .football-tab-content {
+    padding-top: 16px;
+    min-width: 100%;
+    max-width: 100%;
+    height: 675px;
+
+    .player-wrapper {
+      width: 100%;
+      height: 100%;
+    }
+
+    @include mq(max_md) {
+      height: 211px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.match-plan-wrapper {
+  padding-top: 36px;
+
+  @include mq(max_md) {
+    padding-top: 24px;
+  }
+
+  .list-match-plan {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mq(max_md) {
+      flex-direction: column;
+    }
+    .plan-item {
+      min-width: calc((100% - 48px) / 3);
+      max-width: calc((100% - 48px) / 3);
+      height: auto;
+      background: #ffffff;
+      /* Gray:300 */
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      cursor: pointer;
+      padding: 16px;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      margin-right: 24px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:nth-child(2) {
+        border-radius: 0px 0px 8px 8px;
+      }
+
+      @include mq(max_md) {
+        min-width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        padding: 12px;
+        margin: 0 !important;
+        border: none;
+        border-radius: 0 !important;
+        border-bottom: 1px solid #edf2f7;
+        flex-direction: row;
+        align-items: center;
+
+        &:last-of-type {
+          margin-bottom: 0;
+          border-bottom: none;
+        }
+      }
+
+      .plan-item-content {
+        width: 100%;
+      }
+
+      .highlight {
+        color: #3ac5c9;
+      }
+
+      .recommend-label {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 6px 0px;
+        background: #3ac5c9;
+        border-radius: 8px 8px 0px 0px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.3em;
+
+        color: #f7fafc;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+
+        @include mq(max_md) {
+          margin-bottom: 12px;
+          background-color: transparent;
+          top: 12px;
+          right: 0;
+          color: #3ac5c9;
+          padding: 0;
+          margin: 0;
+          border-radius: 0;
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+
+      .plan-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        /* Gray:900 */
+
+        color: #1a202c;
+
+        @include mq(max_md) {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+
+      .price-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 6px 0px;
+
+        .top-price {
+          display: flex;
+          align-items: center;
+        }
+
+        @include mq(max_md) {
+          margin-top: 0;
+        }
+      }
+
+      .prev-price {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+
+        text-align: center;
+        text-decoration-line: line-through;
+
+        /* Gray:600 */
+
+        color: #718096;
+        margin-right: 16px;
+
+        @include mq(max_md) {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+        }
+      }
+
+      .primary-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-content {
+          display: flex;
+          align-items: center;
+        }
+
+        .sign {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 42px;
+          text-align: center;
+          color: #f1516e;
+        }
+
+        .price {
+          font-style: normal;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 44px;
+          line-height: 52px;
+          text-align: center;
+
+          /* #F1516E */
+
+          color: #f1516e;
+          margin: 0px 6px;
+          @include mq(max_md) {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 43px;
+          }
+        }
+
+        .month {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          /* identical to box height */
+
+          text-align: center;
+
+          /* Gray:900 */
+
+          color: #1a202c;
+        }
+      }
+
+      .save-label {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #f1516e;
+
+        @include mq(max_md) {
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 20px;
+        }
+      }
+
+      .btn-select-plan {
+        max-width: max-content;
+        min-width: max-content;
+        text-align: center;
+        border: none;
+        background: #f1516e;
+        padding: 12px 15px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+
+        &:focus {
+          outline: none;
+          border: none;
+        }
+
+        @include mq(max_md) {
+          margin-top: 0;
+        }
+      }
+
+      .plan-description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 6px 0px 16px;
+
+        /* Gray:700 */
+
+        color: #4a5568;
+
+        a {
+          text-decoration: none;
+          color: #4a5568;
+        }
+
+        @include mq(max_md) {
+          display: none;
+        }
+      }
+
+      .plan-btn-block {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      @include mq(max_md) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 12px;
+      }
+    }
+  }
+}
+
+.match-league-highlight {
+  padding-top: 32px;
+
+  @include mq(max_md) {
+    padding-top: 24px;
+  }
+
+  .list-match-of-league {
+    background: #ffffff;
+    /* Gray:300 */
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    @include mq(max_md) {
+      padding: 12px;
+      border-radius: 0;
+    }
+
+    .common-home-league-table  {
+
+      .table-row {
+        padding: 6px 0px;
+      }
+      .left-column {
+        width: 30% !important;
+
+        @include mq(max_md) {
+          width: fit-content !important;
+        }
+
+        .time-wrapper {
+          margin-right: 0 !important;
+
+          @include mq(max_md) {
+            min-width: 60px;
+            max-width: 60px;
+          }
+        }
+      }
+
+      .right-column {
+        width: 70% !important;
+
+        @include mq(max_md) {
+          width: 100%;
+        }
+        .club-item {
+          .club-name {
+            max-width: 300px !important;
+
+            @media (max-width: 1300px) {
+              max-width: 200px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -22,41 +22,5 @@
   flex-direction: column;
   margin-bottom: 16px;
 }
-.hight-light-page-wrapper .list-league-wrapper .common-home-league-table .table-row {
-  padding: 6px 0px;
-}
-.hight-light-page-wrapper .list-league-wrapper .common-home-league-table .left-column {
-  width: 30% !important;
-}
-@media only screen and (max-width: 991px) {
-  .hight-light-page-wrapper .list-league-wrapper .common-home-league-table .left-column {
-    width: fit-content !important;
-  }
-}
-.hight-light-page-wrapper .list-league-wrapper .common-home-league-table .left-column .time-wrapper {
-  margin-right: 0 !important;
-}
-@media only screen and (max-width: 991px) {
-  .hight-light-page-wrapper .list-league-wrapper .common-home-league-table .left-column .time-wrapper {
-    min-width: 60px;
-    max-width: 60px;
-  }
-}
-.hight-light-page-wrapper .list-league-wrapper .common-home-league-table .right-column {
-  width: 70% !important;
-}
-@media only screen and (max-width: 991px) {
-  .hight-light-page-wrapper .list-league-wrapper .common-home-league-table .right-column {
-    width: 100%;
-  }
-}
-.hight-light-page-wrapper .list-league-wrapper .common-home-league-table .right-column .club-item .club-name {
-  max-width: 250px !important;
-}
-@media (max-width: 1300px) {
-  .hight-light-page-wrapper .list-league-wrapper .common-home-league-table .right-column .club-item .club-name {
-    max-width: 200px !important;
-  }
-}
 
 /*# sourceMappingURL=highlight.css.map */
