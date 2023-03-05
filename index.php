@@ -414,7 +414,7 @@
 													<span class="text-highlight">2</span>
 													<div class="club-item">
 														<img src="./images/club-2.png" alt="" class="club-image">
-														<span class="club-name">Man City Man Man City Man Man City Man</span>
+														<span class="club-name">Man City</span>
 													</div>
 												</div>
 											</div>

@@ -10,8 +10,8 @@
 			<div class="col-auto col-nav">
 				<ul class="main-nav d-none d-lg-block">
 					<li><a href="#">Live Scores</a></li>
-					<li><a href="#">Statistics</a></li>
-					<li><a href="#">Previews</a></li>
+					<li><a href="#">Highlight</a></li>
+					<li><a href="#">AXScore TV</a></li>
 					<li><a href="#">Pricing</a></li>
 					<div class="authen-header">
 						<a href="#" target=""><button class="btn-header btn-signin">Sign in</button></a>
@@ -38,8 +38,8 @@
 	<div class="offcanvas-body">
 		<ul class="main-nav">
 			<li><a href="#">Live Scores</a></li>
-			<li><a href="#">Statistics</a></li>
-			<li><a href="#">Previews</a></li>
+			<li><a href="#">Highlight</a></li>
+			<li><a href="#">AXScore TV</a></li>
 			<li><a href="#">Pricing</a></li>
 			<div class="authen-header">
 				<a href="signin.html" target=""><button class="btn-header btn-signin">Sign in</button></a>

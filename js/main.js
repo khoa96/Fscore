@@ -69,4 +69,7 @@ $(document).ready(function () {
         scrollTop: $("#block-recruit").offset().top
     }, 500);
 	});
+
 });
+
+

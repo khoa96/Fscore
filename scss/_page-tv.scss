@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+.tv-page-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 16px 0px 120px;
+
+  .player-block-wrapper {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+
+    @include mq(max_md) {
+      margin-top: 16px;
+    }
+
+    .player-block-content {
+      min-width: 996px;
+      max-width: 996px;
+      height: auto;
+
+      @include mq(max_md) {
+        min-width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .main-player {
+      width: 100%;
+      height: 613px;
+
+      @include mq(max_md) {
+        width: 100%;
+        height: 211px;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .player-control {
+      background: #e2e8f0;
+      border: 1px solid #e2e8f0;
+      padding: 10px 16px;
+      display: flex;
+      justify-content: flex-end;
+
+      @include mq(max_md) {
+        padding: 8px 12px;
+      }
+
+      .list-contact {
+        display: flex;
+        gap: 24px;
+        list-style: none;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        li {
+          a {
+            text-decoration: none;
+            display: block;
+
+            img {
+              display: block;
+              width: 24px;
+              height: 24px;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+
+    .list-tv {
+      margin-top: 12px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+
+      .tv-item {
+        min-width: calc((100% - 108px) / 10);
+        max-width:  calc((100% - 108px) / 10);
+        height: 56px;
+        cursor: pointer;
+
+        @include mq(max_md) {
+          min-width:  calc((100% - 36px) / 4);
+          max-width: calc((100% - 36px) / 4);
+        }
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .active {
+        border: 2px solid #f1516e;
+        border-radius: 8px;
+      }
+    }
+  }
+}

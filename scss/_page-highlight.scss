@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+
+.hight-light-page-wrapper {
+  background: #FFFFFF;
+  /* Gray:300 */
+
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  height: fit-content;
+  padding: 16px;
+
+  @include mq(max_md) {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent !important;
+
+  }
+
+  .list-league-wrapper {
+    .list-timeline-wrapper {
+      width: 100%;
+      margin-top: 8px;
+    }
+    .league-item {
+      flex-direction: column;
+      margin-bottom: 16px;
+    }
+
+    .common-home-league-table  {
+
+      .table-row {
+        padding: 6px 0px;
+      }
+      .left-column {
+        width: 30% !important;
+
+        @include mq(max_md) {
+          width: fit-content !important;
+        }
+
+        .time-wrapper {
+          margin-right: 0 !important;
+
+          @include mq(max_md) {
+            min-width: 60px;
+            max-width: 60px;
+          }
+        }
+      }
+
+      .right-column {
+        width: 70% !important;
+
+        @include mq(max_md) {
+          width: 100%;
+        }
+        .club-item {
+          .club-name {
+            max-width: 250px !important;
+
+            @media (max-width: 1300px) {
+              max-width: 200px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
