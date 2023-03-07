@@ -190,7 +190,7 @@
 					<div class="siderbar-block-common__wrapper top-main-content-wrapper pd-0">
 						<div class="title-wrapper">
 							<img src="./images/icon-fire.png" alt="">
-							<span>HOT Match</span>
+							<span class="txt-hot-match">HOT Match</span>
 						</div>
 						<div class="main-content-block">
 							<div class="common-home-league-table-wrapper">

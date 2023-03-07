@@ -17,6 +17,8 @@
 						<a href="#" target=""><button class="btn-header btn-signin">Sign in</button></a>
 						<a href="#" target=""><button class="btn-header btn-signup">Sign up</button></a>
 					</div>
+						<button class="btn-header btn-signin btn-dark-mode">dark mode</button>
+						<button class="btn-header btn-signup btn-light-mode">light mode</button>
 				</ul>
 				<button class="btn border-0 d-block d-lg-none btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
 					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

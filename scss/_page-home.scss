@@ -127,6 +127,10 @@
   border-radius: 8px;
   padding: 16px;
 
+  @include mq(max_md) {
+    display: none;
+  }
+
   .header-box {
     display: flex;
     justify-content: space-between;
@@ -192,6 +196,10 @@
       align-items: center;
       justify-content: center;
       margin-right: 30px;
+
+      img {
+        border-radius: 50%;
+      }
     }
   }
 

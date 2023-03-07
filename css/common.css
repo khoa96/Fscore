@@ -178,6 +178,10 @@ li {
   color: #e53e3e !important;
 }
 
+.txt-hot-match {
+  color: #FE6906 !important;
+}
+
 .txt-primary {
   color: #1a202c !important;
 }
@@ -3955,6 +3959,178 @@ li {
   .live-schedule-table .table-row .match-control {
     display: none;
   }
+}
+
+.dark-mode .button-common {
+  border: 1px solid #fff;
+}
+.dark-mode .btn-header {
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  background-color: transparent;
+}
+.dark-mode .btn-signin {
+  background-color: #F7B801 !important;
+  border: none !important;
+}
+.dark-mode .btn-watch {
+  background-color: #F7B801 !important;
+  color: #111 !important;
+}
+.dark-mode .home-league-table-title::before {
+  background-color: #8251EA !important;
+  border-bottom: 1px solid #8251EA;
+}
+.dark-mode .league-nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.dark-mode .league-nav .tab-only-for-pc {
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .dark-mode .league-nav .tab-only-for-pc {
+    display: none;
+  }
+}
+.dark-mode .league-nav li {
+  min-width: max-content;
+  margin-right: 12px;
+}
+.dark-mode .league-nav li a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #444444 !important;
+  border-radius: 8px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .dark-mode .league-nav li a {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.dark-mode .league-nav .ui-tabs-active a {
+  background-color: #F7B801 !important;
+  color: #111111 !important;
+}
+.dark-mode .footer-wraper {
+  background-color: #1F1F1F !important;
+}
+.dark-mode .footer-wraper li.text-danger {
+  color: #F7B801 !important;
+}
+
+.light-mode .btn-header {
+  border: 1px solid #313955 !important;
+  color: #313955 !important;
+  background-color: transparent;
+}
+.light-mode .button-common {
+  border: 1px solid #313955;
+}
+.light-mode .btn-signin {
+  background-color: #313955 !important;
+  color: #fff !important;
+  border: none !important;
+}
+.light-mode .btn-watch {
+  background-color: #F1516E !important;
+  color: #fff !important;
+}
+.light-mode .home-league-table-title::before {
+  background-color: #3AC5C9 !important;
+  border-bottom: 1px solid #3AC5C9;
+}
+.light-mode .league-nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.light-mode .league-nav .tab-only-for-pc {
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .light-mode .league-nav .tab-only-for-pc {
+    display: none;
+  }
+}
+.light-mode .league-nav li {
+  min-width: max-content;
+  margin-right: 12px;
+}
+.light-mode .league-nav li a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #edf2f7 !important;
+  border-radius: 8px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1a202c !important;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .light-mode .league-nav li a {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.light-mode .league-nav .ui-tabs-active a {
+  background-color: #313955;
+  color: #fff !important;
+}
+.light-mode .league-nav .ui-tabs-active a .count-live {
+  color: #fff !important;
+}
+.light-mode .footer-wraper {
+  background-color: #313955 !important;
+}
+.light-mode .footer-wraper li.text-danger {
+  color: #F1516E !important;
+}
+.light-mode .footer-wrapper-pc {
+  color: #ffffff !important;
+}
+.light-mode .footer-wrapper-pc .right-column .top-footer-menu .title,
+.light-mode .footer-wrapper-pc .right-column .hot-comming-match .title {
+  color: #ffffff !important;
+}
+.light-mode .footer-wrapper-pc .right-column .top-footer-menu .sub-menu li a,
+.light-mode .footer-wrapper-pc .right-column .hot-comming-match .sub-menu li a {
+  color: #ffffff !important;
+}
+.light-mode .footer-wrapper-pc .left-column .description, .light-mode .footer-wrapper-pc .left-column .email {
+  color: #ffffff !important;
+}
+.light-mode .footer-wrapper-mb .footer-info .description,
+.light-mode .footer-wrapper-mb .footer-info .email,
+.light-mode .footer-wrapper-mb .footer-info .copy-right {
+  color: #ffffff !important;
+}
+.light-mode .footer-wrapper-mb .sub-menu li a {
+  color: #3ac5c9 !important;
+}
+.light-mode .footer-wrapper-mb .hot-match-comming .title {
+  color: #ffffff !important;
+}
+.light-mode .footer-wrapper-mb .hot-match-comming .list-hot-match li a {
+  color: #ffffff !important;
 }
 
 /*# sourceMappingURL=common.css.map */
