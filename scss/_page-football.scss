@@ -535,7 +535,7 @@
         width: 30% !important;
 
         @include mq(max_md) {
-          width: fit-content !important;
+          width: 12% !important;
         }
 
         .time-wrapper {

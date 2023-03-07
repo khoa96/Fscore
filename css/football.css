@@ -496,7 +496,7 @@
 }
 @media only screen and (max-width: 991px) {
   .match-league-highlight .list-match-of-league .common-home-league-table .left-column {
-    width: fit-content !important;
+    width: 12% !important;
   }
 }
 .match-league-highlight .list-match-of-league .common-home-league-table .left-column .time-wrapper {

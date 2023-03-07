@@ -175,27 +175,27 @@ li {
 }
 
 .txt-live {
-  color: #E53E3E !important;
+  color: #e53e3e !important;
 }
 
 .txt-primary {
-  color: #1A202C !important;
+  color: #1a202c !important;
 }
 
 .txt-secondary {
-  color: #A0AEC0 !important;
+  color: #a0aec0 !important;
 }
 
 .txt-danger {
-  color: #E53E3E !important;
+  color: #e53e3e !important;
 }
 
 .txt-info {
-  color: #3AC5C9 !important;
+  color: #3ac5c9 !important;
 }
 
 .txt-success {
-  color: #0DC66D !important;
+  color: #0dc66d !important;
 }
 
 .txt-uppercase {
@@ -203,7 +203,7 @@ li {
 }
 
 .bd-top {
-  border-top: 1px solid #EDF2F7;
+  border-top: 1px solid #edf2f7;
 }
 
 .main-layout {
@@ -235,6 +235,11 @@ li {
 .middle-layout {
   flex-grow: 1;
 }
+@media only screen and (max-width: 991px) {
+  .middle-layout {
+    max-width: 100%;
+  }
+}
 
 .calendar {
   background: #fff;
@@ -242,7 +247,7 @@ li {
   position: relative;
   max-width: 100%;
   padding: 12px 4px;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
 }
 
@@ -258,7 +263,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 16px;
 }
 
@@ -304,8 +309,8 @@ li {
   display: block;
   width: 10px;
   height: 10px;
-  border-left: 2px solid #3AC5C9;
-  border-bottom: 2px solid #3AC5C9;
+  border-left: 2px solid #3ac5c9;
+  border-bottom: 2px solid #3ac5c9;
   top: 48px;
 }
 
@@ -313,7 +318,7 @@ li {
 .ui-datepicker-next:hover,
 .ui-datepicker-prev:hover:after,
 .ui-datepicker-next:hover:after {
-  border-color: #3AC5C9;
+  border-color: #3ac5c9;
 }
 
 .ui-datepicker-title {
@@ -353,7 +358,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #1A202C;
+  color: #1a202c;
 }
 
 .ui-state-default:hover {
@@ -361,9 +366,9 @@ li {
 }
 
 .ui-datepicker-today .ui-state-highlight {
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 50%;
-  background-color: #3AC5C9;
+  background-color: #3ac5c9;
 }
 
 .ui-datepicker-today .ui-state-active {
@@ -371,16 +376,16 @@ li {
 }
 
 .ui-state-active {
-  color: #3AC5C9;
+  color: #3ac5c9;
 }
 
 .ui-datepicker-other-month .ui-state-default {
-  color: #A0AEC0;
+  color: #a0aec0;
 }
 
 .datetime-picker-wrapper {
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   /* Gray:300 */
   border-radius: 8px;
 }
@@ -390,9 +395,9 @@ li {
 }
 
 .siderbar-block-common__wrapper {
-  background: #FFFFFF;
+  background: #ffffff;
   /* Gray:300 */
-  border: 1px solid #E2E8F0;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
   padding: 16px;
 }
@@ -410,8 +415,7 @@ li {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #1A202C;
-  margin-bottom: 16px;
+  color: #1a202c;
 }
 
 .league-item {
@@ -439,7 +443,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -455,7 +459,7 @@ li {
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: #EDF2F7;
+  background-color: #edf2f7;
   border-radius: 6px;
 }
 .search-wrapper-common .icon {
@@ -478,7 +482,7 @@ li {
   cursor: pointer;
   /* identical to box height */
   /* #FFFFFF */
-  color: #1A202C;
+  color: #1a202c;
   background-color: transparent;
 }
 .search-wrapper-common input:focus {
@@ -498,7 +502,7 @@ li {
 }
 
 .sidebar-search {
-  background: #EDF2F7;
+  background: #edf2f7;
   padding: 8px 6px;
   margin-bottom: 16px;
 }
@@ -534,7 +538,7 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -550,7 +554,7 @@ li {
 }
 .list-result-wrapper .list-result .result-item:hover {
   cursor: pointer;
-  background: #EDF2F7;
+  background: #edf2f7;
   border-radius: 8px;
 }
 .list-result-wrapper .list-result .club-wrapper {
@@ -576,7 +580,7 @@ li {
   line-height: 14px;
   text-align: center;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -614,7 +618,7 @@ li {
   /* identical to box height */
   text-align: center;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   margin: 2px 0px;
 }
 .list-result-wrapper .list-result .result-detail .sign {
@@ -641,7 +645,7 @@ li {
   padding-right: 12px;
 }
 .block-club-common:hover {
-  background-color: #EDF2F7;
+  background-color: #edf2f7;
   cursor: pointer;
 }
 .block-club-common .time-wrapper {
@@ -679,8 +683,8 @@ li {
   flex-grow: 1;
   flex-direction: column;
   padding: 0px 16px;
-  border-left: 1px solid #E2E8F0;
-  border-right: 1px solid #E2E8F0;
+  border-left: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
 }
 .block-club-common .club-item {
   display: flex;
@@ -711,7 +715,7 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .block-club-common .club-item .club-info-wrapper .club-name {
@@ -771,7 +775,7 @@ li {
   border: none;
   display: block;
   border-radius: 50%;
-  background-color: #E53E3E;
+  background-color: #e53e3e;
   margin-right: 6px;
 }
 .league-nav li {
@@ -781,7 +785,7 @@ li {
 .league-nav li a {
   display: inline-block;
   padding: 8px 12px;
-  background: #EDF2F7;
+  background: #edf2f7;
   border-radius: 8px;
   text-decoration: none;
   font-style: normal;
@@ -790,7 +794,7 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   display: flex;
   align-items: center;
 }
@@ -854,7 +858,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .league-info-wrapper .league-info .league-name {
@@ -875,7 +879,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #4A5568;
+  color: #4a5568;
   margin-right: 6px;
 }
 .common-list-category a:hover {
@@ -902,7 +906,7 @@ li {
   margin: 0;
   padding: 0;
   display: flex;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
   padding: 20px 24px 0px 24px;
 }
 @media only screen and (max-width: 991px) {
@@ -930,7 +934,7 @@ li {
   font-size: 13px;
   line-height: 15px;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   text-align: center;
   padding-bottom: 10px;
   display: block;
@@ -944,9 +948,9 @@ li {
   text-decoration: none;
 }
 .sub-nav .ui-state-active a {
-  color: #3AC5C9;
+  color: #3ac5c9;
   padding-bottom: 8px;
-  border-bottom: 4px solid #3AC5C9;
+  border-bottom: 4px solid #3ac5c9;
 }
 
 .match-tab-content {
@@ -983,7 +987,7 @@ li {
 @media only screen and (max-width: 991px) {
   .past-match-content-wrapper .match-left {
     width: 100% !important;
-    border-bottom: 1px solid #EDF2F7;
+    border-bottom: 1px solid #edf2f7;
   }
 }
 .past-match-content-wrapper .match-right .header-block {
@@ -1035,7 +1039,7 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .past-match-content-wrapper .club-wrapper .club-name {
@@ -1062,7 +1066,7 @@ li {
   width: 1px;
   height: 100%;
   border: none;
-  background-color: #E2E8F0;
+  background-color: #e2e8f0;
 }
 .past-match-content-wrapper .header-block {
   margin-bottom: 16px;
@@ -1100,16 +1104,16 @@ li {
   line-height: 17px;
   text-align: center;
   border-radius: 50%;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .league-sign-danger {
-  background-color: #E53E3E;
+  background-color: #e53e3e;
 }
 
 .league-sign-success {
-  background: #0DC66D;
+  background: #0dc66d;
 }
 
 .league-sign-default {
@@ -1124,7 +1128,7 @@ li {
 }
 
 .progress-success {
-  background-color: #0DC66D !important;
+  background-color: #0dc66d !important;
   text-align: left !important;
   padding-left: 8px;
   border-radius: 4px 0px 0px 0px;
@@ -1144,7 +1148,7 @@ li {
 }
 
 .progress-info {
-  background-color: #3AC5C9 !important;
+  background-color: #3ac5c9 !important;
   border-radius: 0px 4px 0px 0px;
 }
 .progress-info .value {
@@ -1179,7 +1183,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   white-space: pre;
 }
 .right-sidebar-list-odds .odds-item .description {
@@ -1209,7 +1213,7 @@ li {
   /* identical to box height */
   text-align: center;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 .prematch-stading-table-wrapper .table-heading {
   font-style: normal;
@@ -1247,7 +1251,7 @@ li {
 .pill-nav li a {
   display: inline-block;
   padding: 8px 12px;
-  background: #EDF2F7;
+  background: #edf2f7;
   border-radius: 8px;
   text-decoration: none;
   font-style: normal;
@@ -1256,7 +1260,7 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   display: flex;
   align-items: center;
 }
@@ -1267,7 +1271,7 @@ li {
   }
 }
 .pill-nav .ui-tabs-active a {
-  background-color: #3AC5C9;
+  background-color: #3ac5c9;
   color: #fff !important;
 }
 .pill-nav .ui-tabs-active a .count-live {
@@ -1282,9 +1286,9 @@ li {
   width: 100%;
   height: auto;
   padding: 24px;
-  background: #FFFFFF;
+  background: #ffffff;
   /* Gray:300 */
-  border: 1px solid #E2E8F0;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
 }
 @media only screen and (max-width: 991px) {
@@ -1344,7 +1348,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   flex-grow: 1;
   justify-content: center;
   max-width: 100%;
@@ -1435,7 +1439,7 @@ li {
   font-size: 24px;
   line-height: 28px;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 12px;
   max-width: 300px;
 }
@@ -1475,7 +1479,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   max-width: 180px;
   white-space: nowrap;
   overflow: hidden;
@@ -1492,7 +1496,7 @@ li {
 .common-page-wrapper .prem-stats-wrapper {
   width: 100%;
   height: auto;
-  background: linear-gradient(180deg, #EDF2F7 0%, rgba(237, 242, 247, 0) 100%);
+  background: linear-gradient(180deg, #edf2f7 0%, rgba(237, 242, 247, 0) 100%);
   border-radius: 8px;
   padding: 12px 16px;
   display: flex;
@@ -1513,7 +1517,7 @@ li {
   font-size: 12px;
   line-height: 14px;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   text-transform: uppercase;
   margin-bottom: 12px;
   display: inline-block;
@@ -1569,7 +1573,7 @@ li {
   /* identical to box height */
   text-align: center;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .common-page-wrapper .prem-stats-wrapper .prem-stats-column .value {
@@ -1579,7 +1583,7 @@ li {
   }
 }
 .common-page-wrapper .prem-stats-wrapper .prem-stats-column .txt-hightlight {
-  color: #3AC5C9;
+  color: #3ac5c9;
 }
 .common-page-wrapper .common-tab-content {
   margin-top: 16px;
@@ -1594,7 +1598,7 @@ li {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 24px;
 }
 @media only screen and (max-width: 991px) {
@@ -1611,7 +1615,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 8px;
 }
 @media only screen and (max-width: 991px) {
@@ -1621,9 +1625,9 @@ li {
   }
 }
 .common-page-wrapper .main-common-content {
-  background: #FFFFFF;
+  background: #ffffff;
   /* Gray:300 */
-  border: 1px solid #E2E8F0;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
   padding: 24px;
   margin-bottom: 16px;
@@ -1641,8 +1645,8 @@ li {
   background-color: #fff;
 }
 .common-page-wrapper .right-common-content {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
   padding: 24px 12px;
 }
@@ -1675,7 +1679,7 @@ li {
   font-size: 16px;
   line-height: 19px;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 12px;
 }
 @media only screen and (max-width: 991px) {
@@ -1691,7 +1695,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 12px;
 }
 @media only screen and (max-width: 991px) {
@@ -1729,7 +1733,7 @@ li {
   display: flex;
   align-items: center;
   padding: 10px 0px;
-  background: #EDF2F7;
+  background: #edf2f7;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -1744,14 +1748,14 @@ li {
   display: flex;
   padding: 12px 0px 8px;
   align-items: center;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   text-align: center;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 .top-player-table .table-row:last-of-type {
   border-bottom: none;
@@ -1802,7 +1806,7 @@ li {
   min-width: 100px;
   max-width: 100px;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 2px;
 }
 .top-player-table .player-wrapper .position {
@@ -1817,7 +1821,7 @@ li {
   display: flex;
   align-items: center;
   padding-bottom: 10px;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
 }
 .right-sidebar-league-info-block .list-club .club-item {
   width: 50%;
@@ -1839,7 +1843,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1871,7 +1875,7 @@ li {
 }
 .right-sidebar-league-info-block .block-league-item-wrapper {
   padding: 12px 0px;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
 }
 .right-sidebar-league-info-block .block-league-item-wrapper .list-league .league-item {
   display: flex;
@@ -1896,7 +1900,7 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1919,7 +1923,7 @@ li {
   font-size: 14px;
   line-height: 17px;
   margin-bottom: 12px;
-  color: #1A202C;
+  color: #1a202c;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1961,10 +1965,10 @@ li {
   cursor: pointer;
   /* identical to box height */
   text-align: center;
-  border: 1px solid #FFFFFF;
-  background-color: #EDF2F7;
+  border: 1px solid #ffffff;
+  background-color: #edf2f7;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .common-list-number .number-item {
@@ -1973,7 +1977,7 @@ li {
   }
 }
 .common-list-number .active {
-  background-color: #3AC5C9;
+  background-color: #3ac5c9;
 }
 
 .common-match-list-timeline .match-timeline-item {
@@ -1981,12 +1985,12 @@ li {
   align-items: center;
   padding: 14px 0px;
   cursor: pointer;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .common-match-list-timeline .match-timeline-item {
@@ -2190,7 +2194,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   padding: 10px 20px;
 }
 .vertical-tab-content .vertical-nav li a:hover {
@@ -2212,7 +2216,7 @@ li {
   padding: 12px 0px;
   display: flex;
   width: 100%;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
   align-items: center;
   font-style: normal;
   font-weight: 400;
@@ -2220,7 +2224,7 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .common-stats-table .table-row {
@@ -2243,7 +2247,7 @@ li {
 }
 .common-stats-table .table-heading {
   width: 100%;
-  background: #EDF2F7;
+  background: #edf2f7;
   border-radius: 8px;
   font-style: normal;
   font-weight: 400;
@@ -2311,8 +2315,8 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #1A202C;
-  border: 1px solid #EDF2F7;
+  color: #1a202c;
+  border: 1px solid #edf2f7;
   background-color: transparent;
 }
 .common-pagination .pagination-item:last-of-type {
@@ -2322,7 +2326,7 @@ li {
   outline: none;
 }
 .common-pagination .active {
-  background: #3AC5C9;
+  background: #3ac5c9;
   color: #fff;
 }
 .common-pagination .disabled {
@@ -2352,7 +2356,7 @@ li {
   display: flex;
   justify-content: space-between;
   padding: 14px 0px;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
   padding-right: 12px;
   align-items: center;
   cursor: pointer;
@@ -2363,7 +2367,7 @@ li {
   font-size: 13px;
   line-height: 15px;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   width: 100%;
   height: auto;
 }
@@ -2387,7 +2391,7 @@ li {
 }
 .common-league-stading-table .table-heading {
   padding: 10px;
-  background: #EDF2F7;
+  background: #edf2f7;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -2406,7 +2410,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #3AC5C9;
+  color: #3ac5c9;
   cursor: pointer;
 }
 .common-league-stading-table .table-row {
@@ -2419,12 +2423,12 @@ li {
   display: flex;
   align-items: center;
   /* Gray:900 */
-  border-bottom: 1px solid #EDF2F7;
-  color: #1A202C;
+  border-bottom: 1px solid #edf2f7;
+  color: #1a202c;
 }
 .common-league-stading-table .active {
   background-color: rgba(58, 197, 201, 0.1);
-  color: #3AC5C9;
+  color: #3ac5c9;
 }
 .common-league-stading-table .club-wrapper {
   display: flex;
@@ -2464,7 +2468,7 @@ li {
 }
 .common-club-matches-table .table-heading {
   display: flex;
-  background: #EDF2F7;
+  background: #edf2f7;
   padding: 12px 16px;
   justify-content: space-between;
 }
@@ -2476,7 +2480,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   cursor: pointer;
 }
 
@@ -2494,7 +2498,7 @@ li {
   padding: 12px 0px;
   display: flex;
   align-items: center;
-  background: #EDF2F7;
+  background: #edf2f7;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -2504,7 +2508,7 @@ li {
   border-bottom: none;
 }
 .common-club-stats-table .table-footer {
-  border-top: 1px solid #E2E8F0;
+  border-top: 1px solid #e2e8f0;
   border-bottom: none !important;
 }
 .common-club-stats-table .list-score {
@@ -2521,7 +2525,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2531,7 +2535,7 @@ li {
   margin-right: 0;
 }
 .common-club-stats-table .list-score .score-danger {
-  background: #E53E3E;
+  background: #e53e3e;
 }
 .common-club-stats-table .list-score .score-default {
   background-color: none;
@@ -2539,10 +2543,10 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
 }
 .common-club-stats-table .list-score .score-warning {
-  background: #F59D35;
+  background: #f59d35;
   border-radius: 4px;
 }
 .common-club-stats-table .table-row {
@@ -2553,8 +2557,8 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
-  border-bottom: 1px solid #E2E8F0;
+  color: #1a202c;
+  border-bottom: 1px solid #e2e8f0;
 }
 @media only screen and (max-width: 991px) {
   .common-club-stats-table .table-row {
@@ -2592,7 +2596,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 8px;
 }
 
@@ -2611,10 +2615,10 @@ li {
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 .common-player-salary-all-table .table-footer {
-  border-top: 1px solid #EDF2F7;
+  border-top: 1px solid #edf2f7;
   padding-top: 10px;
   margin-bottom: 0 !important;
 }
@@ -2663,17 +2667,17 @@ li {
   }
 }
 .common-player-salary-table-wrapper .main-heading {
-  background: #EDF2F7;
+  background: #edf2f7;
 }
 .common-player-salary-table-wrapper .sub-heading {
-  background: #E2E8F0;
+  background: #e2e8f0;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   padding: 12px 20px;
 }
 @media only screen and (max-width: 991px) {
@@ -2686,7 +2690,7 @@ li {
   }
 }
 .common-player-salary-table-wrapper .txt-highlight {
-  color: #3AC5C9;
+  color: #3ac5c9;
 }
 .common-player-salary-table-wrapper .common-player-table {
   width: 100%;
@@ -2698,9 +2702,9 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   text-align: center;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
 }
 @media only screen and (max-width: 991px) {
   .common-player-salary-table-wrapper .common-player-table .table-row {
@@ -2770,7 +2774,7 @@ li {
   line-height: 20px;
   /* or 143% */
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 24px;
 }
 @media only screen and (max-width: 991px) {
@@ -2871,7 +2875,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   margin-right: 8px;
 }
 @media only screen and (max-width: 991px) {
@@ -2882,7 +2886,7 @@ li {
 }
 
 .common-list-champion-wrapper .txt-hightlight {
-  color: #3AC5C9;
+  color: #3ac5c9;
   margin-left: 2px;
 }
 .common-list-champion-wrapper .champion-header-title {
@@ -2890,9 +2894,9 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   padding-bottom: 10px;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
 }
 @media only screen and (max-width: 991px) {
   .common-list-champion-wrapper .champion-header-title {
@@ -2942,7 +2946,7 @@ li {
   /* identical to box height */
   text-align: center;
   /* Gray:900 */
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .common-list-champion-wrapper .list-champion-cup .cup-item .time {
@@ -2997,7 +3001,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 12px;
 }
 .common-season-statistics-content-wrapper .season-statistics-table-item .table-content {
@@ -3008,11 +3012,11 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   display: flex;
   justify-content: space-between;
   padding: 10px 0px;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
 }
 
 .common-transfer-table-wrapper {
@@ -3024,10 +3028,10 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
   margin-top: 36px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
 }
 @media only screen and (max-width: 991px) {
   .common-transfer-table-wrapper .transfer-table-title {
@@ -3100,10 +3104,10 @@ li {
   font-size: 14px;
   line-height: 17px;
   padding: 12px 0px;
-  color: #1A202C;
+  color: #1a202c;
   display: flex;
   position: relative;
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
 }
 @media only screen and (max-width: 991px) {
   .common-transfer-table-wrapper .table-row {
@@ -3111,7 +3115,7 @@ li {
   }
 }
 .common-transfer-table-wrapper .txt-highlight {
-  color: #3AC5C9;
+  color: #3ac5c9;
 }
 .common-transfer-table-wrapper .txt-transter {
   max-width: 100%;
@@ -3171,7 +3175,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #1A202C;
+  color: #1a202c;
   margin-bottom: 10px;
 }
 .common-footballer-right-sidebar-block .list-property-footballer li:last-of-type {
@@ -3186,7 +3190,7 @@ li {
 .common-footballer-right-sidebar-block .list-property-footballer li .dot {
   width: 3px;
   height: 3px;
-  background-color: #1A202C;
+  background-color: #1a202c;
   border: none;
   border-radius: 50%;
   margin: 0px 10px;
@@ -3227,7 +3231,7 @@ li {
   font-size: 12px;
   line-height: 14px;
   color: #718096;
-  background-color: #EDF2F7;
+  background-color: #edf2f7;
 }
 @media only screen and (max-width: 991px) {
   .common-player-salary-table .table-heading {
@@ -3243,8 +3247,8 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
-  border-bottom: 1px solid #EDF2F7;
+  color: #1a202c;
+  border-bottom: 1px solid #edf2f7;
 }
 @media only screen and (max-width: 991px) {
   .common-player-salary-table .table-row {
@@ -3288,8 +3292,8 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
-  background: #F7FAFC;
+  color: #1a202c;
+  background: #f7fafc;
 }
 
 .list-stats-player-table {
@@ -3359,7 +3363,7 @@ li {
 }
 .common-player-table .table-heading {
   padding: 13px 12px;
-  background: #EDF2F7;
+  background: #edf2f7;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -3378,8 +3382,8 @@ li {
   font-size: 14px;
   line-height: 17px;
   align-items: center;
-  color: #1A202C;
-  border-bottom: 1px solid #EDF2F7;
+  color: #1a202c;
+  border-bottom: 1px solid #edf2f7;
 }
 @media only screen and (max-width: 991px) {
   .common-player-table .table-row {
@@ -3416,7 +3420,7 @@ li {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  color: #3AC5C9;
+  color: #3ac5c9;
 }
 .common-player-table .list-club-wrapper {
   width: 100%;
@@ -3562,7 +3566,7 @@ li {
   max-width: 250px !important;
 }
 .footballer-header-wrapper .player-info-detail {
-  border-left: 1px solid #E2E8F0;
+  border-left: 1px solid #e2e8f0;
   padding-left: 24px;
   font-style: normal;
   font-weight: 400;
@@ -3587,38 +3591,56 @@ li {
   color: #718096;
 }
 .footballer-header-wrapper .player-info-detail .row-info .value {
-  color: #1A202C;
+  color: #1a202c;
 }
 
 .txt-live {
-  color: #F72727 !important;
+  color: #f72727 !important;
+}
+
+.header-table-wrapper {
+  border-bottom: 1px solid #3ac5c9;
 }
 
 .home-league-table-title {
+  background: #3ac5c9;
+  position: relative;
+  display: flex;
+  max-width: 120px;
+  min-width: 120px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
-  margin-bottom: 4px;
+  text-align: center;
+  color: #fff !important;
+  margin-bottom: 0 !important;
 }
-@media only screen and (max-width: 991px) {
-  .home-league-table-title {
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 15px;
-    margin-bottom: 2px;
-  }
+.home-league-table-title::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  width: 16px;
+  height: 33px;
+  display: block;
+  transform: skew(20deg);
+  background: #fff;
+  border-bottom: 1px solid #3ac5c9;
 }
 
 .common-home-league-table .table-row {
-  border-bottom: 1px solid #EDF2F7;
+  border-bottom: 1px solid #edf2f7;
   display: flex;
-  padding: 16px 0px;
+  padding: 12px 0px !important;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #1A202C;
+  color: #1a202c;
 }
 @media only screen and (max-width: 991px) {
   .common-home-league-table .table-row {
@@ -3628,25 +3650,24 @@ li {
   }
 }
 .common-home-league-table .left-column {
-  width: 40%;
+  width: 30% !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 @media only screen and (max-width: 991px) {
   .common-home-league-table .left-column {
-    width: 100%;
+    width: 100% !important;
     justify-content: flex-start;
-    margin-bottom: 8px;
   }
 }
 .common-home-league-table .right-column {
-  width: 60%;
+  width: 70% !important;
   display: flex;
 }
 @media only screen and (max-width: 991px) {
   .common-home-league-table .right-column {
-    width: 100%;
+    width: 100% !important;
     align-items: center;
   }
 }
@@ -3674,7 +3695,42 @@ li {
   color: #718096;
 }
 .common-home-league-table .text-highlight {
-  color: #0DC66D;
+  color: #0dc66d;
+}
+.common-home-league-table .text-danger {
+  color: #f1516e;
+}
+.common-home-league-table .live-label {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f1516e;
+  justify-content: center;
+  border-radius: 4px;
+  width: 54px;
+  height: 21px;
+  min-width: 54px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #f1516e;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .live-label {
+    display: none;
+  }
+}
+.common-home-league-table .live-label .dot {
+  width: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f1516e;
+  margin-right: 4px;
+  display: flex;
 }
 .common-home-league-table .dot {
   display: block;
@@ -3682,7 +3738,7 @@ li {
   height: 3px;
   border: none;
   border-radius: 50%;
-  background-color: #A0AEC0;
+  background-color: #a0aec0;
   display: none;
 }
 @media only screen and (max-width: 991px) {
@@ -3699,7 +3755,8 @@ li {
   padding-right: 12px;
 }
 .common-home-league-table .list-club-wrapper {
-  flex-grow: 1;
+  width: 80% !important;
+  max-width: 80%;
   padding: 0px 8px;
 }
 @media only screen and (max-width: 991px) {
@@ -3707,16 +3764,44 @@ li {
     padding: 0;
   }
 }
-.common-home-league-table .icon-box {
-  width: 24px;
-  height: 24px;
+.common-home-league-table .match-control {
+  width: 20%;
+  height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 @media only screen and (max-width: 991px) {
-  .common-home-league-table .icon-box {
-    margin-left: 8px;
+  .common-home-league-table .match-control {
+    padding-left: 12px;
+    border-left: 1px solid #e2e8f0;
+  }
+}
+.common-home-league-table .match-control .btn-watch {
+  padding: 7px 14px;
+  background: #f1516e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+  cursor: pointer;
+}
+.common-home-league-table .match-control .btn-watch:focus {
+  outline: none;
+}
+@media only screen and (max-width: 991px) {
+  .common-home-league-table .match-control .btn-watch {
+    padding: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
   }
 }
 .common-home-league-table .list-club-wrapper {
@@ -3729,7 +3814,7 @@ li {
     flex-direction: column;
     align-items: flex-start;
     padding-right: 16px;
-    border-right: 1px solid #E2E8F0;
+    border: none !important;
   }
 }
 .common-home-league-table .dash {
@@ -3765,11 +3850,11 @@ li {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 150px;
+  max-width: 200px;
 }
 @media only screen and (max-width: 991px) {
   .common-home-league-table .club-name {
-    max-width: 250px;
+    max-width: 200px !important;
   }
 }
 .common-home-league-table .club-1 {
@@ -3810,6 +3895,7 @@ li {
 @media only screen and (max-width: 991px) {
   .common-home-league-table .club-2 .club-item {
     margin-left: 0;
+    flex-grow: 1;
   }
 }
 .common-home-league-table .club-2 .club-image {
@@ -3842,7 +3928,8 @@ li {
   }
 }
 @media only screen and (max-width: 991px) {
-  .live-schedule-table .table-row .left-column .dot, .live-schedule-table .table-row .left-column .league-name {
+  .live-schedule-table .table-row .left-column .dot,
+.live-schedule-table .table-row .left-column .league-name {
     display: none;
   }
 }
@@ -3860,12 +3947,12 @@ li {
   .live-schedule-table .table-row .right-column .list-club-wrapper {
     border: none;
     padding: 0;
-    border-left: 1px solid #E2E8F0;
+    border-left: 1px solid #e2e8f0;
     padding-left: 16px;
   }
 }
 @media only screen and (max-width: 991px) {
-  .live-schedule-table .table-row .icon-box {
+  .live-schedule-table .table-row .match-control {
     display: none;
   }
 }

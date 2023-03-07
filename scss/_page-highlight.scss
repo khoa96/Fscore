@@ -24,6 +24,12 @@
     .list-timeline-wrapper {
       width: 100%;
       margin-top: 8px;
+
+      .left-column {
+        @include mq(max_md) {
+          width: 12% !important;;
+        }
+      }
     }
     .league-item {
       flex-direction: column;

@@ -18,6 +18,11 @@
   width: 100%;
   margin-top: 8px;
 }
+@media only screen and (max-width: 991px) {
+  .hight-light-page-wrapper .list-league-wrapper .list-timeline-wrapper .left-column {
+    width: 12% !important;
+  }
+}
 .hight-light-page-wrapper .list-league-wrapper .league-item {
   flex-direction: column;
   margin-bottom: 16px;
