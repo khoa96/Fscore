@@ -126,6 +126,10 @@ $(document).ready(function () {
 		const lightColor10 = '#e2e8f0'
 		const darkColor10 = '#444444'
 
+		const lightColor11 = '#4a5568'
+		const darkColor11 = '#999999'
+
+
 		$("*").each(function () {
 			$(this).removeClass('light-mode').addClass('dark-mode')
       const color = RGBToHex($(this).css('color'))
@@ -138,6 +142,8 @@ $(document).ready(function () {
 				$(this).css('color', darkColor2)
 			 } else if (color === lightColor5) {
 				$(this).css('color', darkColor2)
+			 } else if (color === lightColor11) {
+				$(this).css('color', darkColor11)
 			 }
 
 			 if (borderColor === lightColor1) {
@@ -203,6 +209,9 @@ $(document).ready(function () {
 		const darkColor10 = '#e2e8f0'
 		const lightColor10 = '#444444'
 
+		const darkColor11 = '#999999'
+		const lightColor11 = '#4a5568'
+
 
 	$("*").each(function () {
 		$(this).removeClass('dark-mode').addClass('light-mode')
@@ -215,6 +224,8 @@ $(document).ready(function () {
 			$(this).css('color', darkColor2)
 		 } else if (color === lightColor5) {
 			$(this).css('color', darkColor5)
+		 } else if(color === darkColor11) {
+			$(this).css('color', darkColor11)
 		 }
 
 
@@ -255,6 +266,7 @@ $(document).ready(function () {
 		const currentMode = localStorage.getItem('mode')
 		if (currentMode  && currentMode === 'dark') return;
 		changeDarkMode()
+		location.reload()
 	})
 
 
@@ -262,6 +274,7 @@ $(document).ready(function () {
 		const currentMode = localStorage.getItem('mode')
 		if (currentMode  && currentMode === 'light') return;
 		changeLightMode()
+		location.reload()
 	})
 
 });

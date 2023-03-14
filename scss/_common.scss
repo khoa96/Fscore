@@ -4395,6 +4395,42 @@ li {
 			}
 		}
 	}
+
+  .page-price-wrapper {
+    background-color: #1F1F1F;
+
+    .step-number {
+      &::after {
+        background-color:  rgb(130, 81, 234) !important;
+      }
+    }
+
+    .list-plan {
+      .plan-item {
+        &.active {
+          border: 2px solid rgb(130, 81, 234) !important;
+        }
+      }
+    }
+
+    .non-efundable-content-tab {
+      border: 1px solid rgb(130, 81, 234) !important;
+    }
+
+    .choose-payment-type-wrapper .ui-tabs-active a {
+      border: 1px solid rgb(130, 81, 234) !important;
+    }
+  }
+
+  .select-plan-content-wrapper {
+    &::after {
+      border-right: 10px solid #333 !important;
+    }
+  }
+
+  .ui-tabs-active a {
+    border-bottom: 1px solid red !important;
+  }
 }
 
 .light-mode {
@@ -4546,4 +4582,35 @@ li {
 			}
 		}
 	}
+
+  .page-price-wrapper {
+    background-color: #e5e5e5;
+
+    .step-number {
+      &::after {
+        background-color: #3ac5c9 !important;
+      }
+    }
+
+    .list-plan {
+      .plan-item {
+        &.active {
+          border: 2px solid  #3ac5c9 !important;
+        }
+      }
+    }
+
+    .choose-payment-type-wrapper .ui-tabs-active a {
+      border: 1px solid #3ac5c9 !important;
+    }
+
+    .non-efundable-content-tab {
+      border: 1px solid #3ac5c9 !important;
+    }
+  }
+  .select-plan-content-wrapper {
+    &::after {
+      border-right: 10px solid #fff !important;
+    }
+  }
 }
